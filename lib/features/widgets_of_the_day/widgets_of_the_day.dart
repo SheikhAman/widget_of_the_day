@@ -3,3 +3,4 @@ export 'day_02_expanded/day02_expanded_widget.dart';
 export 'day_03_column&row/day03_column_widget.dart';
 export 'day_03_column&row/day03_row_widget.dart';
 export 'day_04_listview/day04_listview_widget.dart';
+export 'day_05_cliprrect/day05_cliprrect_widget.dart';

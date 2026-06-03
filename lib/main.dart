@@ -20,7 +20,8 @@ class MyApp extends StatelessWidget {
       // home: const Day02ExpandedWidget(),
       // home: const Day03ColumnWidget(),
       // home: const Day03RowWidget(),
-      home: Day04ListViewWidget(),
+      // home: Day04ListViewWidget(),
+      home: Day05ClipRRectWidget(),
     );
   }
 }
