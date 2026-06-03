@@ -58,6 +58,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Responsive multi-column layouts
 - Useful for gallery, products, and dashboard UIs
 
+### 8. GestureDetector
+- Handling user interactions like taps, clicks, and gestures
+- `onTap: () => { action }` usage
+- Making UI elements interactive
+- Keeping functional logic separated from UI for better code structure and maintainability
+
 ---
 
 ## 🚀 Goal

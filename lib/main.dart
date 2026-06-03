@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
       // home: Day04ListViewWidget(),
       // home: Day05ClipRRectWidget(),
       // home: Day06ImageAssetWidget(),
-      home: Day07GridViewWidget(),
+      // home: Day07GridViewWidget(),
+      home: Day08GestureDetectorWidget(),
     );
   }
 }
