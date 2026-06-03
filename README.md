@@ -84,6 +84,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used `DrawerHeader` for profile/branding section at the top
 - Built menu items using `ListTile` for clean and structured navigation options
 
+### 12. SliverAppBar (Advanced Scroll UI)
+
+- Implemented `SliverAppBar` inside `CustomScrollView` for advanced scrolling behavior
+- Used `expandedHeight` to create dynamic collapsing header effect
+- Practiced `flexibleSpace` for building expandable and animated AppBar content
+
 ---
 
 ## 🚀 Goal
