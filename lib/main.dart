@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
       title: 'Widget Of The Day',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        useMaterial3: false,
         primarySwatch: Colors.purple,
       ),
-      home: const Day01ContainerWidget(),
+      // home: const Day01ContainerWidget(),
+      home: const Day02ExpandedWidget(),
     );
   }
 }
