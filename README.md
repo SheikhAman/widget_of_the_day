@@ -64,6 +64,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Making UI elements interactive
 - Keeping functional logic separated from UI for better code structure and maintainability
 
+### 9. Bottom Navigation Bar
+
+- Implemented using `StatefulWidget` for managing active tab state
+- Used `BottomNavigationBarType.fixed` for consistent tab layout
+- Managed multiple pages with indexed navigation
+- Demonstrated clean multi-page app structure
+
 ---
 
 ## 🚀 Goal
