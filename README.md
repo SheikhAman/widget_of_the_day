@@ -71,6 +71,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Managed multiple pages with indexed navigation
 - Demonstrated clean multi-page app structure
 
+### 10. AppBar
+
+- Implemented `leading` widget for left-aligned actions (e.g. menu/back button)
+- Used `actions` for right-aligned interactive icons/buttons
+- Practiced proper AppBar structure for real-world app UI design
+
 ---
 
 ## 🚀 Goal
