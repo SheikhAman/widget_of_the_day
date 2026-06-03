@@ -9,3 +9,4 @@ export 'day_07_gridview.builder/day07_gridview.builder_widget.dart';
 export 'day_08_gesturedetector/day08_gesturedetector_widget.dart';
 export 'day_09_bottom_navbar/day09_bottom_navbar_widget.dart';
 export 'day_10_appbar/day10_appbar_widget.dart';
+export 'day_11_drawer/day11_drawer_widget.dart';

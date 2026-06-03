@@ -77,6 +77,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used `actions` for right-aligned interactive icons/buttons
 - Practiced proper AppBar structure for real-world app UI design
 
+### 11. Drawer (Navigation Panel)
+
+- Implemented `Drawer` for side navigation menu
+- Wrapped Drawer content inside `ListView` for smooth scrolling support
+- Used `DrawerHeader` for profile/branding section at the top
+- Built menu items using `ListTile` for clean and structured navigation options
+
 ---
 
 ## 🚀 Goal
