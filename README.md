@@ -90,6 +90,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used `expandedHeight` to create dynamic collapsing header effect
 - Practiced `flexibleSpace` for building expandable and animated AppBar content
 
+### 13. TabBar (Tabbed Navigation)
+
+- Implemented tab-based navigation using `TabBar` and `TabBarView`
+- Wrapped `Scaffold` with `DefaultTabController` to manage tab state
+- Configured `length` to define the number of tabs
+
 ---
 
 ## 🚀 Goal
