@@ -138,6 +138,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Built a simple countdown UI using `Text` widget
 - Managed recurring time updates using `Timer.periodic`
 
+### 20. PageView (Vertical Scrolling UI)
+
+- Implemented `PageView` for swipe-based screen navigation
+- Set `scrollDirection: Axis.vertical` for vertical scrolling interaction
+- Designed multiple pages representing different “Post” screens
+- Enabled smooth full-screen page transitions similar to social media apps
+
 ---
 
 ## 🚀 Goal

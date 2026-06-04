@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
       // home: Day05ClipRRectWidget(),
       // home: Day06ImageAssetWidget(),
       // home: Day07GridViewWidget(),
+      // home: Day08GestureDetectorWidget(),
       // home: Day09BottomNavBarWidget(),
       // home: Day10AppBarWidget(),
       // home: Day11DrawerWidget(),
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
       // home: Day16AlertDialogWidget(),
       // home: Day17TextStyleWidget(),
       // home: Day18RichTextWidget(),
-      home: Day19TimerWidget(),
+      // home: Day19TimerWidget(),
+      home: const Day20PageViewWidget(),
     );
   }
 }
