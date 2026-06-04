@@ -145,6 +145,11 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Designed multiple pages representing different “Post” screens
 - Enabled smooth full-screen page transitions similar to social media apps
 
+### 21. Stack (Layered UI Layout)
+
+- Implemented `Stack` to place multiple widgets on top of each other
+- Built layered UI components by controlling widget positioning and visual hierarchy
+
 ---
 
 ## 🚀 Goal

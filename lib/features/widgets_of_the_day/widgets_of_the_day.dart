@@ -19,3 +19,4 @@ export 'day_17_text_and_textstyle/day17_text_style_widget.dart';
 export 'day_18_rich_text/day18_rich_text_widget.dart';
 export 'day_19_timer/day19_timer_widget.dart';
 export 'day_20_pageview/day20_pageview_widget.dart';
+export 'day_21_stack/day21_stack_widget.dart';
