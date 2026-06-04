@@ -118,6 +118,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
     - `content` for descriptive message
     - `actions` for user response buttons (e.g. OK / Cancel)
 
+### 17. Text & Styling
+
+- Implemented `Text` widget with advanced styling options
+- Used `TextStyle` to customize typography
+    - `fontStyle: FontStyle.italic` for italic text effect
+    - `fontWeight` for controlling text thickness (light → bold)
+
 ---
 
 ## 🚀 Goal
