@@ -110,6 +110,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Applied `aspect ratio` understanding for maintaining consistent UI proportions across devices
 - Handled device `orientation` (portrait / landscape) for adaptive layouts
 
+### 16. AlertDialog (User Interaction & Feedback)
+
+- Implemented `AlertDialog` for showing important user messages and confirmations
+- Structured dialog using:
+    - `title` for main heading
+    - `content` for descriptive message
+    - `actions` for user response buttons (e.g. OK / Cancel)
+
 ---
 
 ## 🚀 Goal
