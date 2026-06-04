@@ -153,10 +153,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 ### 22. TextField (User Input Handling)
 
 - Implemented `TextField` inside a `StatefulWidget` for dynamic user input
-- Used `TextEditingController (_textController)` to manage and track input data
 - Styled input field using `decoration` for better UI experience
 - Added `suffixIcon` for quick action (e.g. clear input)
 - Displayed user input dynamically using `Expanded` widget (`userPost`)
+
+### 23. AnimatedIcon (Animated UI Transitions)
+
+- Implemented `AnimatedIcon` inside a `StatefulWidget` for interactive icon animations
+- Used `SingleTickerProviderStateMixin` to provide vsync for smooth animations
+- Explored Flutter documentation to understand animation lifecycle and best practices
+
+
 
 ---
 
