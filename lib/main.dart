@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
       // home: Day14AnimatedContainerWidget(),
       // home: Day15MediaQueryWidget(),
       // home: Day16AlertDialogWidget(),
-      home: Day17TextStyleWidget(),
+      // home: Day17TextStyleWidget(),
+      home: Day18RichTextWidget(),
     );
   }
 }

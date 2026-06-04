@@ -125,6 +125,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
     - `fontStyle: FontStyle.italic` for italic text effect
     - `fontWeight` for controlling text thickness (light → bold)
 
+### 18. RichText (Advanced Text Styling)
+
+- Implemented `RichText` widget for displaying multiple text styles in a single line
+- Used `TextSpan` to break text into styled segments
+- Applied a default style at the root level for consistent formatting
+- Used multiple child `TextSpan` widgets to style different parts of the text independently
+
 ---
 
 ## 🚀 Goal
