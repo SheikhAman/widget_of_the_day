@@ -17,3 +17,4 @@ export 'day_15_media_query/day15_media_query_widget.dart';
 export 'day_16_alert_dialog/day16_alert_dialog_widget.dart';
 export 'day_17_text_and_textstyle/day17_text_style_widget.dart';
 export 'day_18_rich_text/day18_rich_text_widget.dart';
+export 'day_19_timer/day19_timer_widget.dart';

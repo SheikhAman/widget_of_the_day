@@ -132,6 +132,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Applied a default style at the root level for consistent formatting
 - Used multiple child `TextSpan` widgets to style different parts of the text independently
 
+### 19. Timer (Countdown Logic)
+
+- Implemented `Timer` functionality using `StatefulWidget`
+- Built a simple countdown UI using `Text` widget
+- Managed recurring time updates using `Timer.periodic`
+
 ---
 
 ## 🚀 Goal
