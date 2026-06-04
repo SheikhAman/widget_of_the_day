@@ -25,10 +25,12 @@ class MyApp extends StatelessWidget {
       // home: Day06ImageAssetWidget(),
       // home: Day07GridViewWidget(),
       // home: Day09BottomNavBarWidget(),
+      // home: Day10AppBarWidget(),
       // home: Day11DrawerWidget(),
       // home: Day12SliverAppBarWidget(),
       // home: Day13TabBarWidget(),
-      home: Day14AnimatedContainerWidget(),
+      // home: Day14AnimatedContainerWidget(),
+      home: Day15MediaQueryWidget(),
     );
   }
 }

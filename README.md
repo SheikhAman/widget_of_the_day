@@ -103,6 +103,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Controlled animation timing using `duration` (in seconds) for smooth transitions
 - Animated UI changes such as size, color, alignment, and decoration
 
+### 15. MediaQuery (Responsive UI Design)
+
+- Used `MediaQuery` to build responsive Flutter layouts
+- Accessed screen `height` and `width` for dynamic UI scaling
+- Applied `aspect ratio` understanding for maintaining consistent UI proportions across devices
+- Handled device `orientation` (portrait / landscape) for adaptive layouts
+
 ---
 
 ## 🚀 Goal
