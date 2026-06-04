@@ -96,6 +96,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Wrapped `Scaffold` with `DefaultTabController` to manage tab state
 - Configured `length` to define the number of tabs
 
+### 14. AnimatedContainer (Smooth UI Animations)
+
+- Implemented `AnimatedContainer` for smooth property-based animations
+- Used `GestureDetector` to trigger animations on user interaction (`onTap`)
+- Controlled animation timing using `duration` (in seconds) for smooth transitions
+- Animated UI changes such as size, color, alignment, and decoration
+
 ---
 
 ## 🚀 Goal
