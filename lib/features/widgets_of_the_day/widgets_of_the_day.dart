@@ -15,3 +15,4 @@ export 'day_13_tabbar/day13_tabbar_widget.dart';
 export 'day_14_animated_container/day14_animated_container_widget.dart';
 export 'day_15_media_query/day15_media_query_widget.dart';
 export 'day_16_alert_dialog/day16_alert_dialog.dart';
+export 'day_17_text_and_textstyle/day17_text_style_widget.dart';
