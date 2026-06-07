@@ -176,6 +176,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Displayed a native date picker dialog for user-friendly date input
 - Retrieved and displayed the selected date dynamically in the UI
 
+### 26. TimePicker (Time Selection)
+
+- Implemented time selection using Flutter's showTimePicker
+- Displayed a native time picker dialog for user-friendly time input
+- Used TimeOfDay to store and manage the selected time state
+- Retrieved and displayed the selected time dynamically in the UI
+
+
+
 
 ---
 

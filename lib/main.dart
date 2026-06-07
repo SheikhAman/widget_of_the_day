@@ -41,7 +41,8 @@ class MyApp extends StatelessWidget {
       // home: const Day22TextFieldWidget(),
       // home: const Day23AnimatedIconWidget(),
       // home: const Day24SliderWidget(),
-      home: const Day25DatePickerWidget(),
+      // home: const Day25DatePickerWidget(),
+      home: const Day26TimePickerWidget(),
     );
   }
 }
