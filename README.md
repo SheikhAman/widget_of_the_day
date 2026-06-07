@@ -242,6 +242,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Built flexible button designs suitable for advanced and custom UI components
 - Practiced creating reusable button styles with full visual and behavioral control
 
+### 35. RotatedBox (90° Rotation & Layout Transformation)
+
+- Explored Flutter’s RotatedBox, used to rotate widgets in fixed 90-degree increments
+- Practiced rotating text and UI elements to create unique layout designs
+- Displayed images using Image.network to load and render content from the internet
+- Experimented with rotated widgets to enhance creativity in UI composition
+
 
 
 

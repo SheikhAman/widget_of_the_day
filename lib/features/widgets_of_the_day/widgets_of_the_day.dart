@@ -33,3 +33,4 @@ export 'day_31_navigator/day31_navigator_widget.dart';
 export 'day_32_card/day32_card_widget.dart';
 export 'day_33_clipper/day33_clipper_widget.dart';
 export 'day_34_rawmaterialbutton/day34_rawmaterialbutton_widget.dart';
+export 'day_35_rotatedbox/day35_rotatedbox_widget.dart';
