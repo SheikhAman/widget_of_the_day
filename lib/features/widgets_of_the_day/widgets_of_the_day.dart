@@ -31,3 +31,4 @@ export 'day_29_elevatedbutton_and_outlinedbutton/day29_elevatedbutton_and_outlin
 export 'day_30_floatingactionbutton/day30_floatingactionbutton_widget.dart';
 export 'day_31_navigator/day31_navigator_widget.dart';
 export 'day_32_card/day32_card_widget.dart';
+export 'day_33_clipper/day33_clipper_widget.dart';

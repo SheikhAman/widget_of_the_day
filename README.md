@@ -225,6 +225,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used a Column widget inside the card to arrange multiple child widgets vertically
 - Configured elevation to create depth and realistic shadow effects
 
+### 33. Custom Clipper (Wave Shape & Custom UI Design)
+
+- Implemented ClipPath with CustomClipper<Path> to create custom-shaped UI components
+- Designed a wave-like background using path drawing techniques
+- Used quadraticBezierTo to create smooth curved transitions for wave effects
+- Customized clipping behavior to control how widgets are visually cut into custom shapes
+- Built reusable custom clipper logic for advanced UI styling
+- Practiced Flutter’s custom painting and path-based UI manipulation for modern interfaces
 
 
 
