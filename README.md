@@ -196,6 +196,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used decoration property to style the container background
 - Applied LinearGradient to create smooth multi-color transitions
 
+### 29. ElevatedButton & OutlinedButton (Button Styling & Interaction Design)
+
+- Implemented ElevatedButton and OutlinedButton to understand primary and secondary action patterns in Flutter UI
+- Used onPressed callback to handle user interactions and trigger actions
+- Customized ElevatedButton using styleFrom() to control elevation, background color, padding, and shape
+- Styled OutlinedButton to modify border color, border width, and rounded corners for a clean UI look
+
+
 
 ---
 

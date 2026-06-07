@@ -27,3 +27,4 @@ export 'day_25_date_picker/day25_date_picker_widget.dart';
 export 'day_26_time_picker/day26_time_picker_widget.dart';
 export 'day_27_listwheelscrollview/day27_listwheelscrollview_widget.dart';
 export 'day_28_lineargradient/day28_lineargradient_widget.dart';
+export 'day_29_elevatedbutton_and_outlinedbutton/day29_elevatedbutton_and_outlinedbutton_widget.dart';

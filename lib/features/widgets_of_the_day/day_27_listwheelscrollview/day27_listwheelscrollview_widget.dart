@@ -4,15 +4,15 @@ import 'hour_item.dart';
 import 'minute_item.dart';
 
 
-class Day27WheelTimePicker extends StatefulWidget {
-  const Day27WheelTimePicker({super.key});
+class Day27WheelTimePickerWidget extends StatefulWidget {
+  const Day27WheelTimePickerWidget({super.key});
 
   @override
-  State<Day27WheelTimePicker> createState() =>
-      _Day27WheelTimePickerState();
+  State<Day27WheelTimePickerWidget> createState() =>
+      _Day27WheelTimePickerWidgetState();
 }
 
-class _Day27WheelTimePickerState extends State<Day27WheelTimePicker> {
+class _Day27WheelTimePickerWidgetState extends State<Day27WheelTimePickerWidget> {
   int selectedHour = 0;
   int selectedMinute = 0;
   bool isAM = true;

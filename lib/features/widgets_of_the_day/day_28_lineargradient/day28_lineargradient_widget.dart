@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Day28LinearGradient  extends StatelessWidget {
-  const Day28LinearGradient ({super.key});
+class Day28LinearGradientWidget  extends StatelessWidget {
+  const Day28LinearGradientWidget ({super.key});
 
   @override
   Widget build(BuildContext context) {
