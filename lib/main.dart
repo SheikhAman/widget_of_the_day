@@ -46,7 +46,8 @@ class MyApp extends StatelessWidget {
       // home: const Day27WheelTimePicker(),
       // home: const Day28LinearGradientWidget(),
       // home: const Day29ElevatedButtonAndOutlinedButtonWidget(),
-      home: const Day30FloatingActionButtonWidget(),
+      // home: const Day30FloatingActionButtonWidget(),
+      home: const Day31NavigatorWidget(),
     );
   }
 }

@@ -209,6 +209,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used onPressed callback to handle user interaction and trigger core actions
 - Practiced using FAB as a quick-access action button to improve user experience and app usability
 
+### 31. Navigator (Screen Navigation & Routing)
+
+- Implemented named route navigation using Flutter's Navigator widget
+- Configured initialRoute to define the app's default screen on launch
+- Used Navigator.pushNamed() to navigate between screens using route names
+- Implemented Navigator.pop() to return to the previous screen in the navigation stack
+- Practiced managing multi-screen application flow using Flutter's built-in routing system
+
+
+
+
 
 
 ---
