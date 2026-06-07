@@ -203,6 +203,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Customized ElevatedButton using styleFrom() to control elevation, background color, padding, and shape
 - Styled OutlinedButton to modify border color, border width, and rounded corners for a clean UI look
 
+### 30. FloatingActionButton (Primary Action Button)
+
+- Implemented FloatingActionButton to represent the primary action in a Flutter screen
+- Used onPressed callback to handle user interaction and trigger core actions
+- Practiced using FAB as a quick-access action button to improve user experience and app usability
+
 
 
 ---
