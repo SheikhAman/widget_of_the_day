@@ -234,6 +234,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Built reusable custom clipper logic for advanced UI styling
 - Practiced Flutter’s custom painting and path-based UI manipulation for modern interfaces
 
+### 34. RawMaterialButton (Low-Level Custom Button Design)
+
+- Explored Flutter’s RawMaterialButton, a low-level and highly customizable button widget
+- Understood how it provides more control compared to standard Material buttons like ElevatedButton
+- Applied color and highlight effects to enhance user interaction feedback
+- Built flexible button designs suitable for advanced and custom UI components
+- Practiced creating reusable button styles with full visual and behavioral control
+
+
 
 
 
