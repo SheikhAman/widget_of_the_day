@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widget_of_the_day/features/widgets_of_the_day/day_21_stack/day21_stack_widget.dart';
 import 'package:widget_of_the_day/features/widgets_of_the_day/widgets_of_the_day.dart';
 
 void main() {
@@ -41,7 +40,8 @@ class MyApp extends StatelessWidget {
       // home: const Day21StackWidget(),
       // home: const Day22TextFieldWidget(),
       // home: const Day23AnimatedIconWidget(),
-      home: const Day24SliderWidget(),
+      // home: const Day24SliderWidget(),
+      home: const Day25DatePickerWidget(),
     );
   }
 }

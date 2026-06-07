@@ -170,6 +170,11 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Updated UI instantly as the slider value changed
 - Explored customization options available in the Slider widget
 
+### 25. DatePicker (Date Selection)
+
+- Implemented date selection using Flutter's `showDatePicker`
+- Displayed a native date picker dialog for user-friendly date input
+- Retrieved and displayed the selected date dynamically in the UI
 
 
 ---
