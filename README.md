@@ -217,6 +217,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Implemented Navigator.pop() to return to the previous screen in the navigation stack
 - Practiced managing multi-screen application flow using Flutter's built-in routing system
 
+### 32. Card (Material Design Card Layout)
+
+- Implemented Flutter's Card widget to create a clean and organized content container
+- Customized card shape using RoundedRectangleBorder for a modern appearance
+- Applied BorderRadius.circular(16) to create smooth rounded corners
+- Used a Column widget inside the card to arrange multiple child widgets vertically
+- Configured elevation to create depth and realistic shadow effects
 
 
 

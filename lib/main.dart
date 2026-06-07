@@ -47,7 +47,8 @@ class MyApp extends StatelessWidget {
       // home: const Day28LinearGradientWidget(),
       // home: const Day29ElevatedButtonAndOutlinedButtonWidget(),
       // home: const Day30FloatingActionButtonWidget(),
-      home: const Day31NavigatorWidget(),
+      // home: const Day31NavigatorWidget(),
+      home: const Day32CardWidget(),
     );
   }
 }
