@@ -30,4 +30,4 @@ export 'day_28_lineargradient/day28_lineargradient_widget.dart';
 export 'day_29_elevatedbutton_and_outlinedbutton/day29_elevatedbutton_and_outlinedbutton_widget.dart';
 export 'day_30_floatingactionbutton/day30_floatingactionbutton_widget.dart';
 export 'day_31_navigator/day31_navigator_widget.dart';
-export 'day_32_card_widget/day32_card_widget.dart';
+export 'day_32_card/day32_card_widget.dart';
