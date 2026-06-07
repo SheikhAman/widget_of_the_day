@@ -190,6 +190,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Applied FixedExtentScrollPhysics for snap-to-item scrolling behavior
 - Used onSelectedItemChanged to track and update the currently selected item dynamically
 
+### 28. LinearGradient (Gradient Background Design)
+
+- Implemented LinearGradient inside a Container using BoxDecoration
+- Used decoration property to style the container background
+- Applied LinearGradient to create smooth multi-color transitions
+
 
 ---
 
