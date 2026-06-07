@@ -183,7 +183,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used TimeOfDay to store and manage the selected time state
 - Retrieved and displayed the selected time dynamically in the UI
 
+### 27. ListWheelScrollView (3D Wheel Scrolling)
 
+- Implemented ListWheelScrollView inside a StatefulWidget to create a 3D wheel-like scrolling effect
+- Used itemExtent to define the height of each scroll item
+- Applied FixedExtentScrollPhysics for snap-to-item scrolling behavior
+- Used onSelectedItemChanged to track and update the currently selected item dynamically
 
 
 ---
