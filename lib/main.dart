@@ -40,7 +40,8 @@ class MyApp extends StatelessWidget {
       // home: const Day20PageViewWidget(),
       // home: const Day21StackWidget(),
       // home: const Day22TextFieldWidget(),
-      home: const Day23AnimatedIconWidget(),
+      // home: const Day23AnimatedIconWidget(),
+      home: const Day24SliderWidget(),
     );
   }
 }

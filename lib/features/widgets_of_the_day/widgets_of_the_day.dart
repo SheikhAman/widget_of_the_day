@@ -22,3 +22,4 @@ export 'day_20_pageview/day20_pageview_widget.dart';
 export 'day_21_stack/day21_stack_widget.dart';
 export 'day_22_textfield/day22_textfield_widget.dart';
 export 'day_23_animated_icon/day23_animated_icon_widget.dart';
+export 'day_24_slider/day24_slider_widget.dart';

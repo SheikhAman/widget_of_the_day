@@ -163,6 +163,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used `SingleTickerProviderStateMixin` to provide vsync for smooth animations
 - Explored Flutter documentation to understand animation lifecycle and best practices
 
+### 24. Slider (Interactive Value Selection)
+
+- Implemented `Slider` inside a `StatefulWidget` to manage dynamic values
+- Used `Slider(value: value, onChanged: onChanged)` for real-time user interaction
+- Updated UI instantly as the slider value changed
+- Explored customization options available in the Slider widget
+
 
 
 ---
