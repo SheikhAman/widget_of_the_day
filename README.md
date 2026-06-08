@@ -263,6 +263,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Explored how Positioned enables precise control over widget placement using properties such as top, bottom, left, and right
 - Learned that Positioned typically uses two positioning properties at a time to define a widget’s location within the stack
 
+### 38. IconButton (Interactive Icon-Based Actions)
+
+- Implemented Flutter’s IconButton widget to create tappable icon-based actions in the UI
+- Used onPressed callback to handle user interactions and trigger functionality
+- Customized icon appearance using properties like color, size, and icon
+- Built interactive UI components using icons instead of full text buttons
+
+
 ---
 
 ## Screenshots:
