@@ -35,3 +35,4 @@ export 'day_33_clipper/day33_clipper_widget.dart';
 export 'day_34_rawmaterialbutton/day34_rawmaterialbutton_widget.dart';
 export 'day_35_rotatedbox/day35_rotatedbox_widget.dart';
 export 'day_36_transform/day36_transform_widget.dart';
+export 'day_37_positioned/day37_positioned_widget.dart';

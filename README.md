@@ -256,6 +256,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced creating dynamic visual effects and interactive UI components
 - Enhanced user interface design through advanced widget positioning and animation-ready transformations
 
+### 37. Positioned (Precise Widget Placement in Stack)
+
+- Implemented Flutter’s Positioned widget inside a Stack to place widgets at specific locations on the screen
+- Used the alignment property of Stack to control the default positioning behavior of child widgets
+- Explored how Positioned enables precise control over widget placement using properties such as top, bottom, left, and right
+- Learned that Positioned typically uses two positioning properties at a time to define a widget’s location within the stack
 
 
 
