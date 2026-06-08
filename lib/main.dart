@@ -14,7 +14,13 @@ class MyApp extends StatelessWidget {
       title: 'Widget Of The Day',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
+        useMaterial3: false,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.deepPurple,
+          foregroundColor: Colors.white,
+          centerTitle: true,
+        )
       ),
       // home: const Day01ContainerWidget(),
       // home: const Day02ExpandedWidget(),
@@ -51,7 +57,8 @@ class MyApp extends StatelessWidget {
       // home: const Day32CardWidget(),
       // home: const Day33ClipperWidget(),
       // home: const Day34RawMaterialButtonWidget(),
-      home: const Day35RotatedBoxWidget(),
+      // home: const Day35RotatedBoxWidget(),
+      home: const Day36TransformWidget(),
     );
   }
 }

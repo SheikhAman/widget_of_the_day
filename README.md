@@ -249,6 +249,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Displayed images using Image.network to load and render content from the internet
 - Experimented with rotated widgets to enhance creativity in UI composition
 
+### 36. Transform (Widget Transformation & Visual Effects)
+
+- Implemented Flutter’s Transform widget to modify the appearance of UI elements without affecting layout constraints
+- Used the transform property to apply custom transformations such as rotation, scaling, and translation
+- Practiced creating dynamic visual effects and interactive UI components
+- Enhanced user interface design through advanced widget positioning and animation-ready transformations
 
 
 
