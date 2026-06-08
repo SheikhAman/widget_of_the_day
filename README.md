@@ -263,9 +263,76 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Explored how Positioned enables precise control over widget placement using properties such as top, bottom, left, and right
 - Learned that Positioned typically uses two positioning properties at a time to define a widget’s location within the stack
 
-
-
 ---
+
+## Screenshots:
+
+<table align="center" style="margin: 0px auto;">
+  <tr>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day01_container.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_01_container/day01_container_widget.dart" target="_blank">Container</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day02_expanded.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_02_expanded/day02_expanded_widget.dart" target="_blank">Expanded</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day03_column.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_column_widget.dart" target="_blank">Column</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day03_row.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_row_widget.dart" target="_blank">Row</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day04_listview.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_04_listview/day04_listview_widget.dart" target="_blank">ListView & Builder</a></p>
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day05_cliprrect.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_05_cliprrect/day05_cliprrect_widget.dart" target="_blank">ClipRRect</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day06_image.asset.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_06_image.asset/day06_image.asset_widget.dart" target="_blank">Image.asset</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day07_gridview.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_07_gridview/day07_gridview_widget.dart" target="_blank">GridView & Builder</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day08_gesturedetector.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_08_gesturedetector/day08_gesturedetector_widget.dart" target="_blank">GestureDetector</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="screenshots/day09_bottom_navbar.png" height="250px"/>
+            <p><a href="lib/features/widgets_of_the_day/day_09_bottom_navbar/day09_bottom_navbar_widget.dart" target="_blank">BottomNavBar</a></p>
+        </div>
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Goal
 
