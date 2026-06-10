@@ -68,7 +68,8 @@ class MyApp extends StatelessWidget {
       // home: const Day37PositionedWidget(),
       // home: const Day38IconButtonWidget(),
       // home: const Day39CustomPaintWidget(),
-      home: const Day40ClipOvalWidget(),
+      // home: const Day40ClipOvalWidget(),
+      home: const Day41ClipRRectWidget(),
     );
   }
 }

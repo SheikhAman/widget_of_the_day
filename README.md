@@ -285,6 +285,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced clipping rectangular images into clean circular layouts
 - Enhanced UI design by creating visually appealing avatar and profile image components
 
+### 41. ClipRRect (Rounded Corner Image Clipping)
+
+- Implemented Flutter’s ClipRRect widget to apply rounded corners to UI elements
+- Used borderRadius to control and customize the roundness of each corner
+- Practiced converting sharp-corner images into modern, card-style visuals
+- Learned how clipping improves UI consistency and design aesthetics
+- Combined BoxFit.cover to ensure images fill the container properly without distortion
+
+
 
 
 ---
@@ -293,7 +302,7 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 
 <div align="center">
 
-## 🗓️ Flutter Widget of the Day — 40 Widgets
+## 🗓️ Flutter Widget of the Day — 41 Widgets
 
 A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
 
@@ -569,7 +578,7 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
 <table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
   <thead><tr>
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 40</th>
-    <th width="20%"></th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 41</th>
     <th width="20%"></th>
     <th width="20%"></th>
     <th width="20%"></th>
@@ -579,7 +588,11 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
       <a href="screenshots/day40_clipoval.png"><img src="screenshots/day40_clipoval.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
       <a href="lib/features/widgets_of_the_day/day_40_clipoval/day40_clipoval_widget.dart"><b>ClipOval</b></a><br/><sub>Circular clip</sub>
     </td>
-    <td></td><td></td><td></td><td></td>
+    <td align="center" valign="top">
+      <a href="screenshots/day41_cliprrect.png"><img src="screenshots/day41_cliprrect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_41_cliprrect/day41_cliprrect_widget.dart"><b>ClipRRect</b></a><br/><sub>Rounded corners</sub>
+    </td>
+    <td></td><td></td><td></td>
   </tr></tbody>
 </table>
 
