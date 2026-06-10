@@ -277,6 +277,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Understood how the paint method works to render graphics directly on the screen
 - Practiced using Canvas and Paint objects to control stroke, color, and drawing styles
 
+### 40. ClipOval (Circular Image Clipping)
+
+- Implemented Flutter’s ClipOval widget to display widgets in an oval or circular shape
+- Used Image.network inside ClipOval to create a circular profile-style image
+- Applied BoxFit.cover to ensure the image fills the available space without distortion
+- Practiced clipping rectangular images into clean circular layouts
+- Enhanced UI design by creating visually appealing avatar and profile image components
+
+
 
 ---
 
@@ -284,7 +293,7 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 
 <div align="center">
 
-## 🗓️ Flutter Widget of the Day — 39 Widgets
+## 🗓️ Flutter Widget of the Day — 40 Widgets
 
 A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
 
@@ -411,7 +420,7 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
     </td>
     <td align="center" valign="top">
       <a href="screenshots/day17_text_and_textstyle.png"><img src="screenshots/day17_text_and_textstyle.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_17_text_and_textstyle/day17_text_style_widget.dart"><b>Text</b></a><br/><sub>Styling</sub>
+      <a href="lib/features/widgets_of_the_day/day_17_text_and_styling/day17_text_style_widget.dart"><b>Text</b></a><br/><sub>Styling</sub>
     </td>
     <td align="center" valign="top">
       <a href="screenshots/day18_rich_text.png"><img src="screenshots/day18_rich_text.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
@@ -553,6 +562,24 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
       <a href="screenshots/day39_custom_paint.png"><img src="screenshots/day39_custom_paint.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
       <a href="lib/features/widgets_of_the_day/day_39_custom_paint/day39_custom_paint_widget.dart"><b>CustomPaint</b></a><br/><sub>Canvas draw</sub>
     </td>
+  </tr></tbody>
+</table>
+
+<!-- ROW 9 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 40</th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+    <th width="20%"></th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day40_clipoval.png"><img src="screenshots/day40_clipoval.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_40_clipoval/day40_clipoval_widget.dart"><b>ClipOval</b></a><br/><sub>Circular clip</sub>
+    </td>
+    <td></td><td></td><td></td><td></td>
   </tr></tbody>
 </table>
 

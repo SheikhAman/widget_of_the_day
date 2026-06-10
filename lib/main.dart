@@ -16,11 +16,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
         useMaterial3: false,
-        appBarTheme: AppBarTheme(
-          backgroundColor: Colors.indigo,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xFF4F46E5), // Indigo
           foregroundColor: Colors.white,
           centerTitle: true,
-        )
+          elevation: 0,
+          titleTextStyle: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.w600,
+            color: Colors.white,
+          ),
+        ),
       ),
       // home: const Day01ContainerWidget(),
       // home: const Day02ExpandedWidget(),
@@ -61,7 +67,8 @@ class MyApp extends StatelessWidget {
       // home: const Day36TransformWidget(),
       // home: const Day37PositionedWidget(),
       // home: const Day38IconButtonWidget(),
-      home: const Day39CustomPaintWidget(),
+      // home: const Day39CustomPaintWidget(),
+      home: const Day40ClipOvalWidget(),
     );
   }
 }
