@@ -40,3 +40,4 @@ export 'day_38_iconbutton/day38_iconbutton_widget.dart';
 export 'day_39_custom_paint/day39_custom_paint_widget.dart';
 export 'day_40_clipoval/day40_clipoval_widget.dart';
 export 'day_41_cliprrect/day41_cliprrect_widget.dart';
+export 'day_42_cliprect/day42_cliprect_widget.dart';

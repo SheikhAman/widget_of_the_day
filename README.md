@@ -293,16 +293,22 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Learned how clipping improves UI consistency and design aesthetics
 - Combined BoxFit.cover to ensure images fill the container properly without distortion
 
+### 42. ClipRect (Rectangular Clipping & Content Control)
+
+- Implemented Flutter’s ClipRect widget to clip child widgets within a rectangular boundary
+- Learned how clipping affects rendering by restricting content outside defined bounds
+- Compared ClipRect with other clipping widgets like ClipRRect and ClipOval
+- Enhanced UI control by ensuring clean and structured image display
+
+
 
 
 
 ---
 
-## Screenshots:
-
 <div align="center">
 
-## 🗓️ Flutter Widget of the Day — 41 Widgets
+## 🗓️ Flutter Widget of the Day — 42 Widgets
 
 A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
 
@@ -429,7 +435,7 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
     </td>
     <td align="center" valign="top">
       <a href="screenshots/day17_text_and_textstyle.png"><img src="screenshots/day17_text_and_textstyle.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_17_text_and_styling/day17_text_style_widget.dart"><b>Text</b></a><br/><sub>Styling</sub>
+      <a href="lib/features/widgets_of_the_day/day_17_text_and_textstyle/day17_text_style_widget.dart"><b>Text</b></a><br/><sub>Styling</sub>
     </td>
     <td align="center" valign="top">
       <a href="screenshots/day18_rich_text.png"><img src="screenshots/day18_rich_text.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
@@ -579,7 +585,7 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
   <thead><tr>
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 40</th>
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 41</th>
-    <th width="20%"></th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 42</th>
     <th width="20%"></th>
     <th width="20%"></th>
   </tr></thead>
@@ -590,9 +596,13 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
     </td>
     <td align="center" valign="top">
       <a href="screenshots/day41_cliprrect.png"><img src="screenshots/day41_cliprrect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_41_cliprrect/day41_cliprrect_widget.dart"><b>ClipRRect</b></a><br/><sub>Rounded corners</sub>
+      <a href="lib/features/widgets_of_the_day/day_41_cliprrect/day41_cliprrect_widget.dart"><b>ClipRRect</b></a><br/><sub>Rounded clip</sub>
     </td>
-    <td></td><td></td><td></td>
+    <td align="center" valign="top">
+      <a href="screenshots/day42_cliprect.png"><img src="screenshots/day42_cliprect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_42_cliprect/day42_cliprect_widget.dart"><b>ClipRect</b></a><br/><sub>Rectangle clip</sub>
+    </td>
+    <td></td><td></td>
   </tr></tbody>
 </table>
 
