@@ -8,16 +8,13 @@ class Day34RawMaterialButtonWidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Day 34 - RawMaterialButton'),
-        backgroundColor: Colors.deepOrange,
-        foregroundColor: Colors.white,
-        centerTitle: true,
       ),
       body: Center(
         child: RawMaterialButton(
           onPressed: () {},
 
-          fillColor: Colors.deepOrange,
-          splashColor: Colors.orange,
+          fillColor: Colors.indigoAccent,
+          splashColor: Colors.indigo,
           elevation: 6.0,
           shape: const StadiumBorder(),
 

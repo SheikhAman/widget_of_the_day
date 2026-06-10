@@ -8,9 +8,6 @@ class Day30FloatingActionButtonWidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Day 30 - FloatingActionButton'),
-        backgroundColor: Colors.deepPurple,
-        foregroundColor: Colors.white,
-        centerTitle: true,
       ),
 
       body: const Center(
@@ -22,7 +19,7 @@ class Day30FloatingActionButtonWidget extends StatelessWidget {
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo,
         child: const Icon(Icons.add,color: Colors.white,),
       ),
     );

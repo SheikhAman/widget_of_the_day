@@ -9,8 +9,6 @@ class Day28LinearGradientWidget  extends StatelessWidget {
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: const Text('Day 28 - LinearGradient'),
-        backgroundColor: Colors.deepPurple,
-        foregroundColor: Colors.white,
         centerTitle: true,
       ),
       body: Center(

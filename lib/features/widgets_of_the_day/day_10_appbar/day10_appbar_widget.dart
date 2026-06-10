@@ -23,7 +23,7 @@ class Day10AppBarWidget extends StatelessWidget {
         ),
 
         title: const Text(
-          "Flutter UI",
+          "Day 10 - AppBar",
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,

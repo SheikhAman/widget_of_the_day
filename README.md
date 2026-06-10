@@ -270,77 +270,297 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Customized icon appearance using properties like color, size, and icon
 - Built interactive UI components using icons instead of full text buttons
 
+### 39. CustomPaint (Custom Drawing & Canvas Rendering)
+
+- Explored Flutter’s CustomPaint widget to create fully custom UI graphics using a canvas
+- Used CustomPainter to draw shapes, lines, and custom visual elements manually
+- Understood how the paint method works to render graphics directly on the screen
+- Practiced using Canvas and Paint objects to control stroke, color, and drawing styles
+
 
 ---
 
 ## Screenshots:
 
-<table align="center" style="margin: 0px auto;">
-  <tr>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day01_container.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_01_container/day01_container_widget.dart" target="_blank">Container</a></p>
-        </div>
+<div align="center">
+
+## 🗓️ Flutter Widget of the Day — 39 Widgets
+
+A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
+
+</div>
+
+---
+
+<!-- ROW 1 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 01</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 02</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 03</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 03</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 04</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day01_container.png"><img src="screenshots/day01_container.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_01_container/day01_container_widget.dart"><b>Container</b></a><br/><sub>Basic box</sub>
     </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day02_expanded.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_02_expanded/day02_expanded_widget.dart" target="_blank">Expanded</a></p>
-        </div>
+    <td align="center" valign="top">
+      <a href="screenshots/day02_expanded.png"><img src="screenshots/day02_expanded.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_02_expanded/day02_expanded_widget.dart"><b>Expanded</b></a><br/><sub>Fill space</sub>
     </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day03_column.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_column_widget.dart" target="_blank">Column</a></p>
-        </div>
+    <td align="center" valign="top">
+      <a href="screenshots/day03_column.png"><img src="screenshots/day03_column.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_column_widget.dart"><b>Column</b></a><br/><sub>Vertical</sub>
     </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day03_row.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_row_widget.dart" target="_blank">Row</a></p>
-        </div>
+    <td align="center" valign="top">
+      <a href="screenshots/day03_row.png"><img src="screenshots/day03_row.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_row_widget.dart"><b>Row</b></a><br/><sub>Horizontal</sub>
     </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day04_listview.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_04_listview/day04_listview_widget.dart" target="_blank">ListView & Builder</a></p>
-        </div>
+    <td align="center" valign="top">
+      <a href="screenshots/day04_listview.png"><img src="screenshots/day04_listview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_04_listview/day04_listview_widget.dart"><b>ListView</b></a><br/><sub>Scroll list</sub>
     </td>
-  </tr>
-  <tr>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day05_cliprrect.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_05_cliprrect/day05_cliprrect_widget.dart" target="_blank">ClipRRect</a></p>
-        </div>
-    </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day06_image.asset.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_06_image.asset/day06_image.asset_widget.dart" target="_blank">Image.asset</a></p>
-        </div>
-    </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day07_gridview.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_07_gridview/day07_gridview_widget.dart" target="_blank">GridView & Builder</a></p>
-        </div>
-    </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day08_gesturedetector.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_08_gesturedetector/day08_gesturedetector_widget.dart" target="_blank">GestureDetector</a></p>
-        </div>
-    </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="screenshots/day09_bottom_navbar.png" height="250px"/>
-            <p><a href="lib/features/widgets_of_the_day/day_09_bottom_navbar/day09_bottom_navbar_widget.dart" target="_blank">BottomNavBar</a></p>
-        </div>
-    </td>
-  </tr>
+  </tr></tbody>
 </table>
+
+<!-- ROW 2 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 05</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 06</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 07</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 08</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 09</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day05_cliprrect.png"><img src="screenshots/day05_cliprrect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_05_cliprrect/day05_cliprrect_widget.dart"><b>ClipRRect</b></a><br/><sub>Round clip</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day06_image.asset.png"><img src="screenshots/day06_image.asset.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_06_image.asset/day06_image.asset_widget.dart"><b>Image.asset</b></a><br/><sub>Assets</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day07_gridview.png"><img src="screenshots/day07_gridview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_07_gridview/day07_gridview_widget.dart"><b>GridView</b></a><br/><sub>Grid scroll</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day08_gesturedetector.png"><img src="screenshots/day08_gesturedetector.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_08_gesturedetector/day08_gesturedetector_widget.dart"><b>Gesture</b></a><br/><sub>Tap detection</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day09_bottom_navbar.png"><img src="screenshots/day09_bottom_navbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_09_bottom_navbar/day09_bottom_navbar_widget.dart"><b>BottomNav</b></a><br/><sub>Nav bar</sub>
+    </td>
+  </tr></tbody>
+</table>
+
+<!-- ROW 3 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 10</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 11</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 12</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 13</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 14</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day10_appbar.png"><img src="screenshots/day10_appbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_10_appbar/day10_appbar_widget.dart"><b>AppBar</b></a><br/><sub>Top bar</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day11_drawer.png"><img src="screenshots/day11_drawer.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_11_drawer/day11_drawer_widget.dart"><b>Drawer</b></a><br/><sub>Side menu</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day12_sliver_appbar.png"><img src="screenshots/day12_sliver_appbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_12_sliver_appbar/day12_sliver_appbar_widget.dart"><b>SliverAppBar</b></a><br/><sub>Collapsible</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day13_tabbar.png"><img src="screenshots/day13_tabbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_13_tabbar/day13_tabbar_widget.dart"><b>TabBar</b></a><br/><sub>Tabs</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day14_animated_container.png"><img src="screenshots/day14_animated_container.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_14_animated_container/day14_animated_container_widget.dart"><b>AnimCont</b></a><br/><sub>Implicit anim</sub>
+    </td>
+  </tr></tbody>
+</table>
+
+<!-- ROW 4 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 15</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 16</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 17</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 18</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 19</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day15_media_query.png"><img src="screenshots/day15_media_query.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_15_media_query/day15_media_query_widget.dart"><b>MediaQuery</b></a><br/><sub>Responsive</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day16_alert_dialog.png"><img src="screenshots/day16_alert_dialog.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_16_alert_dialog/day16_alert_dialog_widget.dart"><b>AlertDialog</b></a><br/><sub>Popup</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day17_text_and_textstyle.png"><img src="screenshots/day17_text_and_textstyle.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_17_text_and_textstyle/day17_text_style_widget.dart"><b>Text</b></a><br/><sub>Styling</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day18_rich_text.png"><img src="screenshots/day18_rich_text.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_18_rich_text/day18_rich_text_widget.dart"><b>RichText</b></a><br/><sub>Mixed styles</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day19_timer.png"><img src="screenshots/day19_timer.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_19_timer/day19_timer_widget.dart"><b>Timer</b></a><br/><sub>Async events</sub>
+    </td>
+  </tr></tbody>
+</table>
+
+<!-- ROW 5 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 20</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 21</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 22</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 23</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 24</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day20_pageview.png"><img src="screenshots/day20_pageview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_20_pageview/day20_pageview_widget.dart"><b>PageView</b></a><br/><sub>Swipe pages</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day21_stack.png"><img src="screenshots/day21_stack.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_21_stack/day21_stack_widget.dart"><b>Stack</b></a><br/><sub>Layers</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day22_textfield.png"><img src="screenshots/day22_textfield.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_22_textfield/day22_textfield_widget.dart"><b>TextField</b></a><br/><sub>Input</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day23_animated_icon.png"><img src="screenshots/day23_animated_icon.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_23_animated_icon/day23_animated_icon_widget.dart"><b>AnimIcon</b></a><br/><sub>Transition</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day24_slider.png"><img src="screenshots/day24_slider.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_24_slider/day24_slider_widget.dart"><b>Slider</b></a><br/><sub>Selection</sub>
+    </td>
+  </tr></tbody>
+</table>
+
+<!-- ROW 6 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 25</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 26</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 27</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 28</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 29</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day25_date_picker.png"><img src="screenshots/day25_date_picker.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_25_date_picker/day25_date_picker_widget.dart"><b>DatePicker</b></a><br/><sub>Calendar</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day26_time_picker.png"><img src="screenshots/day26_time_picker.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_26_time_picker/day26_time_picker_widget.dart"><b>TimePicker</b></a><br/><sub>Clock</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day27_listwheelscrollview.png"><img src="screenshots/day27_listwheelscrollview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_27_listwheelscrollview/day27_listwheelscrollview_widget.dart"><b>ListWheel</b></a><br/><sub>3D Scroll</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day28_lineargradient.png"><img src="screenshots/day28_lineargradient.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_28_lineargradient/day28_lineargradient_widget.dart"><b>Gradient</b></a><br/><sub>Colors</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day29_elevatedbutton_and_outlinedbutton.png"><img src="screenshots/day29_elevatedbutton_and_outlinedbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_29_elevatedbutton_and_outlinedbutton/day29_elevatedbutton_and_outlinedbutton_widget.dart"><b>Buttons</b></a><br/><sub>Action</sub>
+    </td>
+  </tr></tbody>
+</table>
+
+<!-- ROW 7 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 30</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 31</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 32</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 33</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 34</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day30_floatingactionbutton.png"><img src="screenshots/day30_floatingactionbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_30_floatingactionbutton/day30_floatingactionbutton_widget.dart"><b>FAB</b></a><br/><sub>Primary btn</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day31_navigator.png"><img src="screenshots/day31_navigator.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_31_navigator/day31_navigator_widget.dart"><b>Navigator</b></a><br/><sub>Routes</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day32_card.png"><img src="screenshots/day32_card.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_32_card/day32_card_widget.dart"><b>Card</b></a><br/><sub>Container</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day33_clipper.png"><img src="screenshots/day33_clipper.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_33_clipper/day33_clipper_widget.dart"><b>Clipper</b></a><br/><sub>Shapes</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day34_rawmaterialbutton.png"><img src="screenshots/day34_rawmaterialbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_34_rawmaterialbutton/day34_rawmaterialbutton_widget.dart"><b>RawBtn</b></a><br/><sub>Custom</sub>
+    </td>
+  </tr></tbody>
+</table>
+
+<!-- ROW 8 -->
+<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
+  <thead><tr>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 35</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 36</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 37</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 38</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 39</th>
+  </tr></thead>
+  <tbody><tr>
+    <td align="center" valign="top">
+      <a href="screenshots/day35_rotatedbox.png"><img src="screenshots/day35_rotatedbox.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_35_rotatedbox/day35_rotatedbox_widget.dart"><b>RotatedBox</b></a><br/><sub>Rotation</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day36_transform.png"><img src="screenshots/day36_transform.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_36_transform/day36_transform_widget.dart"><b>Transform</b></a><br/><sub>Scale/Skew</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day37_positioned.png"><img src="screenshots/day37_positioned.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_37_positioned/day37_positioned_widget.dart"><b>Positioned</b></a><br/><sub>Absolute</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day38_iconbutton.png"><img src="screenshots/day38_iconbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_38_iconbutton/day38_iconbutton_widget.dart"><b>IconButton</b></a><br/><sub>Icon action</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day39_custom_paint.png"><img src="screenshots/day39_custom_paint.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_39_custom_paint/day39_custom_paint_widget.dart"><b>CustomPaint</b></a><br/><sub>Canvas draw</sub>
+    </td>
+  </tr></tbody>
+</table>
+
+---
+
+<div align="center">
+  <sub>📁 Each widget links directly to its source file &nbsp;·&nbsp; Built with ❤️ using Flutter</sub>
+</div>
 
 ## 🚀 Goal
 

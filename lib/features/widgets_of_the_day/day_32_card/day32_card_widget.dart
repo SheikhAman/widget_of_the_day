@@ -9,8 +9,6 @@ class Day32CardWidget extends StatelessWidget {
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: const Text('Day 32 - Card Widget'),
-        backgroundColor: Colors.deepPurple,
-        foregroundColor: Colors.white,
       ),
       body: ListView(
         padding: const EdgeInsets.all(16),
@@ -125,6 +123,9 @@ class Day32CardWidget extends StatelessWidget {
                       ),
                       const SizedBox(height: 12),
                       ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.indigo.shade400,
+                        ),
                         onPressed: () {},
                         child: const Text('Learn More'),
                       ),

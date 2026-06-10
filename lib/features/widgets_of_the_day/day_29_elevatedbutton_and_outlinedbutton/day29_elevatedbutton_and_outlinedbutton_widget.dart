@@ -9,9 +9,6 @@ class Day29ElevatedButtonAndOutlinedButtonWidget extends StatelessWidget {
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: const Text('Day 29 - Buttons'),
-        backgroundColor: Colors.deepPurple,
-        foregroundColor: Colors.white,
-        centerTitle: true,
       ),
         body: Center(
           child: Column(

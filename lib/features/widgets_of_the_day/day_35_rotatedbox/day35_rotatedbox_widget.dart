@@ -6,10 +6,10 @@ class Day35RotatedBoxWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[50],
+      backgroundColor: Colors.indigo[50],
       appBar: AppBar(
         title: const Text('Day 35 - RotatedBox'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),
       body: ListView(

@@ -9,9 +9,6 @@ class Day33ClipperWidget extends StatelessWidget {
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: const Text('Day 33 - Clipper'),
-        backgroundColor: Colors.deepPurple,
-        foregroundColor: Colors.white,
-        centerTitle: true,
       ),
       body: Stack(
         children: [
@@ -21,7 +18,7 @@ class Day33ClipperWidget extends StatelessWidget {
               clipper: WaveClipper(),
               child: Container(
                 height: 220,
-                color: Colors.deepPurple.shade200,
+                color: Colors.indigo.shade200,
               ),
             ),
           ),
@@ -30,7 +27,7 @@ class Day33ClipperWidget extends StatelessWidget {
             clipper: WaveClipper(),
             child: Container(
               height: 200,
-              color: Colors.deepPurple,
+              color: Colors.indigo,
               alignment: Alignment.center,
               child: const Text(
                 'Custom Clipper Wave',
