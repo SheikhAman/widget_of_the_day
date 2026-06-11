@@ -316,6 +316,18 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Compared radial vs sweep gradients to understand their visual differences and use cases
 - Enhanced screen aesthetics with modern and dynamic background visuals
 
+### 45. StatefulWidget (State Lifecycle Management)
+
+- Implemented StatefulWidget to manage dynamic and interactive UI states in Flutter
+- Used createState() to create and associate the mutable state with the widget
+- Practiced initState() for initializing data and setting up one-time configurations
+- Explored didChangeDependencies() to handle changes in inherited widgets and dependencies
+- Learned didUpdateWidget() to respond when the parent widget configuration changes
+- Used deactivate() to understand widget removal from the widget tree
+- Managed resource cleanup using dispose() to prevent memory leaks
+- Utilized setState(() {}) to update UI dynamically and trigger widget rebuilds
+- Strengthened understanding of the complete Flutter widget lifecycle for state management and performance control
+
 
 
 ---
