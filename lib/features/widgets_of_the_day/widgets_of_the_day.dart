@@ -44,6 +44,7 @@ export 'day_42_cliprect/day42_cliprect_widget.dart';
 export 'day_43_clippath/day43_clippath_widget.dart' hide WaveClipper;
 export 'day_44_radial_and_sweep_gradient/day44_radial_and_sweep_gradient_widget.dart';
 export 'day_45_stateful/day45_stateful_widget.dart';
+export 'day_46_table/day46_table_widget.dart';
 
 
 

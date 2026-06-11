@@ -328,6 +328,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Utilized setState(() {}) to update UI dynamically and trigger widget rebuilds
 - Strengthened understanding of the complete Flutter widget lifecycle for state management and performance control
 
+### 46. Table (Structured Data Layout)
+
+- Implemented Flutter’s Table widget to display structured data in a grid-like format
+- Used TableRow to define each row and organize content in a tabular structure
+- Applied children property to manage and arrange multiple table cells
+- Customized table appearance using border for clear cell separation and styling
+- Practiced building structured UI layouts suitable for data representation
+
 
 
 ---
