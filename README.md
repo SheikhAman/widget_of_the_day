@@ -336,7 +336,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Customized table appearance using border for clear cell separation and styling
 - Practiced building structured UI layouts suitable for data representation
 
+### 47. DataTable (Interactive Tabular Data UI)
 
+- Implemented Flutter’s DataTable widget to display structured and interactive tabular data
+- Used columns to define table headers and organize data structure clearly
+- Managed rows to populate and display dynamic data in each row
+- Practiced building interactive data-driven UI components suitable for real-world admin panels and dashboards
+- Strengthened understanding of Flutter’s advanced table management and user interaction handling
 
 ---
 
