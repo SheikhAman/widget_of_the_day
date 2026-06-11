@@ -370,6 +370,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced wrapping widgets with Material to enable proper rendering of effects like ripple and shadow
 - Combined Material with interactive widgets to improve visual feedback and consistency
 
+### 51. Switches (Switch, Checkbox & Radio)
+
+- Implemented Flutter’s Switch, Checkbox, and Radio widgets to handle user input and selection states
+- Used ListTile to create clean and structured UI layouts for toggle-based controls
+- Managed state using value and onChanged to update UI dynamically based on user interaction
+- Learned groupValue usage in Radio widgets to handle single selection from multiple options
+- Practiced building settings-style UI screens using toggle and selection controls
+- Improved ability to design intuitive and user-friendly preference and configuration screens
 
 ---
 

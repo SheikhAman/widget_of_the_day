@@ -78,7 +78,8 @@ class MyApp extends StatelessWidget {
       // home: const Day47DataTableWidget(),
       // home: const Day48PlaceholderWidget(),
       // home: const Day49GestureInkWellWidget(),
-      home: const Day50MaterialWidget(),
+      // home: const Day50MaterialWidget(),
+      home: const Day51SwitchesWidget(),
     );
   }
 }
