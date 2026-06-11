@@ -50,6 +50,7 @@ export 'day_48_placeholder/day48_placeholder_widget.dart';
 export 'day_49_gesturedetector_and_inkwell/day49_gesturedetector_and_inkwell_widget.dart';
 export 'day_50_material/day50_material_widget.dart';
 export 'day_51_switches/day51_switches_widget.dart';
+export 'day_52_dropdown_and_popupmenu/day52_dropdown_and_popupmenu_widget.dart';
 
 
 

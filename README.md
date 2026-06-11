@@ -379,6 +379,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced building settings-style UI screens using toggle and selection controls
 - Improved ability to design intuitive and user-friendly preference and configuration screens
 
+### 52. Dropdown & PopupMenu (Selection Menus & User Actions)
+
+- Implemented Flutter’s DropdownButton and PopupMenuButton widgets to provide selectable menu options
+- Used dropdown menus to allow users to choose a single value from a predefined list of items
+- Managed selected values dynamically using state updates and user interactions
+- Practiced handling menu item selection through callback methods and state management
+- Improved UI usability by reducing screen clutter with menu-based interactions
+
+
 ---
 
 <div align="center">
