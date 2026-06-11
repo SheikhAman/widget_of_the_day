@@ -344,6 +344,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced building interactive data-driven UI components suitable for real-world admin panels and dashboards
 - Strengthened understanding of Flutter’s advanced table management and user interaction handling
 
+### 48. Placeholder (UI Skeleton & Layout Debugging)
+
+- Implemented Flutter’s Placeholder widget to visualize empty UI spaces during development
+- Used fallbackHeight to control the default height when no constraints are provided
+- Customized color to distinguish placeholder areas from actual UI components
+- Adjusted strokeWidth to control the thickness of the placeholder border lines
+- Practiced using Placeholder for debugging and layout structure planning
+- Helped identify widget boundaries and layout spacing during UI design phase
+
+
+
 ---
 
 <div align="center">

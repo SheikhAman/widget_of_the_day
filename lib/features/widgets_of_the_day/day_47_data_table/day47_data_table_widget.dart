@@ -18,8 +18,6 @@ class _Day47DataTableWidgetState extends State<Day47DataTableWidget> {
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: const Text('Day 47 - DataTable'),
-        backgroundColor: Colors.indigo,
-        foregroundColor: Colors.white,
       ),
       body: Padding(
         padding: const EdgeInsets.all(12),

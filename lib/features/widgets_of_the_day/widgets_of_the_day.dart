@@ -46,6 +46,7 @@ export 'day_44_radial_and_sweep_gradient/day44_radial_and_sweep_gradient_widget.
 export 'day_45_stateful/day45_stateful_widget.dart';
 export 'day_46_table/day46_table_widget.dart';
 export 'day_47_data_table/day47_data_table_widget.dart';
+export 'day_48_placeholder/day48_placeholder_widget.dart';
 
 
 
