@@ -309,6 +309,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Implemented shouldReclip(CustomClipper<Path> oldClipper) to determine when the clip path should be recalculated
 - Enhanced UI creativity by creating reusable custom clipper components for advanced interfaces
 
+### 44. Radial & Sweep Gradient (Advanced Gradient Effects)
+
+- Implemented Flutter’s RadialGradient and SweepGradient inside a Container using BoxDecoration
+- Used RadialGradient to create circular gradient effects that radiate from a central point
+- Compared radial vs sweep gradients to understand their visual differences and use cases
+- Enhanced screen aesthetics with modern and dynamic background visuals
+
 
 
 ---
@@ -594,6 +601,7 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 41</th>
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 42</th>
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 43</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 44</th>
     <th width="20%"></th>
     <th width="20%"></th>
   </tr></thead>
@@ -613,6 +621,10 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
     <td align="center" valign="top">
       <a href="screenshots/day43_clippath.png"><img src="screenshots/day43_clippath.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
       <a href="lib/features/widgets_of_the_day/day_43_clippath/day43_clippath_widget.dart"><b>ClipPath</b></a><br/><sub>Custom shape clipping</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day44_radial_and_sweep_gradient.png"><img src="screenshots/day44_radial_and_sweep_gradient.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_44_radial_and_sweep_gradient/day44_radial_and_sweep_gradient_widget.dart"><b>Radial & Sweep Gradient</b></a><br/><sub>Advanced gradient effects</sub>
     </td>
     <td></td><td></td>
   </tr></tbody>
