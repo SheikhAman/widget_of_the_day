@@ -353,6 +353,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced using Placeholder for debugging and layout structure planning
 - Helped identify widget boundaries and layout spacing during UI design phase
 
+### 49. GestureDetector & InkWell (User Interaction Handling)
+
+- Implemented GestureDetector to detect and handle raw touch interactions such as onTap
+- Used InkWell to add Material Design ripple effects on user taps
+- Compared GestureDetector vs InkWell to understand low-level vs Material-based interaction handling
+- Applied onTap callbacks to trigger actions and respond to user input
+- Practiced wrapping widgets with gesture handlers to make UI elements interactive
+- Learned how InkWell requires a Material ancestor to show splash effects properly
 
 
 ---
