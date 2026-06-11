@@ -300,7 +300,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Compared ClipRect with other clipping widgets like ClipRRect and ClipOval
 - Enhanced UI control by ensuring clean and structured image display
 
+### 43. ClipPath (Custom Shape Clipping)
 
+- Implemented Flutter’s ClipPath widget to create custom-shaped UI components
+- Used the clipper property with a custom CustomClipPath() class to define clipping behavior
+- Overrode getClip(Size size) to generate custom clipping paths based on widget dimensions
+- Utilized the Path class to draw and control complex clipping shapes
+- Implemented shouldReclip(CustomClipper<Path> oldClipper) to determine when the clip path should be recalculated
+- Enhanced UI creativity by creating reusable custom clipper components for advanced interfaces
 
 
 
@@ -586,6 +593,7 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 40</th>
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 41</th>
     <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 42</th>
+    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 43</th>
     <th width="20%"></th>
     <th width="20%"></th>
   </tr></thead>
@@ -601,6 +609,10 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
     <td align="center" valign="top">
       <a href="screenshots/day42_cliprect.png"><img src="screenshots/day42_cliprect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
       <a href="lib/features/widgets_of_the_day/day_42_cliprect/day42_cliprect_widget.dart"><b>ClipRect</b></a><br/><sub>Rectangle clip</sub>
+    </td>
+    <td align="center" valign="top">
+      <a href="screenshots/day43_clippath.png"><img src="screenshots/day43_clippath.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_43_clippath/day43_clippath_widget.dart"><b>ClipPath</b></a><br/><sub>Custom shape clipping</sub>
     </td>
     <td></td><td></td>
   </tr></tbody>

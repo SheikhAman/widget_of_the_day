@@ -70,7 +70,8 @@ class MyApp extends StatelessWidget {
       // home: const Day39CustomPaintWidget(),
       // home: const Day40ClipOvalWidget(),
       // home: const Day41ClipRRectWidget(),
-      home: const Day42ClipRectWidget(),
+      // home: const Day42ClipRectWidget(),
+      home: const Day43ClipPathWidget(),
     );
   }
 }
