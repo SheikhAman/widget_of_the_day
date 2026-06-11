@@ -48,6 +48,8 @@ export 'day_46_table/day46_table_widget.dart';
 export 'day_47_data_table/day47_data_table_widget.dart';
 export 'day_48_placeholder/day48_placeholder_widget.dart';
 export 'day_49_gesturedetector_and_inkwell/day49_gesturedetector_and_inkwell_widget.dart';
+export 'day_50_material/day50_material_widget.dart';
+
 
 
 

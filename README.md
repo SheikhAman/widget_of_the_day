@@ -362,6 +362,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced wrapping widgets with gesture handlers to make UI elements interactive
 - Learned how InkWell requires a Material ancestor to show splash effects properly
 
+### 50. Material (Surface, Elevation & Visual Styling)
+
+- Implemented Flutter’s Material widget to define a material design surface for UI components
+- Used Material to control visual properties like elevation, shadow, and background color of child widgets
+- Learned how Material acts as a visual container that enhances the appearance of its child widgets
+- Practiced wrapping widgets with Material to enable proper rendering of effects like ripple and shadow
+- Combined Material with interactive widgets to improve visual feedback and consistency
+
 
 ---
 
