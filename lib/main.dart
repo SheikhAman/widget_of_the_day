@@ -90,7 +90,8 @@ class MyApp extends StatelessWidget {
       // home: const Day59ScrollbarWidget(),
       // home: const Day60ChoiceChipWidget(),
       // home: const Day61WrapWidget(),
-      home: const Day62ExpansionTileWidget(),
+      // home: const Day62ExpansionTileWidget(),
+      home: const Day63RangeSliderWidget(),
     );
   }
 }

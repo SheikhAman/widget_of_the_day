@@ -23,7 +23,7 @@ class Day61WrapWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Wrap Widget')),
+      appBar: AppBar(title: const Text('Day 61- Wrap')),
       body: Center(
         child: Wrap(
           alignment: WrapAlignment.center,

@@ -478,6 +478,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved UI usability by hiding and revealing information on user interaction
 - Strengthened understanding of hierarchical layouts and dynamic visibility in Flutter
 
+### 63. RangeSlider (Dual Value Selection Control)
+
+- Implemented Flutter’s RangeSlider widget to allow selection of a range between two values
+- Managed range selection using the values property to control start and end points
+- Used divisions to create discrete steps for more controlled value selection
+- Displayed user-friendly feedback using labels to show current selected range values
+- Handled user interaction with onChanged to update the range dynamically in real time
+- Practiced building UI components for filtering and range-based input scenarios (e.g., price or age)
+
+
 
 
 ---
