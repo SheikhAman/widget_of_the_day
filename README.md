@@ -422,6 +422,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved responsive UI design by adapting content to different screen sizes
 - Built cleaner and more flexible UI components that handle dynamic content gracefully
 
+### 57. showSearch (In-App Search Interface)
+
+- Implemented Flutter’s showSearch() function to create a full-screen search experience
+- Triggered search functionality from the AppBar using an IconButton inside actions
+- Used onPressed callback to open the search delegate when the user taps the search icon
+- Integrated showSearch() with a custom SearchDelegate to handle query input and results
+- Practiced building interactive and responsive search UI within an application
+- Enhanced user experience by providing quick and accessible in-app search functionality
+- Strengthened understanding of Flutter’s search system and delegate-based architecture
+- Learned how to structure searchable data and return dynamic results efficiently
+
 
 
 ---
