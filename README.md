@@ -487,6 +487,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Handled user interaction with onChanged to update the range dynamically in real time
 - Practiced building UI components for filtering and range-based input scenarios (e.g., price or age)
 
+### 64. showModalBottomSheet (Bottom Sheet UI Interaction)
+
+- Implemented Flutter’s showModalBottomSheet to display a temporary bottom sheet from the bottom of the screen
+- Used context to trigger the bottom sheet within the current widget tree
+- Defined the UI using the builder: (BuildContext context) callback for dynamic content rendering
+- Returned a SizedBox to control the height and structure of the bottom sheet content
+- Practiced building modal UI components for actions, menus, and quick options
+- Strengthened understanding of Flutter’s modal presentation system and overlay widgets
+- Built reusable bottom sheet patterns commonly used in modern mobile applications
+
 
 
 

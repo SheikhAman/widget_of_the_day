@@ -62,6 +62,7 @@ export 'day_60_choice_chip/day60_choice_chip_widget.dart';
 export 'day_61_wrap/day61_wrap_widget.dart';
 export 'day_62_expansion_tile/day62_expansion_tile_widget.dart';
 export 'day_63_range_slider/day63_range_slider_widget.dart';
+export 'day_64_show_modalbottomsheet/day64_show_modalbootmsheet_widget.dart';
 
 
 
