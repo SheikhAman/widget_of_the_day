@@ -413,6 +413,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Implemented onStepTapped to allow direct navigation to a specific step
 - Bound currentStep to _currentStep for real-time UI updates and state control
 
+### 56. FittedBox (Responsive Scaling & Content Fitting)
+
+- Implemented Flutter’s FittedBox widget to scale and fit child widgets within available space
+- Used FittedBox to automatically adjust text and UI elements inside a container
+- Practiced controlling overflow issues by ensuring content scales instead of being clipped
+- Explored different fit modes to understand how scaling behaves in various layouts
+- Improved responsive UI design by adapting content to different screen sizes
+- Built cleaner and more flexible UI components that handle dynamic content gracefully
+
 
 
 ---
