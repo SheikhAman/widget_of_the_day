@@ -387,6 +387,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced handling menu item selection through callback methods and state management
 - Improved UI usability by reducing screen clutter with menu-based interactions
 
+### 53. Hero Animation (Shared Element Page Transition)
+
+- Implemented Flutter’s Hero widget to create smooth shared-element transitions between screens
+- Navigated between screens using Navigator and MaterialPageRoute
+- Displayed images using Image.network to load and animate remote assets dynamically
+- Combined Hero with image widgets to create visually appealing zoom and transition effects
+- Strengthened understanding of Flutter’s route transitions and shared element animation system
+
 
 ---
 
