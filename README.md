@@ -450,6 +450,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved user experience by making long content easier to navigate
 - Strengthened understanding of scroll physics and user interaction feedback in Flutter
 
+### 60. ChoiceChip (Selectable Filter Chips UI)
+
+- Implemented Flutter’s ChoiceChip widget to create selectable filter and option-based UI components
+- Used label to display the chip’s text content clearly to the user
+- Added avatar to include icons or small visuals inside the chip for better UI representation
+- Managed selection state using selected property to highlight the active choice
+- Handled user interaction with onSelected callback to update UI dynamically
+- Improved understanding of state-driven UI updates in chip-based selection systems
+
 
 ---
 

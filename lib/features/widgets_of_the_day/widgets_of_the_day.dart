@@ -58,6 +58,7 @@ export 'day_56_fitted_box/day56_fitted_box_widget.dart';
 export 'day_57_show_search/day57_show_search_widget.dart';
 export 'day_58_adaptive/day58_adaptive_widget.dart';
 export 'day_59_scrollbar/day59_scrollbar_widget.dart';
+export 'day_60_choice_chip/day60_choice_chip_widget.dart';
 
 
 
