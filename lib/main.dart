@@ -86,7 +86,8 @@ class MyApp extends StatelessWidget {
       // home: const Day55StepperWidget(),
       // home: const Day56FittedBoxWidget(),
       // home: const Day57ShowSearchWidget(),
-      home: const Day58AdaptiveWidget(),
+      // home: const Day58AdaptiveWidget(),
+      home: const Day59ScrollbarWidget(),
     );
   }
 }

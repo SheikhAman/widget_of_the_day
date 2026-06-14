@@ -443,6 +443,12 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened understanding of Flutter’s cross-platform adaptability and responsive UI behavior
 - Learned how adaptive widgets simplify maintaining consistent UX across multiple platforms
 
+### 59. Scrollbar (Scroll Feedback & List Navigation)
+
+- Implemented Flutter’s Scrollbar widget to provide visual feedback for scrollable content
+- Customized scrollbar appearance using thickness to control its visual width
+- Improved user experience by making long content easier to navigate
+- Strengthened understanding of scroll physics and user interaction feedback in Flutter
 
 
 ---
