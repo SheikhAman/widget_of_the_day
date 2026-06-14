@@ -459,6 +459,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Handled user interaction with onSelected callback to update UI dynamically
 - Improved understanding of state-driven UI updates in chip-based selection systems
 
+### 61. Wrap (Responsive Flow Layout)
+
+- Implemented Flutter’s Wrap widget to create responsive layouts that automatically flow to the next line
+- Used the children property to add multiple widgets inside the Wrap layout
+- Practiced replacing Row and Column limitations with a more flexible layout system
+- Controlled spacing and alignment between items for better UI structure and readability
+- Learned how Wrap adapts to screen size changes by wrapping overflow widgets
+- Improved responsive design skills for handling variable content sizes
+- Strengthened understanding of adaptive layout behavior in Flutter UI development
+
 
 ---
 
