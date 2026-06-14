@@ -506,7 +506,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Explored Flutter’s built-in implicit animation capabilities for cleaner code and easier maintenance
 - Strengthened understanding of state-driven animations and dynamic widget rendering in Flutter
 
+### 66. Flexible (Responsive Space Distribution)
 
+- Implemented Flutter’s Flexible widget to create responsive layouts within Row, Column, and Flex widgets
+- Used the flex property to control how available space is distributed among child widgets
+- Practiced building adaptive layouts that adjust gracefully to different screen sizes
+- Improved UI responsiveness by preventing overflow and optimizing space usage
+- Strengthened understanding of Flutter’s flex-based layout system and widget sizing behavior
+- Built cleaner and more maintainable layouts using proportional space allocation techniques
 
 
 ---

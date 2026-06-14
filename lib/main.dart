@@ -93,7 +93,8 @@ class MyApp extends StatelessWidget {
       // home: const Day62ExpansionTileWidget(),
       // home: const Day63RangeSliderWidget(),
       // home: const Day64ShowModalBottomSheetWidget(),
-      home: const Day65AnimatedCrossFadeWidget(),
+      // home: const Day65AnimatedCrossFadeWidget(),
+      home: const Day66FlexibleWidget(),
     );
   }
 }
