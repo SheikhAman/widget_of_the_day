@@ -81,7 +81,8 @@ class MyApp extends StatelessWidget {
       // home: const Day50MaterialWidget(),
       // home: const Day51SwitchesWidget(),
       // home: const Day52DropdownAndPopupMenuWidget(),
-      home: const Day53HeroAnimationWidget(),
+      // home: const Day53HeroAnimationWidget(),
+      home: const Day54AboutDialogWidget(),
     );
   }
 }

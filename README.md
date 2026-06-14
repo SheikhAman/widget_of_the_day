@@ -395,6 +395,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Combined Hero with image widgets to create visually appealing zoom and transition effects
 - Strengthened understanding of Flutter’s route transitions and shared element animation system
 
+### 54. AboutDialog (Application Information Dialog)
+
+- Implemented Flutter’s AboutDialog widget to display application information in a standard Material Design dialog
+- Triggered the dialog using an ElevatedButton and the onPressed callback
+- Used showAboutDialog() to present app details such as name, version, and legal information
+- Practiced displaying informational content without navigating to a separate screen
+- Explored Flutter’s built-in support for application metadata and branding
+- Learned how to integrate About dialogs into settings and help sections of an app
+
+
+
 
 ---
 

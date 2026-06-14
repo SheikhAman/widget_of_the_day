@@ -52,6 +52,7 @@ export 'day_50_material/day50_material_widget.dart';
 export 'day_51_switches/day51_switches_widget.dart';
 export 'day_52_dropdown_and_popupmenu/day52_dropdown_and_popupmenu_widget.dart';
 export 'day_53_hero_animation/day53_hero_animation_widget.dart';
+export 'day_54_about_dialog/day54_about_dialog_widget.dart';
 
 
 
