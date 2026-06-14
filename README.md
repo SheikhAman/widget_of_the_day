@@ -404,6 +404,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Explored Flutter’s built-in support for application metadata and branding
 - Learned how to integrate About dialogs into settings and help sections of an app
 
+### 55. Stepper (Multi-Step Workflow UI)
+
+- Implemented Flutter’s Stepper widget to create a step-by-step user flow interface
+- Managed step state using int _currentStep = 0 to track the active step dynamically
+- Used Step widgets with title and content to structure each stage of the process
+- Controlled navigation between steps using onStepContinue and onStepCancel callbacks
+- Implemented onStepTapped to allow direct navigation to a specific step
+- Bound currentStep to _currentStep for real-time UI updates and state control
 
 
 
