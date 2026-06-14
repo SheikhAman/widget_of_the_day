@@ -433,6 +433,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened understanding of Flutter’s search system and delegate-based architecture
 - Learned how to structure searchable data and return dynamic results efficiently
 
+### 58. Adaptive Widgets (Platform-Aware UI Components)
+
+- Implemented Flutter’s .adaptive widgets to create platform-specific UI components automatically
+- Used Slider.adaptive to render native-style sliders for both Android and iOS
+- Applied SwitchListTile.adaptive to display platform-consistent toggle switches inside list items
+- Used Switch.adaptive to automatically adjust switch design based on the operating system
+- Practiced building UI that adapts seamlessly between Material (Android) and Cupertino (iOS) styles
+- Strengthened understanding of Flutter’s cross-platform adaptability and responsive UI behavior
+- Learned how adaptive widgets simplify maintaining consistent UX across multiple platforms
+
 
 
 ---

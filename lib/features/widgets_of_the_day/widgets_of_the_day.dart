@@ -56,6 +56,7 @@ export 'day_54_about_dialog/day54_about_dialog_widget.dart';
 export 'day_55_stepper/day55_stepper_widget.dart';
 export 'day_56_fitted_box/day56_fitted_box_widget.dart';
 export 'day_57_show_search/day57_show_search_widget.dart';
+export 'day_58_adaptive/day58_adaptive_widget.dart';
 
 
 
