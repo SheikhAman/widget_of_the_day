@@ -469,6 +469,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved responsive design skills for handling variable content sizes
 - Strengthened understanding of adaptive layout behavior in Flutter UI development
 
+### 62. ExpansionTile (Expandable List UI)
+
+- Implemented Flutter’s ExpansionTile widget to create expandable and collapsible list sections
+- Used the title property to define the main header of each expandable item
+- Added children to display nested content when the tile is expanded
+- Used ListTile inside children to structure detailed sub-items cleanly
+- Improved UI usability by hiding and revealing information on user interaction
+- Strengthened understanding of hierarchical layouts and dynamic visibility in Flutter
+
+
 
 ---
 
