@@ -515,6 +515,13 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened understanding of Flutter’s flex-based layout system and widget sizing behavior
 - Built cleaner and more maintainable layouts using proportional space allocation techniques
 
+### 67. Spacer (Dynamic Empty Space Management)
+
+- Implemented Flutter’s Spacer widget to create flexible empty space between widgets in a layout
+- Practiced controlling widget positioning without relying on fixed-size SizedBox values
+- Learned how Spacer automatically expands to occupy available space
+- Built more balanced and visually organized user interfaces using adaptive spacing techniques
+
 
 ---
 
