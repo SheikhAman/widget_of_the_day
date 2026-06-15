@@ -522,6 +522,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Learned how Spacer automatically expands to occupy available space
 - Built more balanced and visually organized user interfaces using adaptive spacing techniques
 
+### 68. GridPaper (Grid Overlay & Layout Visualization)
+
+- Implemented Flutter’s GridPaper widget to display a customizable grid overlay on the screen
+- Used color: Colors.indigo to customize the appearance of grid lines
+- Strengthened knowledge of Flutter’s layout system through visual grid-based guidance
+- Built cleaner and more organized interfaces by leveraging grid-based design principles
+
+
+
 
 ---
 
