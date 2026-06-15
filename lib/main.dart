@@ -97,7 +97,8 @@ class MyApp extends StatelessWidget {
       // home: const Day66FlexibleWidget(),
       // home: const Day67SpacerWidget(),
       // home: const Day68GridPaperWidget(),
-      home: const Day69InteractiveViewerWidget(),
+      // home: const Day69InteractiveViewerWidget(),
+      home: const Day70CheckboxListTileWidget(),
     );
   }
 }

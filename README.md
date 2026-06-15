@@ -539,6 +539,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened understanding of Flutter’s transformation and gesture system
 - Built more interactive and user-friendly image viewing components
 
+### 70. CheckboxListTile (Selectable List Item UI)
+
+- Implemented Flutter’s CheckboxListTile widget to create clean, selectable list items
+- Used title to display the main label for each option
+- Added subtitle to provide additional context or description for the item
+- Managed selection state using the value property to track checked/unchecked status
+- Practiced handling user interaction with built-in checkbox tap behavior
+- Improved UI clarity by combining checkbox and text into a single structured component
+- Built settings-style interfaces such as preferences, tasks, and multi-select lists
+- Strengthened understanding of state-driven selection and list-based UI design in Flutter
+
 
 
 
