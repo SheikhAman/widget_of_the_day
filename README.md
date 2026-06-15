@@ -550,6 +550,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Built settings-style interfaces such as preferences, tasks, and multi-select lists
 - Strengthened understanding of state-driven selection and list-based UI design in Flutter
 
+### 71. SelectableText (Text Selection & Copy Support)
+
+- Implemented Flutter’s SelectableText widget to allow users to select and copy text content
+- Replaced static Text widgets with SelectableText for improved usability
+- Practiced displaying user-readable content that can be easily copied to clipboard
+- Improved accessibility by supporting interaction with text content
+- Used it in scenarios like notes, descriptions, and information displays
+- Strengthened understanding of interactive text widgets in Flutter
+- Enhanced user experience by adding built-in text selection capabilities without extra logic
+
 
 
 

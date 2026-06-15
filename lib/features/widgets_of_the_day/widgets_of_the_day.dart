@@ -69,6 +69,7 @@ export 'day_67_spacer/day67_spacer_widget.dart';
 export 'day_68_gridpaper/day68_gridpaper_widget.dart';
 export 'day_69_interactive_viewer/day69_interactive_viewer_widget.dart';
 export 'day_70_checkbox_listtile/day70_checkbox_listtile_widget.dart';
+export 'day_71_selectable_text/day71_selectable_text_widget.dart';
 
 
 
