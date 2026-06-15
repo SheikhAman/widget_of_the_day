@@ -529,6 +529,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened knowledge of Flutter’s layout system through visual grid-based guidance
 - Built cleaner and more organized interfaces by leveraging grid-based design principles
 
+### 69. InteractiveViewer (Zoom & Pan Interaction)
+
+- Implemented Flutter’s InteractiveViewer widget to enable zooming and panning interactions on UI elements
+- Used Image.network() as the child widget to display and interact with images from the internet
+- Configured maxScale to control the maximum zoom level allowed for the user
+- Improved user experience by allowing detailed inspection of images without navigation
+- Explored built-in gesture handling for interactive content manipulation
+- Strengthened understanding of Flutter’s transformation and gesture system
+- Built more interactive and user-friendly image viewing components
+
 
 
 

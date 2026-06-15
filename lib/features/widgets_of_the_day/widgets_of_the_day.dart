@@ -67,6 +67,7 @@ export 'day_65_animated_cross_fade/day65_animated_cross_fade_widget.dart';
 export 'day_66_flexible/day66_flexible_widget.dart';
 export 'day_67_spacer/day67_spacer_widget.dart';
 export 'day_68_gridpaper/day68_gridpaper_widget.dart';
+export 'day_69_interactive_viewer/day69_interactive_viewer_widget.dart';
 
 
 

@@ -96,7 +96,8 @@ class MyApp extends StatelessWidget {
       // home: const Day65AnimatedCrossFadeWidget(),
       // home: const Day66FlexibleWidget(),
       // home: const Day67SpacerWidget(),
-      home: const Day68GridPaperWidget(),
+      // home: const Day68GridPaperWidget(),
+      home: const Day69InteractiveViewerWidget(),
     );
   }
 }
