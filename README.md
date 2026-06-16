@@ -608,7 +608,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used ToggleButtons as a filter UI component for category and preference selection
 - Managed selection state using boolean lists for dynamic UI updates
 
+### 77. PhysicalModel (Elevation & Material Depth Effects)
 
+- Implemented Flutter’s PhysicalModel widget to create realistic Material Design depth effects
+- Used elevation to generate shadow and simulate 3D surface appearance
+- Applied shadowColor to customize the shadow styling for better visual hierarchy
+- Used borderRadius to create smooth rounded edges for modern UI design
+- Practiced building product-style cards with depth and layered visual effects
+- Enhanced UI realism by simulating physical surfaces and elevation changes
+- Learned how PhysicalModel differs from Material in rendering shadows and shapes
+- Strengthened understanding of visual hierarchy and depth perception in Flutter UI design
 
 ---
 

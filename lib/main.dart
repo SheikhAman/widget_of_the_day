@@ -104,7 +104,8 @@ class MyApp extends StatelessWidget {
       // home: const Day73RefreshIndicatorWidget(),
       // home: const Day74ImageFilteredWidget(),
       // home: const Day75AspectRatioWidget(),
-      home: const Day76ToggleButtonsWidget(),
+      // home: const Day76ToggleButtonsWidget(),
+      home: const Day77PhysicalModelWidget(),
     );
   }
 }

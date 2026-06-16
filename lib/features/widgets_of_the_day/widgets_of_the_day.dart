@@ -75,6 +75,7 @@ export 'day_73_refresh_indicator/day73_refresh_indicator_widget.dart';
 export 'day_74_image_filtered/day74_image_filtered_widget.dart';
 export 'day_75_aspect_ratio/day75_aspect_ratio_widget.dart';
 export 'day_76_toggle_button/day76_toggle_button_widget.dart';
+export 'day_77_physical_model/day77_physical_model_widget.dart';
 
 
 
