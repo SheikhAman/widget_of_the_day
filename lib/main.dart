@@ -102,7 +102,8 @@ class MyApp extends StatelessWidget {
       // home: const Day71SelectableTextWidget(),
       // home: const Day72AnimatedPaddingWidget(),
       // home: const Day73RefreshIndicatorWidget(),
-      home: const Day74ImageFilteredWidget(),
+      // home: const Day74ImageFilteredWidget(),
+      home: const Day75AspectRatioWidget(),
     );
   }
 }

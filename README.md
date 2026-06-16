@@ -590,6 +590,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved UI design by creating focus-based layouts using blurred backgrounds
 - Strengthened understanding of rendering effects and widget transformation layers
 
+### 75. AspectRatio (Proportional Layout Control)
+
+- Implemented Flutter’s AspectRatio widget to maintain a consistent width-to-height proportion for UI elements
+- Used aspectRatio: 3 / 2 to enforce a fixed layout ratio across different screen sizes
+- Wrapped a child widget inside AspectRatio to control its rendering dimensions
+- Practiced preventing image and container distortion by preserving original proportions
+- Improved responsive UI design by ensuring consistent visual structure on all devices
+- Learned how AspectRatio works with Flutter’s constraint-based layout system
+
+
 
 ---
 
