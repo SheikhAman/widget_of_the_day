@@ -619,6 +619,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Learned how PhysicalModel differs from Material in rendering shadows and shapes
 - Strengthened understanding of visual hierarchy and depth perception in Flutter UI design
 
+### 78. Align (Precise Widget Positioning)
+
+- Implemented Flutter’s Align widget to position child widgets within their parent container
+- Practiced positioning widgets at different locations such as center, top-left, bottom-right, etc.
+- Learned how Align helps create responsive positioning across different screen sizes
+- Built flexible layouts that adapt dynamically to available space
+- Strengthened understanding of Flutter’s coordinate-based alignment system
+
 ---
 
 <div align="center">
