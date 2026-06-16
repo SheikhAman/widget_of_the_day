@@ -581,6 +581,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened understanding of asynchronous UI updates and state refresh mechanisms in Flutter
 - Built responsive and user-friendly data reload interactions for real-world app scenarios
 
+### 74. ImageFiltered (Blur Effects & Visual Styling)
+
+- Implemented Flutter’s ImageFiltered widget to apply real-time visual effects to UI elements
+- Used ImageFilter.blur to create a smooth blur effect on images and background content
+- Configured sigmaX and sigmaY to control horizontal and vertical blur intensity
+- Practiced applying blur effects for background styling and visual depth enhancement
+- Improved UI design by creating focus-based layouts using blurred backgrounds
+- Strengthened understanding of rendering effects and widget transformation layers
+
+
 ---
 
 <div align="center">

@@ -72,6 +72,7 @@ export 'day_70_checkbox_listtile/day70_checkbox_listtile_widget.dart';
 export 'day_71_selectable_text/day71_selectable_text_widget.dart';
 export 'day_72_animated_padding/day72_animated_padding_widget.dart';
 export 'day_73_refresh_indicator/day73_refresh_indicator_widget.dart';
+export 'day_74_image_filtered/day74_image_filtered_widget.dart';
 
 
 
