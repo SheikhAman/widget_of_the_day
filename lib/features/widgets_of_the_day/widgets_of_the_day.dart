@@ -74,6 +74,7 @@ export 'day_72_animated_padding/day72_animated_padding_widget.dart';
 export 'day_73_refresh_indicator/day73_refresh_indicator_widget.dart';
 export 'day_74_image_filtered/day74_image_filtered_widget.dart';
 export 'day_75_aspect_ratio/day75_aspect_ratio_widget.dart';
+export 'day_76_toggle_button/day76_toggle_button_widget.dart';
 
 
 

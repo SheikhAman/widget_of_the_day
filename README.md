@@ -599,6 +599,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved responsive UI design by ensuring consistent visual structure on all devices
 - Learned how AspectRatio works with Flutter’s constraint-based layout system
 
+### 76. ToggleButtons (Multi & Single Selection Controls)
+
+- Implemented Flutter’s ToggleButtons widget to create interactive selection groups
+- Practiced single selection mode to allow only one active option at a time
+- Implemented multi selection mode to enable multiple options to be selected simultaneously
+- Explored required selection behavior to ensure at least one option remains active
+- Used ToggleButtons as a filter UI component for category and preference selection
+- Managed selection state using boolean lists for dynamic UI updates
+
 
 
 ---
