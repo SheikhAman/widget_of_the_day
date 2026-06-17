@@ -77,6 +77,7 @@ export 'day_75_aspect_ratio/day75_aspect_ratio_widget.dart';
 export 'day_76_toggle_button/day76_toggle_button_widget.dart';
 export 'day_77_physical_model/day77_physical_model_widget.dart';
 export 'day_78_align/day78_align_widget.dart';
+export 'day_79_safearea/day79_safearea_widget.dart';
 
 
 

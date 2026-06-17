@@ -106,7 +106,8 @@ class MyApp extends StatelessWidget {
       // home: const Day75AspectRatioWidget(),
       // home: const Day76ToggleButtonsWidget(),
       // home: const Day77PhysicalModelWidget(),
-      home: const Day78AlignWidget(),
+      // home: const Day78AlignWidget(),
+      home: const Day79SafeAreaWidget(),
     );
   }
 }
