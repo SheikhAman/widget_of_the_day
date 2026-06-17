@@ -656,6 +656,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved user experience with intuitive gesture-based interaction design
 - Strengthened understanding of gesture handling and event-driven UI behavior in Flutter
 
+### 82. BackdropFilter (Glassmorphism & Blur Effects)
+
+- Implemented Flutter’s BackdropFilter widget to apply blur effects on background content
+- Used ImageFilter.blur to create smooth background blurring for modern UI styling
+- Built a glassmorphism UI effect by combining blur with semi-transparent overlays
+- Loaded background visuals using network images (Unsplash) for realistic UI design
+- Used Stack layering to place blur effects, images, and foreground content properly
+- Practiced controlling visual depth and focus using layered widget structures
+- Enhanced UI aesthetics with frosted-glass style design patterns
+
 
 ---
 

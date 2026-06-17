@@ -80,6 +80,7 @@ export 'day_78_align/day78_align_widget.dart';
 export 'day_79_safearea/day79_safearea_widget.dart';
 export 'day_80_pageroute_builder/day80_pageroute_builder_widget.dart';
 export 'day_81_draggable/day81_draggable_widget.dart';
+export 'day_82_backdrop_filter/day82_backdrop_filter_widget.dart';
 
 
 
