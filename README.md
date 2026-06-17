@@ -636,6 +636,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced building responsive layouts that adapt to different device form factors automatically
 - Improved user experience by ensuring consistent content visibility across Android and iOS devices
 
+### 80. PageRouteBuilder (Custom Route Transitions & Navigation Animation)
+
+- Implemented Flutter’s PageRouteBuilder to create custom page transition animations
+- Built custom navigation flow using animated route transitions instead of default Material navigation
+- Used ScaleTransition to create smooth zoom-in and zoom-out page animations
+- Applied CurvedAnimation to control animation behavior and make transitions more natural and fluid
+- Strengthened understanding of Flutter’s Navigator system and animation-driven routing
+- Built more engaging and visually appealing screen transitions for modern mobile applications
+
 
 ---
 
