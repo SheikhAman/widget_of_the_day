@@ -645,6 +645,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened understanding of Flutter’s Navigator system and animation-driven routing
 - Built more engaging and visually appealing screen transitions for modern mobile applications
 
+### 81. Draggable (Drag & Drop Interaction System)
+
+- Implemented Flutter’s Draggable widget to enable drag-and-drop functionality in the UI
+- Used DragTarget to receive and handle dropped items for interactive user flows
+- Practiced building drag & drop interfaces for task movement and completion interactions
+- Customized the feedback widget to control the appearance of the item while dragging
+- Managed drag state to update UI dynamically based on user actions
+- Built interactive task-based UI where items can be moved between different zones
+- Improved user experience with intuitive gesture-based interaction design
+- Strengthened understanding of gesture handling and event-driven UI behavior in Flutter
+
 
 ---
 
