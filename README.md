@@ -675,6 +675,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced building interactive lists where users can customize item positions
 - Improved understanding of state updates when modifying list-based data structures
 
+### 84. FadeTransition (Opacity-Based Animation)
+
+- Implemented Flutter’s FadeTransition widget to create smooth fade-in and fade-out animations
+- Used an Animation<double> to control the opacity transition of the widget
+- Applied opacity: _animation! to dynamically update visibility during animation
+- Practiced integrating FadeTransition with animation controllers for lifecycle management
+- Enhanced UI experience with subtle and smooth visual transitions
+- Learned how opacity-based animations improve perceived performance and polish
+
 
 
 ---
