@@ -666,6 +666,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced controlling visual depth and focus using layered widget structures
 - Enhanced UI aesthetics with frosted-glass style design patterns
 
+### 83. ReorderableListView (Drag-to-Reorder List UI)
+
+- Implemented Flutter’s ReorderableListView widget to enable drag-and-drop reordering of list items
+- Used itemBuilder to dynamically generate list items from a data source
+- Managed list length using itemCount to control the number of rendered items
+- Handled item rearrangement with the onReorder callback to update the underlying list order
+- Practiced building interactive lists where users can customize item positions
+- Improved understanding of state updates when modifying list-based data structures
+
+
 
 ---
 
