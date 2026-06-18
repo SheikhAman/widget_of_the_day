@@ -87,6 +87,7 @@ export 'day_85_circle_avatar/day85_circle_avatar_widget.dart';
 export 'day_86_tooltip/day86_tooltip_widget.dart';
 export 'day_87_visibility/day87_visibility_widget.dart';
 export 'day_88_indexed_stack/day88_indexed_stack_widget.dart';
+export 'day_89_navigator_2.0/day89_navigator_2.0_widget.dart';
 
 
 

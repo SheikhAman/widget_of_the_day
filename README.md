@@ -721,6 +721,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Demonstrated how IndexedStack differs from normal Stack by maintaining hidden widget states
 - Built a simple multi-screen switching UI without navigation overhead
 
+### 89. Navigator 2.0 (Declarative Navigation System in Flutter)
+
+- Implemented Flutter’s Navigator 2.0 API using a declarative page-based navigation approach
+- Managed application navigation state using a boolean flag to switch between screens
+- Built a custom navigation flow without relying on push and pop methods
+- Separated UI into modular screen files for better project structure and maintainability
+- Improved understanding of modern Flutter navigation architecture used in large-scale applications
+- Demonstrated how state-driven navigation provides better control over app routing logic
+
+
+
 
 ---
 
