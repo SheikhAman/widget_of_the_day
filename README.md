@@ -693,6 +693,14 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of widget layering and positioning techniques in Flutter
 - Built visually appealing profile and user account interfaces following modern mobile app design patterns
 
+### 86. Tooltip (Contextual Help & User Guidance)
+
+- Implemented Flutter’s Tooltip widget to display helpful hints on long press or hover actions
+- Added tooltip messages to icon-based UI elements for better user understanding
+- Customized tooltip behavior using properties like waitDuration and verticalOffset
+- Practiced enhancing UX in toolbar-style layouts with action icons
+- Strengthened understanding of user interaction patterns in mobile and web apps
+- Built more intuitive and user-friendly interfaces using minimal design with hidden guidance
 
 
 ---
