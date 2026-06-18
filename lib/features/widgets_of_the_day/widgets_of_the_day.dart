@@ -84,7 +84,8 @@ export 'day_82_backdrop_filter/day82_backdrop_filter_widget.dart';
 export 'day_83_reorderable_list_view/day83_reorderable_list_view_widget.dart';
 export 'day_84_fade_transition/day84_fade_transition_widget.dart';
 export 'day_85_circle_avatar/day85_circle_avatar_widget.dart';
-export 'day_86_tooltip/day_86_tooltip_widget.dart';
+export 'day_86_tooltip/day86_tooltip_widget.dart';
+export 'day_87_visibility/day87_visibility_widget.dart';
 
 
 

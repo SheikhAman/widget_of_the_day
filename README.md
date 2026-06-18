@@ -702,6 +702,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Strengthened understanding of user interaction patterns in mobile and web apps
 - Built more intuitive and user-friendly interfaces using minimal design with hidden guidance
 
+### 87. Visibility (Show & Hide UI Elements Dynamically)
+
+- Implemented Flutter’s Visibility widget to dynamically show and hide UI elements based on user interaction
+- Used a boolean state variable to control widget rendering in real time
+- Built an interactive button that toggles between showing and hiding an image
+- Enhanced UI by applying rounded corners using ClipRRect for a modern look
+- Improved understanding of conditional rendering in Flutter layouts
+- Demonstrated efficient state management using setState for simple UI updates
+
 
 ---
 

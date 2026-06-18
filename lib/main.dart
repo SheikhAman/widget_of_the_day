@@ -115,7 +115,8 @@ class MyApp extends StatelessWidget {
       // home: const Day83ReorderableListViewWidget(),
       // home: const Day84FadeTransitionWidget(),
       // home: const Day85CircleAvatarWidget(),
-      home: const Day86TooltipWidget(),
+      // home: const Day86TooltipWidget(),
+      home: const Day87VisibilityWidget(),
     );
   }
 }
