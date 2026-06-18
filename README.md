@@ -684,6 +684,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Enhanced UI experience with subtle and smooth visual transitions
 - Learned how opacity-based animations improve perceived performance and polish
 
+### 85. CircleAvatar (Profile Image & Circular UI Elements)
+
+- Implemented Flutter’s CircleAvatar widget to display profile images in a circular format
+- Customized avatar size using the radius property for better visual presentation
+- Applied backgroundColor to create a clean border-like effect around the profile image
+- Combined CircleAvatar with Stack and Positioned for advanced profile card layouts
+- Improved understanding of widget layering and positioning techniques in Flutter
+- Built visually appealing profile and user account interfaces following modern mobile app design patterns
+
 
 
 ---

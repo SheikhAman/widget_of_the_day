@@ -83,6 +83,7 @@ export 'day_81_draggable/day81_draggable_widget.dart';
 export 'day_82_backdrop_filter/day82_backdrop_filter_widget.dart';
 export 'day_83_reorderable_list_view/day83_reorderable_list_view_widget.dart';
 export 'day_84_fade_transition/day84_fade_transition_widget.dart';
+export 'day_85_circle_avatar/day85_circle_avatar_widget.dart';
 
 
 
