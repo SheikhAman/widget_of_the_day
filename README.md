@@ -711,6 +711,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of conditional rendering in Flutter layouts
 - Demonstrated efficient state management using setState for simple UI updates
 
+### 88. IndexedStack (Maintain Multiple UI States Without Losing State)
+
+- Implemented Flutter’s IndexedStack widget to manage multiple screens within a single layout
+- Controlled visible child using an index state variable
+- Preserved the state of all stacked widgets while only showing one at a time
+- Used FloatingActionButton to switch between different UI views dynamically
+- Improved understanding of efficient UI state management in Flutter applications
+- Demonstrated how IndexedStack differs from normal Stack by maintaining hidden widget states
+- Built a simple multi-screen switching UI without navigation overhead
+
 
 ---
 
