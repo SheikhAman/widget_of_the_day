@@ -845,6 +845,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of asynchronous programming and reactive UI updates in Flutter
 - Practiced a common pattern used for API calls, database queries, and remote data fetching in production applications
 
+### 101. StreamBuilder (Handling Real-Time Data in Flutter)
+
+- Learned and implemented Flutter’s StreamBuilder widget to display continuously changing asynchronous data
+- Created a custom stream that emits integer values over time to simulate real-time updates
+- Used StreamBuilder to listen to stream events and rebuild the UI automatically whenever new data arrives
+- Displayed loading, error, and data states based on the stream connection status
+- Used initialData to provide a default value before the first stream event is received
+- Demonstrated how StreamBuilder differs from FutureBuilder by handling multiple data updates instead of a single result
+- Improved understanding of reactive programming and real-time UI updates in Flutter
+- Practiced a common pattern used for Firebase Firestore, Realtime Database, WebSockets, live notifications, and chat applications
+
 ---
 
 <div align="center">
