@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Widget Of The Day',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF4F46E5)),
         useMaterial3: false,
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFF4F46E5), // Indigo
@@ -120,7 +120,9 @@ class MyApp extends StatelessWidget {
       // home: const Day88IndexedStackWidget(),
       // home: const Day89Navigator2Widget(),
       // home: const Day90NullAwareOperatorsWidget(),
-      home: const Day91CascadeOperatorWidget(),
+      // home: const Day91CascadeOperatorWidget(),
+      home: const Day92InheritedWidget(),
+
     );
   }
 }

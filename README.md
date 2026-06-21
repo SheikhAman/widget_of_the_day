@@ -750,6 +750,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Used a custom User model class to apply properties (name, age) and method calls (changeName()) using cascade syntax
 - Learned how cascade operator makes object setup more compact and maintainable in real-world applications
 
+### 92. Inherited Widget (State Sharing Between Screens)
+
+- Learned how to use Flutter’s InheritedWidget to share state across multiple screens without passing data through constructors
+- Implemented a simple counter app where state is managed at the root level using StatefulWidget
+- Used InheritedWidget to provide global access to counter value and functions like increment and reset
+- Accessed shared state from both HomePage and CounterPage using StateInheritedWidget.of(context)
+- Demonstrated how state automatically updates across multiple screens without external packages
+- Used StatelessWidget for UI screens to keep code simple and beginner-friendly
+- Managed state using setState inside root widget while keeping UI layers clean and separated
+- Understood the basic concept behind advanced state management solutions like Provider
+
 
 
 ---
