@@ -730,6 +730,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of modern Flutter navigation architecture used in large-scale applications
 - Demonstrated how state-driven navigation provides better control over app routing logic
 
+### 90. Null Aware Operators (Dart Null Safety Handling)
+
+- Learned and implemented Dart null safety concepts using null aware operators (?, ??, ??=, ...?)
+- Used safe access operator (?.) to prevent runtime crashes when working with nullable variables
+- Applied null-coalescing operator (??) to provide default values when data is null
+- Understood null-aware spread operator (...?) to safely handle nullable lists without errors
+- Demonstrated how Dart handles null safety to improve app stability and prevent unexpected crashes
+- Improved code reliability by avoiding direct null access and using safe fallback logic
+- Built a simple UI-based demo to visually understand how each null-aware operator works in Flutter
+
+
 
 
 
