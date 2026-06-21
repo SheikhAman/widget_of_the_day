@@ -124,7 +124,8 @@ class MyApp extends StatelessWidget {
       // home: const Day91CascadeOperatorWidget(),
       // home: const Day92InheritedWidget(),
       // home: const Day93FractionallySizedBox(),
-      home: const Day94ConstrainedBox(),
+      // home: const Day94ConstrainedBox(),
+      home: const Day95CupertinoSearchTextField(),
     );
   }
 }

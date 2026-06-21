@@ -783,6 +783,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of Flutter’s layout system and how constraints affect rendering
 - Learned how ConstrainedBox is useful for responsive and controlled UI design
 
+### 95. CupertinoSearchTextField (iOS Style Search Bar in Flutter)
+
+- Learned and implemented CupertinoSearchTextField widget to create an iOS-style search bar in Flutter
+- Used TextEditingController to manage and track user input inside the search field
+- Displayed real-time search input below the search bar using setState
+- Practiced handling user input dynamically with onChanged callback
+- Understood how Cupertino widgets help build iOS-like UI in Flutter applications
+- Improved understanding of cross-platform UI design using Material and Cupertino widgets together
+
+
 ---
 
 <div align="center">
