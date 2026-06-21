@@ -98,6 +98,7 @@ export 'day_96_stateful_builder/day96_stateful_builder_widget.dart';
 export 'day_97_layout_builder/day97_layout_builder_widget.dart';
 export 'day_98_orientation_builder/day98_orientation_builder_widget.dart';
 export 'day_99_platform_detect/day99_platform_detect_widget.dart';
+export 'day_100_future_builder/day100_future_builder_widget.dart';
 
 
 

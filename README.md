@@ -833,7 +833,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Practiced writing conditional logic for platform-specific functionality
 - Improved understanding of how Flutter supports mobile, desktop, and multiple operating systems from a single codebase
 
+### 100. FutureBuilder (Handling Asynchronous Data in Flutter)
 
+- Learned and implemented Flutter’s FutureBuilder widget to display asynchronous data in the UI
+- Created a Future-based function to simulate data loading with a delay
+- Displayed different UI states based on the Future lifecycle, including loading, success, and error states
+- Used CircularProgressIndicator to provide visual feedback while waiting for data
+- Implemented error handling using snapshot.hasError to display failure messages gracefully
+- Displayed fetched data using snapshot.data after the Future completed successfully
+- Added a refresh button to reload data and trigger a new Future execution
+- Improved understanding of asynchronous programming and reactive UI updates in Flutter
+- Practiced a common pattern used for API calls, database queries, and remote data fetching in production applications
 
 ---
 
