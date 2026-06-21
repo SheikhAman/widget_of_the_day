@@ -792,6 +792,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Understood how Cupertino widgets help build iOS-like UI in Flutter applications
 - Improved understanding of cross-platform UI design using Material and Cupertino widgets together
 
+### 96. StatefulBuilder (Local State Management in Flutter)
+
+- Learned and implemented StatefulBuilder widget to manage local UI state inside a specific widget area
+- Used StatefulBuilder to update only a part of the UI without rebuilding the entire page
+- Demonstrated difference between full widget rebuild and partial widget rebuild using debugPrint
+- Used internal setState (setInnerState) to update counter only inside StatefulBuilder scope
+- Understood how StatefulBuilder helps optimize performance by reducing unnecessary rebuilds
+- Combined CupertinoButton with StatefulBuilder to create an interactive UI example
+- Learned when to use StatefulBuilder instead of full StatefulWidget for better efficiency
+
 
 ---
 

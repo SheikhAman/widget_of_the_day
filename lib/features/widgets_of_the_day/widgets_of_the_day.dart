@@ -90,10 +90,11 @@ export 'day_88_indexed_stack/day88_indexed_stack_widget.dart';
 export 'day_89_navigator_2.0/day89_navigator_2.0_widget.dart';
 export 'day_90_null_aware_operators/day90_null_aware_operators_widget.dart';
 export 'day_91_cascade_operator/day91_cascade_operator_widget.dart';
-export 'day_92_inheritade_widget/day92_inheritade_widget.dart';
+export 'day_92_inherited_widget/day92_inherited_widget.dart';
 export 'day_93_fractional_sizedbox/day93_fractional_sizedbox_widget.dart';
 export 'day_94_constrained_box/day94_constrained_box_widget.dart';
 export 'day_95_cupertino_search_textfield/day95_cupertino_search_textfield_widget.dart';
+export 'day_96_stateful_builder/day_96_stateful_builder_widget.dart';
 
 
 

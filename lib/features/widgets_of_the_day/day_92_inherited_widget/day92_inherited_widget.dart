@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_of_the_day/features/widgets_of_the_day/day_92_inheritade_widget/page/home_page.dart';
+import 'package:widget_of_the_day/features/widgets_of_the_day/day_92_inherited_widget/page/home_page.dart';
 import 'state_widget.dart';
 
 class Day92InheritedWidget extends StatelessWidget {
