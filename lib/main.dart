@@ -128,7 +128,8 @@ class MyApp extends StatelessWidget {
       // home: const Day95CupertinoSearchTextField(),
       // home: const Day96StatefulBuilder(),
       // home: const Day97LayoutBuilder(),
-      home: const Day98OrientationBuilder(),
+      // home: const Day98OrientationBuilder(),
+      home: const Day99PlatformDetect(),
     );
   }
 }

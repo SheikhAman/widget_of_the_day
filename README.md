@@ -823,6 +823,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of adaptive UI design for mobile applications
 - Learned how OrientationBuilder helps create better user experience across device orientations
 
+### 99. Platform Detection (dart:io)
+
+- Learned and implemented Dart's Platform class from the dart:io library to detect the operating system at runtime
+- Used platform checks such as Platform.isAndroid, Platform.isIOS, Platform.isWindows, Platform.isMacOS, and Platform.isLinux
+- Displayed the current platform dynamically within the Flutter user interface
+- Demonstrated how Flutter applications can adapt behavior and UI based on the target platform
+- Built a simple platform information screen to understand cross-platform development concepts
+- Practiced writing conditional logic for platform-specific functionality
+- Improved understanding of how Flutter supports mobile, desktop, and multiple operating systems from a single codebase
+
+
 
 ---
 
