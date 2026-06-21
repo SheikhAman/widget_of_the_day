@@ -772,6 +772,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of layout constraints and parent-child relationship in Flutter UI system
 - Practiced responsive design thinking which is important for real-world mobile applications
 
+### 94. ConstrainedBox (Controlling Widget Size in Flutter)
+
+- Learned and implemented Flutter’s ConstrainedBox widget to control minimum and maximum size of a widget
+- Used BoxConstraints to define limits for width and height of child widgets
+- Demonstrated how Flutter automatically adjusts widget size based on constraints
+- Built two examples showing how large widgets are reduced to max limits and small widgets are increased to min limits
+- Understood how ConstrainedBox overrides child widget dimensions when they exceed defined constraints
+- Practiced layout control using constraint-based design instead of fixed sizes
+- Improved understanding of Flutter’s layout system and how constraints affect rendering
+- Learned how ConstrainedBox is useful for responsive and controlled UI design
+
 ---
 
 <div align="center">

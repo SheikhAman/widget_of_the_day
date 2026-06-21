@@ -92,6 +92,7 @@ export 'day_90_null_aware_operators/day90_null_aware_operators_widget.dart';
 export 'day_91_cascade_operator/day91_cascade_operator_widget.dart';
 export 'day_92_inheritade_widget/day92_inheritade_widget.dart';
 export 'day_93_fractional_sizedbox/day93_fractional_sizedbox_widget.dart';
+export 'day_94_constrained_box/day94_constrained_box_widget.dart';
 
 
 
