@@ -812,6 +812,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Understood how LayoutBuilder helps in designing adaptive UIs for multiple screen sizes
 - Practiced real-world responsive design pattern used in modern Flutter applications
 
+### 98. OrientationBuilder (Responsive UI Based on Device Rotation)
+
+- Learned and implemented OrientationBuilder widget to create responsive UI based on device orientation
+- Built separate layouts for portrait and landscape modes using conditional rendering
+- Designed a vertical layout (ListView) for portrait mode and horizontal layout (Row) for landscape mode
+- Demonstrated how Flutter automatically adapts UI when device orientation changes
+- Used image and text widgets to showcase real-world responsive content layout
+- Practiced separating UI logic into reusable methods for better code readability
+- Improved understanding of adaptive UI design for mobile applications
+- Learned how OrientationBuilder helps create better user experience across device orientations
 
 
 ---
