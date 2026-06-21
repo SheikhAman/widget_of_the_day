@@ -740,7 +740,15 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved code reliability by avoiding direct null access and using safe fallback logic
 - Built a simple UI-based demo to visually understand how each null-aware operator works in Flutter
 
+### 91. Cascade Operator (..) in Dart
 
+- Learned and implemented Dart’s Cascade Operator (..) to perform multiple operations on the same object in a clean and readable way
+- Used cascade notation to initialize object properties and call methods in a single chain
+- Demonstrated how cascade operator reduces repetitive object references and improves code readability
+- Compared cascade approach with traditional object initialization to understand cleaner syntax benefits
+- Built a simple Flutter UI to visually show differences between cascade operator and normal object assignment
+- Used a custom User model class to apply properties (name, age) and method calls (changeName()) using cascade syntax
+- Learned how cascade operator makes object setup more compact and maintainable in real-world applications
 
 
 
