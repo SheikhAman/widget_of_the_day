@@ -131,7 +131,8 @@ class MyApp extends StatelessWidget {
       // home: const Day98OrientationBuilder(),
       // home: const Day99PlatformDetect(),
       // home: const Day100FutureBuilder(),
-      home: const Day101StreamBuilder(),
+      // home: const Day101StreamBuilder(),
+      home: const Day102ChangeNotifier(),
     );
   }
 }

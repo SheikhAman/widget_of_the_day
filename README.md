@@ -856,6 +856,18 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of reactive programming and real-time UI updates in Flutter
 - Practiced a common pattern used for Firebase Firestore, Realtime Database, WebSockets, live notifications, and chat applications
 
+### 102. ChangeNotifier (Basic State Management in Flutter)
+
+- Learned and implemented Flutter’s ChangeNotifier class for simple state management
+- Created a custom controller that extends ChangeNotifier to manage application state
+- Used notifyListeners() to automatically inform widgets when data changes
+- Built a counter application with increment and decrement functionality
+- Connected the UI to the controller using listeners and setState
+- Demonstrated how state can be separated from UI logic for better code organization
+- Implemented proper lifecycle management by disposing the controller when no longer needed
+- Improved understanding of Flutter's foundation for Provider and other state management solutions
+- Practiced a common architecture pattern used in medium and large Flutter applications
+
 ---
 
 <div align="center">
