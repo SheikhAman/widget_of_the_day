@@ -126,7 +126,8 @@ class MyApp extends StatelessWidget {
       // home: const Day93FractionallySizedBox(),
       // home: const Day94ConstrainedBox(),
       // home: const Day95CupertinoSearchTextField(),
-      home: const Day96StatefulBuilder(),
+      // home: const Day96StatefulBuilder(),
+      home: const Day97LayoutBuilder(),
     );
   }
 }

@@ -802,6 +802,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Combined CupertinoButton with StatefulBuilder to create an interactive UI example
 - Learned when to use StatefulBuilder instead of full StatefulWidget for better efficiency
 
+### 97. LayoutBuilder (Responsive UI in Flutter)
+
+- Learned and implemented LayoutBuilder widget to build responsive UI based on screen size
+- Used BoxConstraints to detect available screen width and adapt layout dynamically
+- Created a mobile-first UI that switches layout when width is less than 600 pixels
+- Built a desktop/tablet version using Row with sidebar and main content layout
+- Demonstrated how Flutter can create responsive applications without external packages
+- Understood how LayoutBuilder helps in designing adaptive UIs for multiple screen sizes
+- Practiced real-world responsive design pattern used in modern Flutter applications
+
+
 
 ---
 
