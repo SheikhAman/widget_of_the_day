@@ -121,8 +121,8 @@ class MyApp extends StatelessWidget {
       // home: const Day89Navigator2Widget(),
       // home: const Day90NullAwareOperatorsWidget(),
       // home: const Day91CascadeOperatorWidget(),
-      home: const Day92InheritedWidget(),
-
+      // home: const Day92InheritedWidget(),
+      home: const Day93FractionallySizedBox(),
     );
   }
 }

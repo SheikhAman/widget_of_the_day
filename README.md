@@ -761,7 +761,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Managed state using setState inside root widget while keeping UI layers clean and separated
 - Understood the basic concept behind advanced state management solutions like Provider
 
+### 93. FractionallySizedBox (Responsive UI Using Percentages)
 
+- Learned and implemented Flutter’s FractionallySizedBox widget to create responsive layouts based on parent dimensions
+- Used widthFactor and heightFactor to size widgets as a percentage instead of fixed pixel values
+- Demonstrated how child widgets automatically scale according to their parent container size
+- Built a simple UI example showing how a widget can take 60% width and 70% height of its parent
+- Understood how FractionallySizedBox helps in building adaptive and responsive Flutter interfaces
+- Learned that fixed width and height inside child widgets are ignored when using FractionallySizedBox
+- Improved understanding of layout constraints and parent-child relationship in Flutter UI system
+- Practiced responsive design thinking which is important for real-world mobile applications
 
 ---
 
