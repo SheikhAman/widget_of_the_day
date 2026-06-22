@@ -102,6 +102,7 @@ export 'day_100_future_builder/day100_future_builder_widget.dart';
 export 'day_101_stream_builder/day101_stream_builder_widget.dart';
 export 'day_102_change_notifier/day102_change_notifier_widget.dart';
 export 'day_103_value_notifier/day103_value_notifier_widget.dart';
+export 'day_104_inherited_notifier/day104_inherited_notifier_widget.dart';
 
 
 

@@ -880,6 +880,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Learned a lightweight alternative to ChangeNotifier for managing simple state
 - Practiced efficient widget rebuilding by updating only the listening widgets
 
+### 104. InheritedNotifier (Reactive State + Animation Control in Flutter)
+
+- Learned and implemented InheritedNotifier to efficiently pass and listen to AnimationController changes in the widget tree
+- Used AnimationController to create a continuously rotating animation using repeat()
+- Built a reusable SpinModel that shares animation state across multiple widgets
+- Demonstrated how multiple widgets can react to a single animation source without manual setState calls
+- Used Transform.rotate to visually animate widgets based on controller value
+- Improved understanding of Flutter’s reactive rendering system and inherited state mechanisms
+- Learned how InheritedNotifier combines the power of InheritedWidget and Listenable for optimized UI updates
+- Practiced building scalable animation architecture used in real-world Flutter applications
+
 ---
 
 <div align="center">

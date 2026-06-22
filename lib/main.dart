@@ -133,7 +133,8 @@ class MyApp extends StatelessWidget {
       // home: const Day100FutureBuilder(),
       // home: const Day101StreamBuilder(),
       // home: const Day102ChangeNotifier(),
-      home: const Day103ValueNotifier(),
+      // home: const Day103ValueNotifier(),
+      home: const Day104InheritedNotifier(),
     );
   }
 }
