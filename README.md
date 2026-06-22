@@ -922,6 +922,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Added a swipe hint on the first page using a conditional if index == 0 check, improving first-time user experience without cluttering other pages.
 - Strengthened understanding of lazy rendering patterns in Flutter, which is foundational knowledge for building performant list-based and page-based UIs in production apps.
 
+### 108. AnimatedBuilder Widget (Efficient Animation Composition in Flutter)
+
+- Learned how to use AnimatedBuilder to listen to an AnimationController and rebuild only the animated part of the widget tree on every tick, without triggering a full screen rebuild.
+- Understood the most important concept of AnimatedBuilder — the child parameter is built only once and passed into the builder, meaning static widgets inside the animation are never unnecessarily recreated.
+- Used SingleTickerProviderStateMixin to provide a vsync to the AnimationController, which ties the animation to the screen refresh rate and prevents offscreen animations from consuming resources.
+- Implemented a repeat() animation that continuously loops from 0.0 to 1.0 and used that value to drive a full 360 degree rotation using Transform.rotate and dart math pi.
+- Added a pause and resume toggle using stop() and repeat() on the controller, showing how AnimationController can be fully controlled at runtime with simple method calls.
+- Displayed the live animation value on screen using a second AnimatedBuilder, helping visualize how the controller value changes from 0.0 to 1.0 on every frame.
+- Strengthened understanding of how AnimationController, AnimatedBuilder, and the child optimization pattern work together, which is the foundation for building smooth, performant animations in Flutter.
+
 
 ---
 
