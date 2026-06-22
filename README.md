@@ -891,6 +891,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Learned how InheritedNotifier combines the power of InheritedWidget and Listenable for optimized UI updates
 - Practiced building scalable animation architecture used in real-world Flutter applications
 
+### 105. Listener Widget (Low-Level Pointer Event Handling in Flutter)
+
+- Learned how to use the Listener widget to capture raw pointer events such as pointer down, pointer move, and pointer up interactions.
+- Implemented real-time tracking of user touch position using PointerMoveEvent, updating UI dynamically with setState.
+- Built an interactive UI that tracks live pointer movement and displays accurate touch coordinates inside a constrained area.
+- Also tracked gesture statistics like pointer down and pointer up counts to understand event lifecycle behavior in Flutter.
+- Used Offset to manage pointer position efficiently and update UI in a clean and structured way.
+- Improved understanding of low-level input handling in Flutter, which is essential for building custom gestures, drawing apps, games, and interactive UI systems.
+- Learned how Listener differs from GestureDetector by providing raw pointer data without abstraction or gesture interpretation.
+
+
 ---
 
 <div align="center">
