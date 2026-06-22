@@ -901,6 +901,16 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of low-level input handling in Flutter, which is essential for building custom gestures, drawing apps, games, and interactive UI systems.
 - Learned how Listener differs from GestureDetector by providing raw pointer data without abstraction or gesture interpretation.
 
+### 106. Builder Widget (Context Management in Flutter)
+
+- Learned how to use the Builder widget to obtain a new BuildContext  from within the widget tree, solving common context-related issues in Flutter.
+- Understood why the default build(BuildContext context) context is above the Scaffold, making it unable to access widgets like Scaffold, ScaffoldMessenger, or inherited theme overrides directly.
+- Used Builder to call ScaffoldMessenger.of(newContext).showSnackBar(...) successfully — something that would crash with an error if attempted using the parent context.
+- Demonstrated how Theme.of(newContext) inside a Builder can correctly read theme data and color schemes that are only available deeper in the widget tree.
+- Built a structured, beginner-friendly UI with reusable card components to visually explain the three core use cases** of Builder: context info, theme access, and SnackBar triggering.
+- Understood the key difference between Builder and other context-aware widgets — Builder is lightweight, stateless, and exists purely to provide a scoped context without adding any visual output of its own.
+- Strengthened understanding of Flutter's widget tree and context hierarchy, which is foundational knowledge for working with navigation, theming, overlays, and inherited widgets in real-world apps.
+
 
 ---
 

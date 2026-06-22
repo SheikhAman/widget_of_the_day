@@ -104,6 +104,7 @@ export 'day_102_change_notifier/day102_change_notifier_widget.dart';
 export 'day_103_value_notifier/day103_value_notifier_widget.dart';
 export 'day_104_inherited_notifier/day104_inherited_notifier_widget.dart';
 export 'day_105_listener/day105_listener_widget.dart';
+export 'day_106_builder/day106_builder_widget.dart';
 
 
 

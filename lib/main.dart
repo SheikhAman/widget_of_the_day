@@ -135,7 +135,8 @@ class MyApp extends StatelessWidget {
       // home: const Day102ChangeNotifier(),
       // home: const Day103ValueNotifier(),
       // home: const Day104InheritedNotifier(),
-      home: const Day105Listener(),
+      // home: const Day105Listener(),
+      home: const Day106Builder(),
     );
   }
 }
