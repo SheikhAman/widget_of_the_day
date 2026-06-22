@@ -868,6 +868,18 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Improved understanding of Flutter's foundation for Provider and other state management solutions
 - Practiced a common architecture pattern used in medium and large Flutter applications
 
+### 103. ValueNotifier & ValueListenableBuilder (Lightweight State Management)
+
+- Learned and implemented Flutter’s ValueNotifier class for lightweight state management
+- Used ValueNotifier to store and update a single integer value efficiently
+- Built a counter application with increment and decrement functionality
+- Used ValueListenableBuilder to listen for value changes and rebuild only the required UI section
+- Demonstrated how state updates can occur without calling setState
+- Separated business logic from UI by creating a dedicated controller class
+- Improved understanding of reactive programming concepts in Flutter
+- Learned a lightweight alternative to ChangeNotifier for managing simple state
+- Practiced efficient widget rebuilding by updating only the listening widgets
+
 ---
 
 <div align="center">
