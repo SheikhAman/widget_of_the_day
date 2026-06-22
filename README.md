@@ -911,6 +911,17 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Understood the key difference between Builder and other context-aware widgets — Builder is lightweight, stateless, and exists purely to provide a scoped context without adding any visual output of its own.
 - Strengthened understanding of Flutter's widget tree and context hierarchy, which is foundational knowledge for working with navigation, theming, overlays, and inherited widgets in real-world apps.
 
+### 107. PageView.builder Widget (Swipeable Page Navigation in Flutter)
+
+- Learned how to use PageView.builder to create a lazily-built, memory-efficient swipeable page UI, where each page is constructed only when it is about to be displayed.
+- Understood the key difference between PageView and PageView.builder — the builder variant builds pages on demand, making it significantly more performant for dynamic or large page sets.
+- Used PageController to programmatically manage page navigation and properly disposed it inside dispose() to avoid memory leaks.
+- Implemented onPageChanged callback to track the current page index in real time and sync it with the animated dot indicator on the side.
+- Built a vertical scrolling page experience using scrollDirection: Axis.vertical, demonstrating that PageView supports both horizontal and vertical swipe directions.
+- Enriched each page with a unique icon, label, and color theme using a List of Map data structure, making the code clean, scalable, and easy to extend.
+- Added a swipe hint on the first page using a conditional if index == 0 check, improving first-time user experience without cluttering other pages.
+- Strengthened understanding of lazy rendering patterns in Flutter, which is foundational knowledge for building performant list-based and page-based UIs in production apps.
+
 
 ---
 
