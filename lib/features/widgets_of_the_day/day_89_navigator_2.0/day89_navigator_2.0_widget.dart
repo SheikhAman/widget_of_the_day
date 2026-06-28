@@ -6,8 +6,7 @@ class Day89Navigator2Widget extends StatefulWidget {
   const Day89Navigator2Widget({super.key});
 
   @override
-  State<Day89Navigator2Widget> createState() =>
-      _Day89Navigator2WidgetState();
+  State<Day89Navigator2Widget> createState() => _Day89Navigator2WidgetState();
 }
 
 class _Day89Navigator2WidgetState extends State<Day89Navigator2Widget> {
@@ -36,7 +35,14 @@ class _Day89Navigator2WidgetState extends State<Day89Navigator2Widget> {
             ),
         ],
         onDidRemovePage: (page) {
-          setScreen(true);
+          // ✅ Defer setState to after the current build phase
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            if (mounted) {
+              setState(() {
+                isFirstScreen = true;
+              });
+            }
+          });
         },
       ),
     );

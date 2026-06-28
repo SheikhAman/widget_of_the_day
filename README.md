@@ -11,7 +11,7 @@ This project is built to strengthen core Flutter UI skills by implementing one w
 **Widget of the Day** is a learning-focused Flutter project where each widget is explored through practical UI examples.  
 Instead of theory-heavy learning, this project focuses on *learning by building*.
 
-The goal is to deeply understand Flutter’s layout system, widget behavior, and UI composition by working with small, focused implementations.
+The goal is to deeply understand Flutter's layout system, widget behavior, and UI composition by working with small, focused implementations.
 
 🎯 Perfect for:
 - Flutter beginners
@@ -65,1184 +65,1770 @@ The goal is to deeply understand Flutter’s layout system, widget behavior, and
 - Keeping functional logic separated from UI for better code structure and maintainability
 
 ### 9. Bottom Navigation Bar
-
 - Implemented using `StatefulWidget` for managing active tab state
 - Used `BottomNavigationBarType.fixed` for consistent tab layout
 - Managed multiple pages with indexed navigation
 - Demonstrated clean multi-page app structure
 
 ### 10. AppBar
-
 - Implemented `leading` widget for left-aligned actions (e.g. menu/back button)
 - Used `actions` for right-aligned interactive icons/buttons
 - Practiced proper AppBar structure for real-world app UI design
 
 ### 11. Drawer (Navigation Panel)
-
 - Implemented `Drawer` for side navigation menu
 - Wrapped Drawer content inside `ListView` for smooth scrolling support
 - Used `DrawerHeader` for profile/branding section at the top
 - Built menu items using `ListTile` for clean and structured navigation options
 
 ### 12. SliverAppBar (Advanced Scroll UI)
-
 - Implemented `SliverAppBar` inside `CustomScrollView` for advanced scrolling behavior
 - Used `expandedHeight` to create dynamic collapsing header effect
 - Practiced `flexibleSpace` for building expandable and animated AppBar content
 
 ### 13. TabBar (Tabbed Navigation)
-
 - Implemented tab-based navigation using `TabBar` and `TabBarView`
 - Wrapped `Scaffold` with `DefaultTabController` to manage tab state
 - Configured `length` to define the number of tabs
 
 ### 14. AnimatedContainer (Smooth UI Animations)
-
 - Implemented `AnimatedContainer` for smooth property-based animations
 - Used `GestureDetector` to trigger animations on user interaction (`onTap`)
 - Controlled animation timing using `duration` (in seconds) for smooth transitions
 - Animated UI changes such as size, color, alignment, and decoration
 
 ### 15. MediaQuery (Responsive UI Design)
-
 - Used `MediaQuery` to build responsive Flutter layouts
 - Accessed screen `height` and `width` for dynamic UI scaling
 - Applied `aspect ratio` understanding for maintaining consistent UI proportions across devices
 - Handled device `orientation` (portrait / landscape) for adaptive layouts
 
 ### 16. AlertDialog (User Interaction & Feedback)
-
 - Implemented `AlertDialog` for showing important user messages and confirmations
-- Structured dialog using:
-    - `title` for main heading
-    - `content` for descriptive message
-    - `actions` for user response buttons (e.g. OK / Cancel)
+- Structured dialog using `title`, `content`, and `actions`
 
 ### 17. Text & Styling
-
 - Implemented `Text` widget with advanced styling options
-- Used `TextStyle` to customize typography
-    - `fontStyle: FontStyle.italic` for italic text effect
-    - `fontWeight` for controlling text thickness (light → bold)
+- Used `TextStyle` to customize typography with `fontStyle`, `fontWeight`, etc.
 
 ### 18. RichText (Advanced Text Styling)
-
 - Implemented `RichText` widget for displaying multiple text styles in a single line
 - Used `TextSpan` to break text into styled segments
-- Applied a default style at the root level for consistent formatting
-- Used multiple child `TextSpan` widgets to style different parts of the text independently
 
 ### 19. Timer (Countdown Logic)
-
 - Implemented `Timer` functionality using `StatefulWidget`
-- Built a simple countdown UI using `Text` widget
 - Managed recurring time updates using `Timer.periodic`
 
 ### 20. PageView (Vertical Scrolling UI)
-
 - Implemented `PageView` for swipe-based screen navigation
 - Set `scrollDirection: Axis.vertical` for vertical scrolling interaction
-- Designed multiple pages representing different “Post” screens
-- Enabled smooth full-screen page transitions similar to social media apps
 
 ### 21. Stack (Layered UI Layout)
-
 - Implemented `Stack` to place multiple widgets on top of each other
 - Built layered UI components by controlling widget positioning and visual hierarchy
 
 ### 22. TextField (User Input Handling)
-
 - Implemented `TextField` inside a `StatefulWidget` for dynamic user input
-- Styled input field using `decoration` for better UI experience
-- Added `suffixIcon` for quick action (e.g. clear input)
-- Displayed user input dynamically using `Expanded` widget (`userPost`)
+- Styled input field using `decoration` and added `suffixIcon`
 
 ### 23. AnimatedIcon (Animated UI Transitions)
-
 - Implemented `AnimatedIcon` inside a `StatefulWidget` for interactive icon animations
 - Used `SingleTickerProviderStateMixin` to provide vsync for smooth animations
-- Explored Flutter documentation to understand animation lifecycle and best practices
 
 ### 24. Slider (Interactive Value Selection)
-
 - Implemented `Slider` inside a `StatefulWidget` to manage dynamic values
-- Used `Slider(value: value, onChanged: onChanged)` for real-time user interaction
 - Updated UI instantly as the slider value changed
-- Explored customization options available in the Slider widget
 
 ### 25. DatePicker (Date Selection)
-
 - Implemented date selection using Flutter's `showDatePicker`
-- Displayed a native date picker dialog for user-friendly date input
-- Retrieved and displayed the selected date dynamically in the UI
+- Displayed selected date dynamically in the UI
 
 ### 26. TimePicker (Time Selection)
-
-- Implemented time selection using Flutter's showTimePicker
-- Displayed a native time picker dialog for user-friendly time input
-- Used TimeOfDay to store and manage the selected time state
-- Retrieved and displayed the selected time dynamically in the UI
+- Implemented time selection using Flutter's `showTimePicker`
+- Used `TimeOfDay` to store and manage the selected time state
 
 ### 27. ListWheelScrollView (3D Wheel Scrolling)
-
-- Implemented ListWheelScrollView inside a StatefulWidget to create a 3D wheel-like scrolling effect
-- Used itemExtent to define the height of each scroll item
-- Applied FixedExtentScrollPhysics for snap-to-item scrolling behavior
-- Used onSelectedItemChanged to track and update the currently selected item dynamically
+- Implemented `ListWheelScrollView` with 3D wheel-like scrolling effect
+- Applied `FixedExtentScrollPhysics` for snap-to-item scrolling behavior
 
 ### 28. LinearGradient (Gradient Background Design)
+- Implemented `LinearGradient` inside a `Container` using `BoxDecoration`
+- Applied `LinearGradient` to create smooth multi-color transitions
 
-- Implemented LinearGradient inside a Container using BoxDecoration
-- Used decoration property to style the container background
-- Applied LinearGradient to create smooth multi-color transitions
-
-### 29. ElevatedButton & OutlinedButton (Button Styling & Interaction Design)
-
-- Implemented ElevatedButton and OutlinedButton to understand primary and secondary action patterns in Flutter UI
-- Used onPressed callback to handle user interactions and trigger actions
-- Customized ElevatedButton using styleFrom() to control elevation, background color, padding, and shape
-- Styled OutlinedButton to modify border color, border width, and rounded corners for a clean UI look
+### 29. ElevatedButton & OutlinedButton (Button Styling)
+- Implemented `ElevatedButton` and `OutlinedButton` for primary and secondary actions
+- Customized using `styleFrom()` to control elevation, color, padding, and shape
 
 ### 30. FloatingActionButton (Primary Action Button)
-
-- Implemented FloatingActionButton to represent the primary action in a Flutter screen
-- Used onPressed callback to handle user interaction and trigger core actions
-- Practiced using FAB as a quick-access action button to improve user experience and app usability
+- Implemented `FloatingActionButton` to represent the primary action in a screen
+- Practiced using FAB as a quick-access action button
 
 ### 31. Navigator (Screen Navigation & Routing)
-
-- Implemented named route navigation using Flutter's Navigator widget
-- Configured initialRoute to define the app's default screen on launch
-- Used Navigator.pushNamed() to navigate between screens using route names
-- Implemented Navigator.pop() to return to the previous screen in the navigation stack
-- Practiced managing multi-screen application flow using Flutter's built-in routing system
+- Implemented named route navigation using Flutter's `Navigator` widget
+- Used `Navigator.pushNamed()` and `Navigator.pop()` for multi-screen flow
 
 ### 32. Card (Material Design Card Layout)
-
-- Implemented Flutter's Card widget to create a clean and organized content container
-- Customized card shape using RoundedRectangleBorder for a modern appearance
-- Applied BorderRadius.circular(16) to create smooth rounded corners
-- Used a Column widget inside the card to arrange multiple child widgets vertically
-- Configured elevation to create depth and realistic shadow effects
+- Implemented Flutter's `Card` widget with `RoundedRectangleBorder`
+- Configured `elevation` for depth and shadow effects
 
 ### 33. Custom Clipper (Wave Shape & Custom UI Design)
-
-- Implemented ClipPath with CustomClipper<Path> to create custom-shaped UI components
-- Designed a wave-like background using path drawing techniques
-- Used quadraticBezierTo to create smooth curved transitions for wave effects
-- Customized clipping behavior to control how widgets are visually cut into custom shapes
-- Built reusable custom clipper logic for advanced UI styling
-- Practiced Flutter’s custom painting and path-based UI manipulation for modern interfaces
+- Implemented `ClipPath` with `CustomClipper<Path>` for custom-shaped UI
+- Used `quadraticBezierTo` for smooth wave effects
 
 ### 34. RawMaterialButton (Low-Level Custom Button Design)
+- Explored `RawMaterialButton` for highly customizable button design
+- Applied color and highlight effects for interaction feedback
 
-- Explored Flutter’s RawMaterialButton, a low-level and highly customizable button widget
-- Understood how it provides more control compared to standard Material buttons like ElevatedButton
-- Applied color and highlight effects to enhance user interaction feedback
-- Built flexible button designs suitable for advanced and custom UI components
-- Practiced creating reusable button styles with full visual and behavioral control
+### 35. RotatedBox (90° Rotation)
+- Explored `RotatedBox` to rotate widgets in fixed 90-degree increments
+- Displayed images using `Image.network`
 
-### 35. RotatedBox (90° Rotation & Layout Transformation)
-
-- Explored Flutter’s RotatedBox, used to rotate widgets in fixed 90-degree increments
-- Practiced rotating text and UI elements to create unique layout designs
-- Displayed images using Image.network to load and render content from the internet
-- Experimented with rotated widgets to enhance creativity in UI composition
-
-### 36. Transform (Widget Transformation & Visual Effects)
-
-- Implemented Flutter’s Transform widget to modify the appearance of UI elements without affecting layout constraints
-- Used the transform property to apply custom transformations such as rotation, scaling, and translation
-- Practiced creating dynamic visual effects and interactive UI components
-- Enhanced user interface design through advanced widget positioning and animation-ready transformations
+### 36. Transform (Widget Transformation)
+- Implemented `Transform` widget for rotation, scaling, and translation
+- Enhanced UI with dynamic visual effects
 
 ### 37. Positioned (Precise Widget Placement in Stack)
-
-- Implemented Flutter’s Positioned widget inside a Stack to place widgets at specific locations on the screen
-- Used the alignment property of Stack to control the default positioning behavior of child widgets
-- Explored how Positioned enables precise control over widget placement using properties such as top, bottom, left, and right
-- Learned that Positioned typically uses two positioning properties at a time to define a widget’s location within the stack
+- Implemented `Positioned` inside a `Stack` for precise widget placement
+- Used `top`, `bottom`, `left`, and `right` properties
 
 ### 38. IconButton (Interactive Icon-Based Actions)
-
-- Implemented Flutter’s IconButton widget to create tappable icon-based actions in the UI
-- Used onPressed callback to handle user interactions and trigger functionality
-- Customized icon appearance using properties like color, size, and icon
-- Built interactive UI components using icons instead of full text buttons
+- Implemented `IconButton` for tappable icon-based actions
+- Customized using `color`, `size`, and `icon` properties
 
 ### 39. CustomPaint (Custom Drawing & Canvas Rendering)
-
-- Explored Flutter’s CustomPaint widget to create fully custom UI graphics using a canvas
-- Used CustomPainter to draw shapes, lines, and custom visual elements manually
-- Understood how the paint method works to render graphics directly on the screen
-- Practiced using Canvas and Paint objects to control stroke, color, and drawing styles
+- Explored `CustomPaint` with `CustomPainter` for custom UI graphics
+- Used `Canvas` and `Paint` to control stroke, color, and drawing styles
 
 ### 40. ClipOval (Circular Image Clipping)
-
-- Implemented Flutter’s ClipOval widget to display widgets in an oval or circular shape
-- Used Image.network inside ClipOval to create a circular profile-style image
-- Applied BoxFit.cover to ensure the image fills the available space without distortion
-- Practiced clipping rectangular images into clean circular layouts
-- Enhanced UI design by creating visually appealing avatar and profile image components
+- Implemented `ClipOval` to display widgets in circular shape
+- Applied `BoxFit.cover` for distortion-free image filling
 
 ### 41. ClipRRect (Rounded Corner Image Clipping)
+- Used `borderRadius` to control and customize roundness of each corner
+- Combined `BoxFit.cover` for proper image filling
 
-- Implemented Flutter’s ClipRRect widget to apply rounded corners to UI elements
-- Used borderRadius to control and customize the roundness of each corner
-- Practiced converting sharp-corner images into modern, card-style visuals
-- Learned how clipping improves UI consistency and design aesthetics
-- Combined BoxFit.cover to ensure images fill the container properly without distortion
-
-### 42. ClipRect (Rectangular Clipping & Content Control)
-
-- Implemented Flutter’s ClipRect widget to clip child widgets within a rectangular boundary
-- Learned how clipping affects rendering by restricting content outside defined bounds
-- Compared ClipRect with other clipping widgets like ClipRRect and ClipOval
-- Enhanced UI control by ensuring clean and structured image display
+### 42. ClipRect (Rectangular Clipping)
+- Implemented `ClipRect` to clip child widgets within a rectangular boundary
+- Compared with `ClipRRect` and `ClipOval`
 
 ### 43. ClipPath (Custom Shape Clipping)
-
-- Implemented Flutter’s ClipPath widget to create custom-shaped UI components
-- Used the clipper property with a custom CustomClipPath() class to define clipping behavior
-- Overrode getClip(Size size) to generate custom clipping paths based on widget dimensions
-- Utilized the Path class to draw and control complex clipping shapes
-- Implemented shouldReclip(CustomClipper<Path> oldClipper) to determine when the clip path should be recalculated
-- Enhanced UI creativity by creating reusable custom clipper components for advanced interfaces
+- Implemented `ClipPath` with custom `CustomClipPath()` class
+- Overrode `getClip(Size size)` to generate custom clipping paths
 
 ### 44. Radial & Sweep Gradient (Advanced Gradient Effects)
-
-- Implemented Flutter’s RadialGradient and SweepGradient inside a Container using BoxDecoration
-- Used RadialGradient to create circular gradient effects that radiate from a central point
-- Compared radial vs sweep gradients to understand their visual differences and use cases
-- Enhanced screen aesthetics with modern and dynamic background visuals
+- Implemented `RadialGradient` and `SweepGradient` inside a `Container`
+- Compared radial vs sweep gradients for visual differences
 
 ### 45. StatefulWidget (State Lifecycle Management)
-
-- Implemented StatefulWidget to manage dynamic and interactive UI states in Flutter
-- Used createState() to create and associate the mutable state with the widget
-- Practiced initState() for initializing data and setting up one-time configurations
-- Explored didChangeDependencies() to handle changes in inherited widgets and dependencies
-- Learned didUpdateWidget() to respond when the parent widget configuration changes
-- Used deactivate() to understand widget removal from the widget tree
-- Managed resource cleanup using dispose() to prevent memory leaks
-- Utilized setState(() {}) to update UI dynamically and trigger widget rebuilds
-- Strengthened understanding of the complete Flutter widget lifecycle for state management and performance control
+- Implemented `StatefulWidget` with full lifecycle: `initState`, `didChangeDependencies`, `didUpdateWidget`, `deactivate`, `dispose`
+- Utilized `setState(() {})` to update UI dynamically
 
 ### 46. Table (Structured Data Layout)
-
-- Implemented Flutter’s Table widget to display structured data in a grid-like format
-- Used TableRow to define each row and organize content in a tabular structure
-- Applied children property to manage and arrange multiple table cells
-- Customized table appearance using border for clear cell separation and styling
-- Practiced building structured UI layouts suitable for data representation
+- Implemented `Table` widget with `TableRow` for structured data
+- Applied `border` for cell separation and styling
 
 ### 47. DataTable (Interactive Tabular Data UI)
-
-- Implemented Flutter’s DataTable widget to display structured and interactive tabular data
-- Used columns to define table headers and organize data structure clearly
-- Managed rows to populate and display dynamic data in each row
-- Practiced building interactive data-driven UI components suitable for real-world admin panels and dashboards
-- Strengthened understanding of Flutter’s advanced table management and user interaction handling
+- Implemented `DataTable` with `columns` and `rows` for interactive data
+- Built suitable for admin panels and dashboards
 
 ### 48. Placeholder (UI Skeleton & Layout Debugging)
-
-- Implemented Flutter’s Placeholder widget to visualize empty UI spaces during development
-- Used fallbackHeight to control the default height when no constraints are provided
-- Customized color to distinguish placeholder areas from actual UI components
-- Adjusted strokeWidth to control the thickness of the placeholder border lines
-- Practiced using Placeholder for debugging and layout structure planning
-- Helped identify widget boundaries and layout spacing during UI design phase
+- Implemented `Placeholder` for visualizing empty UI spaces during development
+- Customized `fallbackHeight`, `color`, and `strokeWidth`
 
 ### 49. GestureDetector & InkWell (User Interaction Handling)
-
-- Implemented GestureDetector to detect and handle raw touch interactions such as onTap
-- Used InkWell to add Material Design ripple effects on user taps
-- Compared GestureDetector vs InkWell to understand low-level vs Material-based interaction handling
-- Applied onTap callbacks to trigger actions and respond to user input
-- Practiced wrapping widgets with gesture handlers to make UI elements interactive
-- Learned how InkWell requires a Material ancestor to show splash effects properly
+- Implemented `GestureDetector` for raw touch interactions
+- Used `InkWell` to add Material Design ripple effects
 
 ### 50. Material (Surface, Elevation & Visual Styling)
-
-- Implemented Flutter’s Material widget to define a material design surface for UI components
-- Used Material to control visual properties like elevation, shadow, and background color of child widgets
-- Learned how Material acts as a visual container that enhances the appearance of its child widgets
-- Practiced wrapping widgets with Material to enable proper rendering of effects like ripple and shadow
-- Combined Material with interactive widgets to improve visual feedback and consistency
+- Implemented `Material` widget to define a material design surface
+- Used to control `elevation`, shadow, and background color
 
 ### 51. Switches (Switch, Checkbox & Radio)
+- Implemented `Switch`, `Checkbox`, and `Radio` widgets
+- Used `ListTile` with toggle-based controls for settings-style UI
 
-- Implemented Flutter’s Switch, Checkbox, and Radio widgets to handle user input and selection states
-- Used ListTile to create clean and structured UI layouts for toggle-based controls
-- Managed state using value and onChanged to update UI dynamically based on user interaction
-- Learned groupValue usage in Radio widgets to handle single selection from multiple options
-- Practiced building settings-style UI screens using toggle and selection controls
-- Improved ability to design intuitive and user-friendly preference and configuration screens
-
-### 52. Dropdown & PopupMenu (Selection Menus & User Actions)
-
-- Implemented Flutter’s DropdownButton and PopupMenuButton widgets to provide selectable menu options
-- Used dropdown menus to allow users to choose a single value from a predefined list of items
-- Managed selected values dynamically using state updates and user interactions
-- Practiced handling menu item selection through callback methods and state management
-- Improved UI usability by reducing screen clutter with menu-based interactions
+### 52. Dropdown & PopupMenu (Selection Menus)
+- Implemented `DropdownButton` and `PopupMenuButton` for selectable menus
+- Managed selected values dynamically using state updates
 
 ### 53. Hero Animation (Shared Element Page Transition)
-
-- Implemented Flutter’s Hero widget to create smooth shared-element transitions between screens
-- Navigated between screens using Navigator and MaterialPageRoute
-- Displayed images using Image.network to load and animate remote assets dynamically
-- Combined Hero with image widgets to create visually appealing zoom and transition effects
-- Strengthened understanding of Flutter’s route transitions and shared element animation system
+- Implemented `Hero` widget for smooth shared-element transitions between screens
+- Combined with `Image.network` for zoom and transition effects
 
 ### 54. AboutDialog (Application Information Dialog)
-
-- Implemented Flutter’s AboutDialog widget to display application information in a standard Material Design dialog
-- Triggered the dialog using an ElevatedButton and the onPressed callback
-- Used showAboutDialog() to present app details such as name, version, and legal information
-- Practiced displaying informational content without navigating to a separate screen
-- Explored Flutter’s built-in support for application metadata and branding
-- Learned how to integrate About dialogs into settings and help sections of an app
+- Implemented `AboutDialog` with `showAboutDialog()`
+- Displayed app name, version, and legal information
 
 ### 55. Stepper (Multi-Step Workflow UI)
+- Implemented `Stepper` with `onStepContinue`, `onStepCancel`, and `onStepTapped`
+- Managed step state using `int _currentStep = 0`
 
-- Implemented Flutter’s Stepper widget to create a step-by-step user flow interface
-- Managed step state using int _currentStep = 0 to track the active step dynamically
-- Used Step widgets with title and content to structure each stage of the process
-- Controlled navigation between steps using onStepContinue and onStepCancel callbacks
-- Implemented onStepTapped to allow direct navigation to a specific step
-- Bound currentStep to _currentStep for real-time UI updates and state control
-
-### 56. FittedBox (Responsive Scaling & Content Fitting)
-
-- Implemented Flutter’s FittedBox widget to scale and fit child widgets within available space
-- Used FittedBox to automatically adjust text and UI elements inside a container
-- Practiced controlling overflow issues by ensuring content scales instead of being clipped
-- Explored different fit modes to understand how scaling behaves in various layouts
-- Improved responsive UI design by adapting content to different screen sizes
-- Built cleaner and more flexible UI components that handle dynamic content gracefully
+### 56. FittedBox (Responsive Scaling)
+- Implemented `FittedBox` to scale and fit child widgets within available space
+- Explored different fit modes for various layouts
 
 ### 57. showSearch (In-App Search Interface)
-
-- Implemented Flutter’s showSearch() function to create a full-screen search experience
-- Triggered search functionality from the AppBar using an IconButton inside actions
-- Used onPressed callback to open the search delegate when the user taps the search icon
-- Integrated showSearch() with a custom SearchDelegate to handle query input and results
-- Practiced building interactive and responsive search UI within an application
-- Enhanced user experience by providing quick and accessible in-app search functionality
-- Strengthened understanding of Flutter’s search system and delegate-based architecture
-- Learned how to structure searchable data and return dynamic results efficiently
+- Implemented `showSearch()` with a custom `SearchDelegate`
+- Integrated with `AppBar` using an `IconButton`
 
 ### 58. Adaptive Widgets (Platform-Aware UI Components)
+- Used `Slider.adaptive`, `SwitchListTile.adaptive`, and `Switch.adaptive`
+- Render native-style components for both Android and iOS
 
-- Implemented Flutter’s .adaptive widgets to create platform-specific UI components automatically
-- Used Slider.adaptive to render native-style sliders for both Android and iOS
-- Applied SwitchListTile.adaptive to display platform-consistent toggle switches inside list items
-- Used Switch.adaptive to automatically adjust switch design based on the operating system
-- Practiced building UI that adapts seamlessly between Material (Android) and Cupertino (iOS) styles
-- Strengthened understanding of Flutter’s cross-platform adaptability and responsive UI behavior
-- Learned how adaptive widgets simplify maintaining consistent UX across multiple platforms
-
-### 59. Scrollbar (Scroll Feedback & List Navigation)
-
-- Implemented Flutter’s Scrollbar widget to provide visual feedback for scrollable content
-- Customized scrollbar appearance using thickness to control its visual width
-- Improved user experience by making long content easier to navigate
-- Strengthened understanding of scroll physics and user interaction feedback in Flutter
+### 59. Scrollbar (Scroll Feedback)
+- Implemented `Scrollbar` for visual feedback on scrollable content
+- Customized `thickness` for visual width control
 
 ### 60. ChoiceChip (Selectable Filter Chips UI)
-
-- Implemented Flutter’s ChoiceChip widget to create selectable filter and option-based UI components
-- Used label to display the chip’s text content clearly to the user
-- Added avatar to include icons or small visuals inside the chip for better UI representation
-- Managed selection state using selected property to highlight the active choice
-- Handled user interaction with onSelected callback to update UI dynamically
-- Improved understanding of state-driven UI updates in chip-based selection systems
+- Implemented `ChoiceChip` with `label`, `avatar`, `selected`, and `onSelected`
+- Managed selection state for dynamic UI updates
 
 ### 61. Wrap (Responsive Flow Layout)
-
-- Implemented Flutter’s Wrap widget to create responsive layouts that automatically flow to the next line
-- Used the children property to add multiple widgets inside the Wrap layout
-- Practiced replacing Row and Column limitations with a more flexible layout system
-- Controlled spacing and alignment between items for better UI structure and readability
-- Learned how Wrap adapts to screen size changes by wrapping overflow widgets
-- Improved responsive design skills for handling variable content sizes
-- Strengthened understanding of adaptive layout behavior in Flutter UI development
+- Implemented `Wrap` to create responsive layouts that automatically flow to next line
+- Controlled `spacing` and `alignment` between items
 
 ### 62. ExpansionTile (Expandable List UI)
+- Implemented `ExpansionTile` with `title` and `children`
+- Used `ListTile` inside children for structured sub-items
 
-- Implemented Flutter’s ExpansionTile widget to create expandable and collapsible list sections
-- Used the title property to define the main header of each expandable item
-- Added children to display nested content when the tile is expanded
-- Used ListTile inside children to structure detailed sub-items cleanly
-- Improved UI usability by hiding and revealing information on user interaction
-- Strengthened understanding of hierarchical layouts and dynamic visibility in Flutter
+### 63. RangeSlider (Dual Value Selection)
+- Implemented `RangeSlider` with `divisions`, `labels`, and `onChanged`
+- Built for filtering and range-based input scenarios
 
-### 63. RangeSlider (Dual Value Selection Control)
+### 64. showModalBottomSheet (Bottom Sheet UI)
+- Implemented `showModalBottomSheet` with `builder` callback
+- Used `SizedBox` to control height and structure of content
 
-- Implemented Flutter’s RangeSlider widget to allow selection of a range between two values
-- Managed range selection using the values property to control start and end points
-- Used divisions to create discrete steps for more controlled value selection
-- Displayed user-friendly feedback using labels to show current selected range values
-- Handled user interaction with onChanged to update the range dynamically in real time
-- Practiced building UI components for filtering and range-based input scenarios (e.g., price or age)
-
-### 64. showModalBottomSheet (Bottom Sheet UI Interaction)
-
-- Implemented Flutter’s showModalBottomSheet to display a temporary bottom sheet from the bottom of the screen
-- Used context to trigger the bottom sheet within the current widget tree
-- Defined the UI using the builder: (BuildContext context) callback for dynamic content rendering
-- Returned a SizedBox to control the height and structure of the bottom sheet content
-- Practiced building modal UI components for actions, menus, and quick options
-- Strengthened understanding of Flutter’s modal presentation system and overlay widgets
-- Built reusable bottom sheet patterns commonly used in modern mobile applications
-
-### 65. AnimatedCrossFade (Smooth Widget Transition Animation)
-
-- Implemented Flutter’s AnimatedCrossFade widget to animate transitions between two widgets
-- Used firstChild and secondChild to define the widgets participating in the cross-fade animation
-- Configured duration to define the animation speed and transition timing
-- Practiced creating smooth UI state changes without manually managing animation controllers
-- Explored Flutter’s built-in implicit animation capabilities for cleaner code and easier maintenance
-- Strengthened understanding of state-driven animations and dynamic widget rendering in Flutter
+### 65. AnimatedCrossFade (Smooth Widget Transition)
+- Implemented `AnimatedCrossFade` with `firstChild`, `secondChild`, and `duration`
+- Used Flutter's built-in implicit animation capabilities
 
 ### 66. Flexible (Responsive Space Distribution)
-
-- Implemented Flutter’s Flexible widget to create responsive layouts within Row, Column, and Flex widgets
-- Used the flex property to control how available space is distributed among child widgets
-- Practiced building adaptive layouts that adjust gracefully to different screen sizes
-- Improved UI responsiveness by preventing overflow and optimizing space usage
-- Strengthened understanding of Flutter’s flex-based layout system and widget sizing behavior
-- Built cleaner and more maintainable layouts using proportional space allocation techniques
+- Implemented `Flexible` with `flex` property for space distribution
+- Built adaptive layouts preventing overflow
 
 ### 67. Spacer (Dynamic Empty Space Management)
-
-- Implemented Flutter’s Spacer widget to create flexible empty space between widgets in a layout
-- Practiced controlling widget positioning without relying on fixed-size SizedBox values
-- Learned how Spacer automatically expands to occupy available space
-- Built more balanced and visually organized user interfaces using adaptive spacing techniques
+- Implemented `Spacer` for flexible empty space between widgets
+- Replaces fixed-size `SizedBox` with adaptive spacing
 
 ### 68. GridPaper (Grid Overlay & Layout Visualization)
-
-- Implemented Flutter’s GridPaper widget to display a customizable grid overlay on the screen
-- Used color: Colors.indigo to customize the appearance of grid lines
-- Strengthened knowledge of Flutter’s layout system through visual grid-based guidance
-- Built cleaner and more organized interfaces by leveraging grid-based design principles
+- Implemented `GridPaper` for customizable grid overlay
+- Used for layout guidance and grid-based design
 
 ### 69. InteractiveViewer (Zoom & Pan Interaction)
+- Implemented `InteractiveViewer` with `maxScale` for zoom control
+- Used `Image.network()` as child for image inspection
 
-- Implemented Flutter’s InteractiveViewer widget to enable zooming and panning interactions on UI elements
-- Used Image.network() as the child widget to display and interact with images from the internet
-- Configured maxScale to control the maximum zoom level allowed for the user
-- Improved user experience by allowing detailed inspection of images without navigation
-- Explored built-in gesture handling for interactive content manipulation
-- Strengthened understanding of Flutter’s transformation and gesture system
-- Built more interactive and user-friendly image viewing components
-
-### 70. CheckboxListTile (Selectable List Item UI)
-
-- Implemented Flutter’s CheckboxListTile widget to create clean, selectable list items
-- Used title to display the main label for each option
-- Added subtitle to provide additional context or description for the item
-- Managed selection state using the value property to track checked/unchecked status
-- Practiced handling user interaction with built-in checkbox tap behavior
-- Improved UI clarity by combining checkbox and text into a single structured component
-- Built settings-style interfaces such as preferences, tasks, and multi-select lists
-- Strengthened understanding of state-driven selection and list-based UI design in Flutter
+### 70. CheckboxListTile (Selectable List Item)
+- Implemented `CheckboxListTile` with `title`, `subtitle`, and `value`
+- Built settings-style interfaces for multi-select lists
 
 ### 71. SelectableText (Text Selection & Copy Support)
-
-- Implemented Flutter’s SelectableText widget to allow users to select and copy text content
-- Replaced static Text widgets with SelectableText for improved usability
-- Practiced displaying user-readable content that can be easily copied to clipboard
-- Improved accessibility by supporting interaction with text content
-- Used it in scenarios like notes, descriptions, and information displays
-- Strengthened understanding of interactive text widgets in Flutter
-- Enhanced user experience by adding built-in text selection capabilities without extra logic
+- Implemented `SelectableText` to allow users to select and copy text
+- Enhanced accessibility with built-in text selection
 
 ### 72. AnimatedPadding (Smooth Layout Spacing Animation)
+- Implemented `AnimatedPadding` with dynamic `EdgeInsets.all(padValue)`
+- Configured `duration` for smooth padding transitions
 
-- Implemented Flutter’s AnimatedPadding widget to animate changes in padding values smoothly
-- Used padding: EdgeInsets.all(padValue) to dynamically control spacing around a widget
-- Configured duration to define the speed of the padding transition animation
-- Practiced updating UI layout spacing in response to state changes
-- Improved user experience with smooth and visually appealing layout adjustments
-- Learned how implicit animations simplify UI transitions without manual animation controllers
-- Strengthened understanding of responsive spacing and animated layout behavior in Flutter
-- Built more dynamic and polished UI interactions using animated design principles
+### 73. RefreshIndicator (Pull-to-Refresh)
+- Implemented `RefreshIndicator` with async `onRefresh` callback
+- Customized `color` and `backgroundColor` for theme consistency
 
-### 73. RefreshIndicator (Pull-to-Refresh Interaction)
-
-- Implemented Flutter’s RefreshIndicator widget to add pull-to-refresh functionality in scrollable views
-- Used the onRefresh callback to handle async data refresh operations
-- Customized indicator appearance using color to match the app’s theme
-- Applied backgroundColor to style the refresh indicator background for better UI consistency
-- Practiced integrating RefreshIndicator with scrollable widgets like ListView
-- Strengthened understanding of asynchronous UI updates and state refresh mechanisms in Flutter
-- Built responsive and user-friendly data reload interactions for real-world app scenarios
-
-### 74. ImageFiltered (Blur Effects & Visual Styling)
-
-- Implemented Flutter’s ImageFiltered widget to apply real-time visual effects to UI elements
-- Used ImageFilter.blur to create a smooth blur effect on images and background content
-- Configured sigmaX and sigmaY to control horizontal and vertical blur intensity
-- Practiced applying blur effects for background styling and visual depth enhancement
-- Improved UI design by creating focus-based layouts using blurred backgrounds
-- Strengthened understanding of rendering effects and widget transformation layers
+### 74. ImageFiltered (Blur Effects)
+- Implemented `ImageFiltered` with `ImageFilter.blur`
+- Configured `sigmaX` and `sigmaY` for blur intensity control
 
 ### 75. AspectRatio (Proportional Layout Control)
+- Implemented `AspectRatio` with `aspectRatio: 3 / 2`
+- Prevented distortion by preserving original proportions
 
-- Implemented Flutter’s AspectRatio widget to maintain a consistent width-to-height proportion for UI elements
-- Used aspectRatio: 3 / 2 to enforce a fixed layout ratio across different screen sizes
-- Wrapped a child widget inside AspectRatio to control its rendering dimensions
-- Practiced preventing image and container distortion by preserving original proportions
-- Improved responsive UI design by ensuring consistent visual structure on all devices
-- Learned how AspectRatio works with Flutter’s constraint-based layout system
-
-### 76. ToggleButtons (Multi & Single Selection Controls)
-
-- Implemented Flutter’s ToggleButtons widget to create interactive selection groups
-- Practiced single selection mode to allow only one active option at a time
-- Implemented multi selection mode to enable multiple options to be selected simultaneously
-- Explored required selection behavior to ensure at least one option remains active
-- Used ToggleButtons as a filter UI component for category and preference selection
-- Managed selection state using boolean lists for dynamic UI updates
+### 76. ToggleButtons (Multi & Single Selection)
+- Implemented `ToggleButtons` for single and multi selection modes
+- Managed selection state using boolean lists
 
 ### 77. PhysicalModel (Elevation & Material Depth Effects)
-
-- Implemented Flutter’s PhysicalModel widget to create realistic Material Design depth effects
-- Used elevation to generate shadow and simulate 3D surface appearance
-- Applied shadowColor to customize the shadow styling for better visual hierarchy
-- Used borderRadius to create smooth rounded edges for modern UI design
-- Practiced building product-style cards with depth and layered visual effects
-- Enhanced UI realism by simulating physical surfaces and elevation changes
-- Learned how PhysicalModel differs from Material in rendering shadows and shapes
-- Strengthened understanding of visual hierarchy and depth perception in Flutter UI design
+- Implemented `PhysicalModel` with `elevation`, `shadowColor`, and `borderRadius`
+- Simulates physical surfaces and elevation changes
 
 ### 78. Align (Precise Widget Positioning)
+- Implemented `Align` to position child widgets within parent container
+- Practiced positioning at center, top-left, bottom-right, etc.
 
-- Implemented Flutter’s Align widget to position child widgets within their parent container
-- Practiced positioning widgets at different locations such as center, top-left, bottom-right, etc.
-- Learned how Align helps create responsive positioning across different screen sizes
-- Built flexible layouts that adapt dynamically to available space
-- Strengthened understanding of Flutter’s coordinate-based alignment system
+### 79. SafeArea (System UI Protection)
+- Implemented `SafeArea` to keep content within visible display region
+- Prevented overlap with status bar and navigation areas
 
-### 79. SafeArea (System UI Protection & Responsive Layouts)
+### 80. PageRouteBuilder (Custom Route Transitions)
+- Implemented `PageRouteBuilder` with `ScaleTransition` and `CurvedAnimation`
+- Built custom zoom-in/out page animations
 
-- Implemented Flutter’s SafeArea widget to ensure content stays within the visible and safe display region
-- Prevented UI elements from overlapping with system interfaces such as the status bar and navigation areas
-- Added support for devices with notches, punch-hole cameras, and rounded screen corners
-- Protected content from being hidden behind the status bar and other operating system overlays
-- Practiced building responsive layouts that adapt to different device form factors automatically
-- Improved user experience by ensuring consistent content visibility across Android and iOS devices
-
-### 80. PageRouteBuilder (Custom Route Transitions & Navigation Animation)
-
-- Implemented Flutter’s PageRouteBuilder to create custom page transition animations
-- Built custom navigation flow using animated route transitions instead of default Material navigation
-- Used ScaleTransition to create smooth zoom-in and zoom-out page animations
-- Applied CurvedAnimation to control animation behavior and make transitions more natural and fluid
-- Strengthened understanding of Flutter’s Navigator system and animation-driven routing
-- Built more engaging and visually appealing screen transitions for modern mobile applications
-
-### 81. Draggable (Drag & Drop Interaction System)
-
-- Implemented Flutter’s Draggable widget to enable drag-and-drop functionality in the UI
-- Used DragTarget to receive and handle dropped items for interactive user flows
-- Practiced building drag & drop interfaces for task movement and completion interactions
-- Customized the feedback widget to control the appearance of the item while dragging
-- Managed drag state to update UI dynamically based on user actions
-- Built interactive task-based UI where items can be moved between different zones
-- Improved user experience with intuitive gesture-based interaction design
-- Strengthened understanding of gesture handling and event-driven UI behavior in Flutter
+### 81. Draggable (Drag & Drop Interaction)
+- Implemented `Draggable` with `DragTarget` for drag-and-drop functionality
+- Customized `feedback` widget for drag appearance
 
 ### 82. BackdropFilter (Glassmorphism & Blur Effects)
+- Implemented `BackdropFilter` with `ImageFilter.blur` for background blurring
+- Built glassmorphism UI with semi-transparent overlays
 
-- Implemented Flutter’s BackdropFilter widget to apply blur effects on background content
-- Used ImageFilter.blur to create smooth background blurring for modern UI styling
-- Built a glassmorphism UI effect by combining blur with semi-transparent overlays
-- Loaded background visuals using network images (Unsplash) for realistic UI design
-- Used Stack layering to place blur effects, images, and foreground content properly
-- Practiced controlling visual depth and focus using layered widget structures
-- Enhanced UI aesthetics with frosted-glass style design patterns
-
-### 83. ReorderableListView (Drag-to-Reorder List UI)
-
-- Implemented Flutter’s ReorderableListView widget to enable drag-and-drop reordering of list items
-- Used itemBuilder to dynamically generate list items from a data source
-- Managed list length using itemCount to control the number of rendered items
-- Handled item rearrangement with the onReorder callback to update the underlying list order
-- Practiced building interactive lists where users can customize item positions
-- Improved understanding of state updates when modifying list-based data structures
+### 83. ReorderableListView (Drag-to-Reorder List)
+- Implemented `ReorderableListView` with `itemBuilder` and `onReorder`
+- Handled item rearrangement with underlying list state update
 
 ### 84. FadeTransition (Opacity-Based Animation)
+- Implemented `FadeTransition` with `Animation<double>` for opacity control
+- Integrated with animation controllers for lifecycle management
 
-- Implemented Flutter’s FadeTransition widget to create smooth fade-in and fade-out animations
-- Used an Animation<double> to control the opacity transition of the widget
-- Applied opacity: _animation! to dynamically update visibility during animation
-- Practiced integrating FadeTransition with animation controllers for lifecycle management
-- Enhanced UI experience with subtle and smooth visual transitions
-- Learned how opacity-based animations improve perceived performance and polish
-
-### 85. CircleAvatar (Profile Image & Circular UI Elements)
-
-- Implemented Flutter’s CircleAvatar widget to display profile images in a circular format
-- Customized avatar size using the radius property for better visual presentation
-- Applied backgroundColor to create a clean border-like effect around the profile image
-- Combined CircleAvatar with Stack and Positioned for advanced profile card layouts
-- Improved understanding of widget layering and positioning techniques in Flutter
-- Built visually appealing profile and user account interfaces following modern mobile app design patterns
+### 85. CircleAvatar (Profile Image & Circular UI)
+- Implemented `CircleAvatar` with `radius` and `backgroundColor`
+- Combined with `Stack` and `Positioned` for advanced profile layouts
 
 ### 86. Tooltip (Contextual Help & User Guidance)
+- Implemented `Tooltip` with `waitDuration` and `verticalOffset` customization
+- Added hints to icon-based UI elements
 
-- Implemented Flutter’s Tooltip widget to display helpful hints on long press or hover actions
-- Added tooltip messages to icon-based UI elements for better user understanding
-- Customized tooltip behavior using properties like waitDuration and verticalOffset
-- Practiced enhancing UX in toolbar-style layouts with action icons
-- Strengthened understanding of user interaction patterns in mobile and web apps
-- Built more intuitive and user-friendly interfaces using minimal design with hidden guidance
+### 87. Visibility (Show & Hide UI Elements)
+- Implemented `Visibility` with boolean state to toggle widget rendering
+- Built toggle button for showing/hiding images with `ClipRRect`
 
-### 87. Visibility (Show & Hide UI Elements Dynamically)
+### 88. IndexedStack (Maintain Multiple UI States)
+- Implemented `IndexedStack` to manage multiple screens in a single layout
+- Preserved state of all stacked widgets while showing one at a time
 
-- Implemented Flutter’s Visibility widget to dynamically show and hide UI elements based on user interaction
-- Used a boolean state variable to control widget rendering in real time
-- Built an interactive button that toggles between showing and hiding an image
-- Enhanced UI by applying rounded corners using ClipRRect for a modern look
-- Improved understanding of conditional rendering in Flutter layouts
-- Demonstrated efficient state management using setState for simple UI updates
+### 89. Navigator 2.0 (Declarative Navigation)
+- Implemented Navigator 2.0 API using declarative page-based navigation
+- Built custom navigation flow without push/pop methods
 
-### 88. IndexedStack (Maintain Multiple UI States Without Losing State)
-
-- Implemented Flutter’s IndexedStack widget to manage multiple screens within a single layout
-- Controlled visible child using an index state variable
-- Preserved the state of all stacked widgets while only showing one at a time
-- Used FloatingActionButton to switch between different UI views dynamically
-- Improved understanding of efficient UI state management in Flutter applications
-- Demonstrated how IndexedStack differs from normal Stack by maintaining hidden widget states
-- Built a simple multi-screen switching UI without navigation overhead
-
-### 89. Navigator 2.0 (Declarative Navigation System in Flutter)
-
-- Implemented Flutter’s Navigator 2.0 API using a declarative page-based navigation approach
-- Managed application navigation state using a boolean flag to switch between screens
-- Built a custom navigation flow without relying on push and pop methods
-- Separated UI into modular screen files for better project structure and maintainability
-- Improved understanding of modern Flutter navigation architecture used in large-scale applications
-- Demonstrated how state-driven navigation provides better control over app routing logic
-
-### 90. Null Aware Operators (Dart Null Safety Handling)
-
-- Learned and implemented Dart null safety concepts using null aware operators (?, ??, ??=, ...?)
-- Used safe access operator (?.) to prevent runtime crashes when working with nullable variables
-- Applied null-coalescing operator (??) to provide default values when data is null
-- Understood null-aware spread operator (...?) to safely handle nullable lists without errors
-- Demonstrated how Dart handles null safety to improve app stability and prevent unexpected crashes
-- Improved code reliability by avoiding direct null access and using safe fallback logic
-- Built a simple UI-based demo to visually understand how each null-aware operator works in Flutter
+### 90. Null Aware Operators (Dart Null Safety)
+- Learned `?.`, `??`, `??=`, and `...?` operators
+- Built UI demo to visually understand each null-aware operator
 
 ### 91. Cascade Operator (..) in Dart
-
-- Learned and implemented Dart’s Cascade Operator (..) to perform multiple operations on the same object in a clean and readable way
-- Used cascade notation to initialize object properties and call methods in a single chain
-- Demonstrated how cascade operator reduces repetitive object references and improves code readability
-- Compared cascade approach with traditional object initialization to understand cleaner syntax benefits
-- Built a simple Flutter UI to visually show differences between cascade operator and normal object assignment
-- Used a custom User model class to apply properties (name, age) and method calls (changeName()) using cascade syntax
-- Learned how cascade operator makes object setup more compact and maintainable in real-world applications
+- Implemented Dart's Cascade Operator for chaining multiple operations
+- Compared cascade vs traditional object initialization
 
 ### 92. Inherited Widget (State Sharing Between Screens)
-
-- Learned how to use Flutter’s InheritedWidget to share state across multiple screens without passing data through constructors
-- Implemented a simple counter app where state is managed at the root level using StatefulWidget
-- Used InheritedWidget to provide global access to counter value and functions like increment and reset
-- Accessed shared state from both HomePage and CounterPage using StateInheritedWidget.of(context)
-- Demonstrated how state automatically updates across multiple screens without external packages
-- Used StatelessWidget for UI screens to keep code simple and beginner-friendly
-- Managed state using setState inside root widget while keeping UI layers clean and separated
-- Understood the basic concept behind advanced state management solutions like Provider
+- Used `InheritedWidget` to share state across multiple screens
+- Accessed shared state using `StateInheritedWidget.of(context)`
 
 ### 93. FractionallySizedBox (Responsive UI Using Percentages)
+- Used `widthFactor` and `heightFactor` to size widgets as percentages
+- Demonstrated automatic scaling according to parent container size
 
-- Learned and implemented Flutter’s FractionallySizedBox widget to create responsive layouts based on parent dimensions
-- Used widthFactor and heightFactor to size widgets as a percentage instead of fixed pixel values
-- Demonstrated how child widgets automatically scale according to their parent container size
-- Built a simple UI example showing how a widget can take 60% width and 70% height of its parent
-- Understood how FractionallySizedBox helps in building adaptive and responsive Flutter interfaces
-- Learned that fixed width and height inside child widgets are ignored when using FractionallySizedBox
-- Improved understanding of layout constraints and parent-child relationship in Flutter UI system
-- Practiced responsive design thinking which is important for real-world mobile applications
+### 94. ConstrainedBox (Controlling Widget Size)
+- Used `BoxConstraints` to define min/max width and height limits
+- Showed how Flutter adjusts widget size based on constraints
 
-### 94. ConstrainedBox (Controlling Widget Size in Flutter)
+### 95. CupertinoSearchTextField (iOS Style Search Bar)
+- Implemented `CupertinoSearchTextField` with `TextEditingController`
+- Displayed real-time search input using `onChanged` callback
 
-- Learned and implemented Flutter’s ConstrainedBox widget to control minimum and maximum size of a widget
-- Used BoxConstraints to define limits for width and height of child widgets
-- Demonstrated how Flutter automatically adjusts widget size based on constraints
-- Built two examples showing how large widgets are reduced to max limits and small widgets are increased to min limits
-- Understood how ConstrainedBox overrides child widget dimensions when they exceed defined constraints
-- Practiced layout control using constraint-based design instead of fixed sizes
-- Improved understanding of Flutter’s layout system and how constraints affect rendering
-- Learned how ConstrainedBox is useful for responsive and controlled UI design
+### 96. StatefulBuilder (Local State Management)
+- Used `StatefulBuilder` to update only part of the UI without full rebuild
+- Demonstrated difference between full and partial widget rebuild
 
-### 95. CupertinoSearchTextField (iOS Style Search Bar in Flutter)
-
-- Learned and implemented CupertinoSearchTextField widget to create an iOS-style search bar in Flutter
-- Used TextEditingController to manage and track user input inside the search field
-- Displayed real-time search input below the search bar using setState
-- Practiced handling user input dynamically with onChanged callback
-- Understood how Cupertino widgets help build iOS-like UI in Flutter applications
-- Improved understanding of cross-platform UI design using Material and Cupertino widgets together
-
-### 96. StatefulBuilder (Local State Management in Flutter)
-
-- Learned and implemented StatefulBuilder widget to manage local UI state inside a specific widget area
-- Used StatefulBuilder to update only a part of the UI without rebuilding the entire page
-- Demonstrated difference between full widget rebuild and partial widget rebuild using debugPrint
-- Used internal setState (setInnerState) to update counter only inside StatefulBuilder scope
-- Understood how StatefulBuilder helps optimize performance by reducing unnecessary rebuilds
-- Combined CupertinoButton with StatefulBuilder to create an interactive UI example
-- Learned when to use StatefulBuilder instead of full StatefulWidget for better efficiency
-
-### 97. LayoutBuilder (Responsive UI in Flutter)
-
-- Learned and implemented LayoutBuilder widget to build responsive UI based on screen size
-- Used BoxConstraints to detect available screen width and adapt layout dynamically
-- Created a mobile-first UI that switches layout when width is less than 600 pixels
-- Built a desktop/tablet version using Row with sidebar and main content layout
-- Demonstrated how Flutter can create responsive applications without external packages
-- Understood how LayoutBuilder helps in designing adaptive UIs for multiple screen sizes
-- Practiced real-world responsive design pattern used in modern Flutter applications
+### 97. LayoutBuilder (Responsive UI)
+- Used `BoxConstraints` inside `LayoutBuilder` to detect available screen width
+- Switched between mobile and desktop/tablet layouts at 600px breakpoint
 
 ### 98. OrientationBuilder (Responsive UI Based on Device Rotation)
-
-- Learned and implemented OrientationBuilder widget to create responsive UI based on device orientation
-- Built separate layouts for portrait and landscape modes using conditional rendering
-- Designed a vertical layout (ListView) for portrait mode and horizontal layout (Row) for landscape mode
-- Demonstrated how Flutter automatically adapts UI when device orientation changes
-- Used image and text widgets to showcase real-world responsive content layout
-- Practiced separating UI logic into reusable methods for better code readability
-- Improved understanding of adaptive UI design for mobile applications
-- Learned how OrientationBuilder helps create better user experience across device orientations
+- Built separate layouts for portrait (`ListView`) and landscape (`Row`) modes
+- Demonstrated automatic UI adaptation on orientation change
 
 ### 99. Platform Detection (dart:io)
+- Used `Platform.isAndroid`, `Platform.isIOS`, `Platform.isWindows`, etc.
+- Displayed current platform dynamically in the Flutter UI
 
-- Learned and implemented Dart's Platform class from the dart:io library to detect the operating system at runtime
-- Used platform checks such as Platform.isAndroid, Platform.isIOS, Platform.isWindows, Platform.isMacOS, and Platform.isLinux
-- Displayed the current platform dynamically within the Flutter user interface
-- Demonstrated how Flutter applications can adapt behavior and UI based on the target platform
-- Built a simple platform information screen to understand cross-platform development concepts
-- Practiced writing conditional logic for platform-specific functionality
-- Improved understanding of how Flutter supports mobile, desktop, and multiple operating systems from a single codebase
+### 100. FutureBuilder (Handling Asynchronous Data)
+- Implemented `FutureBuilder` for loading, success, and error UI states
+- Used `CircularProgressIndicator` and `snapshot.hasError` handling
 
-### 100. FutureBuilder (Handling Asynchronous Data in Flutter)
+### 101. StreamBuilder (Handling Real-Time Data)
+- Implemented `StreamBuilder` to listen to stream events and rebuild UI
+- Used `initialData` for default value before first stream event
 
-- Learned and implemented Flutter’s FutureBuilder widget to display asynchronous data in the UI
-- Created a Future-based function to simulate data loading with a delay
-- Displayed different UI states based on the Future lifecycle, including loading, success, and error states
-- Used CircularProgressIndicator to provide visual feedback while waiting for data
-- Implemented error handling using snapshot.hasError to display failure messages gracefully
-- Displayed fetched data using snapshot.data after the Future completed successfully
-- Added a refresh button to reload data and trigger a new Future execution
-- Improved understanding of asynchronous programming and reactive UI updates in Flutter
-- Practiced a common pattern used for API calls, database queries, and remote data fetching in production applications
+### 102. ChangeNotifier (Basic State Management)
+- Created custom controller extending `ChangeNotifier` with `notifyListeners()`
+- Implemented proper lifecycle management with `dispose()`
 
-### 101. StreamBuilder (Handling Real-Time Data in Flutter)
+### 103. ValueNotifier & ValueListenableBuilder (Lightweight State)
+- Used `ValueNotifier` with `ValueListenableBuilder` for reactive UI
+- Updated only listening widgets without calling `setState`
 
-- Learned and implemented Flutter’s StreamBuilder widget to display continuously changing asynchronous data
-- Created a custom stream that emits integer values over time to simulate real-time updates
-- Used StreamBuilder to listen to stream events and rebuild the UI automatically whenever new data arrives
-- Displayed loading, error, and data states based on the stream connection status
-- Used initialData to provide a default value before the first stream event is received
-- Demonstrated how StreamBuilder differs from FutureBuilder by handling multiple data updates instead of a single result
-- Improved understanding of reactive programming and real-time UI updates in Flutter
-- Practiced a common pattern used for Firebase Firestore, Realtime Database, WebSockets, live notifications, and chat applications
+### 104. InheritedNotifier (Reactive State + Animation)
+- Used `InheritedNotifier` to share `AnimationController` across widget tree
+- Built `SpinModel` for reusable animation state sharing
 
-### 102. ChangeNotifier (Basic State Management in Flutter)
+### 105. Listener Widget (Low-Level Pointer Event Handling)
+- Used `Listener` for `PointerDownEvent`, `PointerMoveEvent`, `PointerUpEvent`
+- Built real-time touch coordinate tracker with `Offset`
 
-- Learned and implemented Flutter’s ChangeNotifier class for simple state management
-- Created a custom controller that extends ChangeNotifier to manage application state
-- Used notifyListeners() to automatically inform widgets when data changes
-- Built a counter application with increment and decrement functionality
-- Connected the UI to the controller using listeners and setState
-- Demonstrated how state can be separated from UI logic for better code organization
-- Implemented proper lifecycle management by disposing the controller when no longer needed
-- Improved understanding of Flutter's foundation for Provider and other state management solutions
-- Practiced a common architecture pattern used in medium and large Flutter applications
+### 106. Builder Widget (Context Management)
+- Used `Builder` to obtain new `BuildContext` deeper in the widget tree
+- Solved common `ScaffoldMessenger.of(context)` context issues
 
-### 103. ValueNotifier & ValueListenableBuilder (Lightweight State Management)
+### 107. PageView.builder (Swipeable Page Navigation)
+- Built lazily-constructed pages with `PageController` and `onPageChanged`
+- Implemented vertical scrolling with animated dot indicator
 
-- Learned and implemented Flutter’s ValueNotifier class for lightweight state management
-- Used ValueNotifier to store and update a single integer value efficiently
-- Built a counter application with increment and decrement functionality
-- Used ValueListenableBuilder to listen for value changes and rebuild only the required UI section
-- Demonstrated how state updates can occur without calling setState
-- Separated business logic from UI by creating a dedicated controller class
-- Improved understanding of reactive programming concepts in Flutter
-- Learned a lightweight alternative to ChangeNotifier for managing simple state
-- Practiced efficient widget rebuilding by updating only the listening widgets
+### 108. AnimatedBuilder (Efficient Animation Composition)
+- Used `AnimatedBuilder` to rebuild only animated parts on each tick
+- Leveraged `child` parameter optimization to avoid unnecessary rebuilds
 
-### 104. InheritedNotifier (Reactive State + Animation Control in Flutter)
-
-- Learned and implemented InheritedNotifier to efficiently pass and listen to AnimationController changes in the widget tree
-- Used AnimationController to create a continuously rotating animation using repeat()
-- Built a reusable SpinModel that shares animation state across multiple widgets
-- Demonstrated how multiple widgets can react to a single animation source without manual setState calls
-- Used Transform.rotate to visually animate widgets based on controller value
-- Improved understanding of Flutter’s reactive rendering system and inherited state mechanisms
-- Learned how InheritedNotifier combines the power of InheritedWidget and Listenable for optimized UI updates
-- Practiced building scalable animation architecture used in real-world Flutter applications
-
-### 105. Listener Widget (Low-Level Pointer Event Handling in Flutter)
-
-- Learned how to use the Listener widget to capture raw pointer events such as pointer down, pointer move, and pointer up interactions.
-- Implemented real-time tracking of user touch position using PointerMoveEvent, updating UI dynamically with setState.
-- Built an interactive UI that tracks live pointer movement and displays accurate touch coordinates inside a constrained area.
-- Also tracked gesture statistics like pointer down and pointer up counts to understand event lifecycle behavior in Flutter.
-- Used Offset to manage pointer position efficiently and update UI in a clean and structured way.
-- Improved understanding of low-level input handling in Flutter, which is essential for building custom gestures, drawing apps, games, and interactive UI systems.
-- Learned how Listener differs from GestureDetector by providing raw pointer data without abstraction or gesture interpretation.
-
-### 106. Builder Widget (Context Management in Flutter)
-
-- Learned how to use the Builder widget to obtain a new BuildContext  from within the widget tree, solving common context-related issues in Flutter.
-- Understood why the default build(BuildContext context) context is above the Scaffold, making it unable to access widgets like Scaffold, ScaffoldMessenger, or inherited theme overrides directly.
-- Used Builder to call ScaffoldMessenger.of(newContext).showSnackBar(...) successfully — something that would crash with an error if attempted using the parent context.
-- Demonstrated how Theme.of(newContext) inside a Builder can correctly read theme data and color schemes that are only available deeper in the widget tree.
-- Built a structured, beginner-friendly UI with reusable card components to visually explain the three core use cases** of Builder: context info, theme access, and SnackBar triggering.
-- Understood the key difference between Builder and other context-aware widgets — Builder is lightweight, stateless, and exists purely to provide a scoped context without adding any visual output of its own.
-- Strengthened understanding of Flutter's widget tree and context hierarchy, which is foundational knowledge for working with navigation, theming, overlays, and inherited widgets in real-world apps.
-
-### 107. PageView.builder Widget (Swipeable Page Navigation in Flutter)
-
-- Learned how to use PageView.builder to create a lazily-built, memory-efficient swipeable page UI, where each page is constructed only when it is about to be displayed.
-- Understood the key difference between PageView and PageView.builder — the builder variant builds pages on demand, making it significantly more performant for dynamic or large page sets.
-- Used PageController to programmatically manage page navigation and properly disposed it inside dispose() to avoid memory leaks.
-- Implemented onPageChanged callback to track the current page index in real time and sync it with the animated dot indicator on the side.
-- Built a vertical scrolling page experience using scrollDirection: Axis.vertical, demonstrating that PageView supports both horizontal and vertical swipe directions.
-- Enriched each page with a unique icon, label, and color theme using a List of Map data structure, making the code clean, scalable, and easy to extend.
-- Added a swipe hint on the first page using a conditional if index == 0 check, improving first-time user experience without cluttering other pages.
-- Strengthened understanding of lazy rendering patterns in Flutter, which is foundational knowledge for building performant list-based and page-based UIs in production apps.
-
-### 108. AnimatedBuilder Widget (Efficient Animation Composition in Flutter)
-
-- Learned how to use AnimatedBuilder to listen to an AnimationController and rebuild only the animated part of the widget tree on every tick, without triggering a full screen rebuild.
-- Understood the most important concept of AnimatedBuilder — the child parameter is built only once and passed into the builder, meaning static widgets inside the animation are never unnecessarily recreated.
-- Used SingleTickerProviderStateMixin to provide a vsync to the AnimationController, which ties the animation to the screen refresh rate and prevents offscreen animations from consuming resources.
-- Implemented a repeat() animation that continuously loops from 0.0 to 1.0 and used that value to drive a full 360 degree rotation using Transform.rotate and dart math pi.
-- Added a pause and resume toggle using stop() and repeat() on the controller, showing how AnimationController can be fully controlled at runtime with simple method calls.
-- Displayed the live animation value on screen using a second AnimatedBuilder, helping visualize how the controller value changes from 0.0 to 1.0 on every frame.
-- Strengthened understanding of how AnimationController, AnimatedBuilder, and the child optimization pattern work together, which is the foundation for building smooth, performant animations in Flutter.
-
+### 109. SnackBar (Brief In-App Notifications)
+- Used `ScaffoldMessenger.of(context).showSnackBar()` with `SnackBarBehavior.floating`
+- Built reusable `_showSnackBar` helper with message, icon, color, and action
 
 ---
 
 <div align="center">
 
-## 🗓️ Flutter Widget of the Day — 42 Widgets
+## 🗓️ Flutter Widget of the Day — 109 Widgets
 
 A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
 
 </div>
 
----
-
-<!-- ROW 1 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 01</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 02</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 03</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 03</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 04</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day01_container.png"><img src="screenshots/day01_container.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_01_container/day01_container_widget.dart"><b>Container</b></a><br/><sub>Basic box</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day02_expanded.png"><img src="screenshots/day02_expanded.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_02_expanded/day02_expanded_widget.dart"><b>Expanded</b></a><br/><sub>Fill space</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day03_column.png"><img src="screenshots/day03_column.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_column_widget.dart"><b>Column</b></a><br/><sub>Vertical</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day03_row.png"><img src="screenshots/day03_row.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_row_widget.dart"><b>Row</b></a><br/><sub>Horizontal</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day04_listview.png"><img src="screenshots/day04_listview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_04_listview/day04_listview_widget.dart"><b>ListView</b></a><br/><sub>Scroll list</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 01</b></sub></th>
+      <th style="width:150px"><sub><b>Day 02</b></sub></th>
+      <th style="width:150px"><sub><b>Day 03</b></sub></th>
+      <th style="width:150px"><sub><b>Day 03</b></sub></th>
+      <th style="width:150px"><sub><b>Day 04</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day01_container.png">
+          <img src="screenshots/day01_container.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_01_container/day01_container_widget.dart">
+          <b>Container</b>
+        </a><br/>
+        <sub>Basic box</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day02_expanded.png">
+          <img src="screenshots/day02_expanded.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_02_expanded/day02_expanded_widget.dart">
+          <b>Expanded</b>
+        </a><br/>
+        <sub>Fill space</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day03_column.png">
+          <img src="screenshots/day03_column.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_column_widget.dart">
+          <b>Column</b>
+        </a><br/>
+        <sub>Vertical</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day03_row.png">
+          <img src="screenshots/day03_row.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_03_column%26row/day03_row_widget.dart">
+          <b>Row</b>
+        </a><br/>
+        <sub>Horizontal</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day04_listview.png">
+          <img src="screenshots/day04_listview.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_04_listview/day04_listview_widget.dart">
+          <b>ListView</b>
+        </a><br/>
+        <sub>Scroll list</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 2 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 05</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 06</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 07</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 08</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 09</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day05_cliprrect.png"><img src="screenshots/day05_cliprrect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_05_cliprrect/day05_cliprrect_widget.dart"><b>ClipRRect</b></a><br/><sub>Round clip</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day06_image.asset.png"><img src="screenshots/day06_image.asset.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_06_image.asset/day06_image.asset_widget.dart"><b>Image.asset</b></a><br/><sub>Assets</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day07_gridview.png"><img src="screenshots/day07_gridview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_07_gridview/day07_gridview_widget.dart"><b>GridView</b></a><br/><sub>Grid scroll</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day08_gesturedetector.png"><img src="screenshots/day08_gesturedetector.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_08_gesturedetector/day08_gesturedetector_widget.dart"><b>Gesture</b></a><br/><sub>Tap detection</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day09_bottom_navbar.png"><img src="screenshots/day09_bottom_navbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_09_bottom_navbar/day09_bottom_navbar_widget.dart"><b>BottomNav</b></a><br/><sub>Nav bar</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 05</b></sub></th>
+      <th style="width:150px"><sub><b>Day 06</b></sub></th>
+      <th style="width:150px"><sub><b>Day 07</b></sub></th>
+      <th style="width:150px"><sub><b>Day 08</b></sub></th>
+      <th style="width:150px"><sub><b>Day 09</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day05_cliprrect.png">
+          <img src="screenshots/day05_cliprrect.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_05_cliprrect/day05_cliprrect_widget.dart">
+          <b>ClipRRect</b>
+        </a><br/>
+        <sub>Round clip</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day06_image.asset.png">
+          <img src="screenshots/day06_image.asset.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_06_image.asset/day06_image.asset_widget.dart">
+          <b>Image.asset</b>
+        </a><br/>
+        <sub>Assets</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day07_gridview.png">
+          <img src="screenshots/day07_gridview.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_07_gridview/day07_gridview_widget.dart">
+          <b>GridView</b>
+        </a><br/>
+        <sub>Grid scroll</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day08_gesturedetector.gif">
+          <img src="screenshots/day08_gesturedetector.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_08_gesturedetector/day08_gesturedetector_widget.dart">
+          <b>Gesture</b>
+        </a><br/>
+        <sub>Tap detection</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day09_bottom_navbar.gif">
+          <img src="screenshots/day09_bottom_navbar.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_09_bottom_navbar/day09_bottom_navbar_widget.dart">
+          <b>BottomNav</b>
+        </a><br/>
+        <sub>Nav bar</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 3 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 10</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 11</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 12</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 13</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 14</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day10_appbar.png"><img src="screenshots/day10_appbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_10_appbar/day10_appbar_widget.dart"><b>AppBar</b></a><br/><sub>Top bar</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day11_drawer.png"><img src="screenshots/day11_drawer.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_11_drawer/day11_drawer_widget.dart"><b>Drawer</b></a><br/><sub>Side menu</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day12_sliver_appbar.png"><img src="screenshots/day12_sliver_appbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_12_sliver_appbar/day12_sliver_appbar_widget.dart"><b>SliverAppBar</b></a><br/><sub>Collapsible</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day13_tabbar.png"><img src="screenshots/day13_tabbar.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_13_tabbar/day13_tabbar_widget.dart"><b>TabBar</b></a><br/><sub>Tabs</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day14_animated_container.png"><img src="screenshots/day14_animated_container.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_14_animated_container/day14_animated_container_widget.dart"><b>AnimCont</b></a><br/><sub>Implicit anim</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 10</b></sub></th>
+      <th style="width:150px"><sub><b>Day 11</b></sub></th>
+      <th style="width:150px"><sub><b>Day 12</b></sub></th>
+      <th style="width:150px"><sub><b>Day 13</b></sub></th>
+      <th style="width:150px"><sub><b>Day 14</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day10_appbar.png">
+          <img src="screenshots/day10_appbar.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_10_appbar/day10_appbar_widget.dart">
+          <b>AppBar</b>
+        </a><br/>
+        <sub>Top bar</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day11_drawer.gif">
+          <img src="screenshots/day11_drawer.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_11_drawer/day11_drawer_widget.dart">
+          <b>Drawer</b>
+        </a><br/>
+        <sub>Side menu</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day12_sliver_appbar.gif">
+          <img src="screenshots/day12_sliver_appbar.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_12_sliver_appbar/day12_sliver_appbar_widget.dart">
+          <b>SliverAppBar</b>
+        </a><br/>
+        <sub>Collapsible</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day13_tabbar.gif">
+          <img src="screenshots/day13_tabbar.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_13_tabbar/day13_tabbar_widget.dart">
+          <b>TabBar</b>
+        </a><br/>
+        <sub>Tabs</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day14_animated_container.gif">
+          <img src="screenshots/day14_animated_container.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_14_animated_container/day14_animated_container_widget.dart">
+          <b>AnimCont</b>
+        </a><br/>
+        <sub>Implicit anim</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 4 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 15</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 16</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 17</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 18</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 19</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day15_media_query.png"><img src="screenshots/day15_media_query.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_15_media_query/day15_media_query_widget.dart"><b>MediaQuery</b></a><br/><sub>Responsive</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day16_alert_dialog.png"><img src="screenshots/day16_alert_dialog.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_16_alert_dialog/day16_alert_dialog_widget.dart"><b>AlertDialog</b></a><br/><sub>Popup</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day17_text_and_textstyle.png"><img src="screenshots/day17_text_and_textstyle.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_17_text_and_textstyle/day17_text_style_widget.dart"><b>Text</b></a><br/><sub>Styling</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day18_rich_text.png"><img src="screenshots/day18_rich_text.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_18_rich_text/day18_rich_text_widget.dart"><b>RichText</b></a><br/><sub>Mixed styles</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day19_timer.png"><img src="screenshots/day19_timer.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_19_timer/day19_timer_widget.dart"><b>Timer</b></a><br/><sub>Async events</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 15</b></sub></th>
+      <th style="width:150px"><sub><b>Day 16</b></sub></th>
+      <th style="width:150px"><sub><b>Day 17</b></sub></th>
+      <th style="width:150px"><sub><b>Day 18</b></sub></th>
+      <th style="width:150px"><sub><b>Day 19</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day15_media_query.gif">
+          <img src="screenshots/day15_media_query.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_15_media_query/day15_media_query_widget.dart">
+          <b>MediaQuery</b>
+        </a><br/>
+        <sub>Responsive</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day16_alert_dialog.gif">
+          <img src="screenshots/day16_alert_dialog.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_16_alert_dialog/day16_alert_dialog_widget.dart">
+          <b>AlertDialog</b>
+        </a><br/>
+        <sub>Popup</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day17_text_and_textstyle.png">
+          <img src="screenshots/day17_text_and_textstyle.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_17_text_and_textstyle/day17_text_style_widget.dart">
+          <b>Text</b>
+        </a><br/>
+        <sub>Styling</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day18_rich_text.png">
+          <img src="screenshots/day18_rich_text.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_18_rich_text/day18_rich_text_widget.dart">
+          <b>RichText</b>
+        </a><br/>
+        <sub>Mixed styles</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day19_timer.gif">
+          <img src="screenshots/day19_timer.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_19_timer/day19_timer_widget.dart">
+          <b>Timer</b>
+        </a><br/>
+        <sub>Async events</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 5 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 20</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 21</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 22</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 23</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 24</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day20_pageview.png"><img src="screenshots/day20_pageview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_20_pageview/day20_pageview_widget.dart"><b>PageView</b></a><br/><sub>Swipe pages</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day21_stack.png"><img src="screenshots/day21_stack.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_21_stack/day21_stack_widget.dart"><b>Stack</b></a><br/><sub>Layers</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day22_textfield.png"><img src="screenshots/day22_textfield.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_22_textfield/day22_textfield_widget.dart"><b>TextField</b></a><br/><sub>Input</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day23_animated_icon.png"><img src="screenshots/day23_animated_icon.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_23_animated_icon/day23_animated_icon_widget.dart"><b>AnimIcon</b></a><br/><sub>Transition</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day24_slider.png"><img src="screenshots/day24_slider.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_24_slider/day24_slider_widget.dart"><b>Slider</b></a><br/><sub>Selection</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 20</b></sub></th>
+      <th style="width:150px"><sub><b>Day 21</b></sub></th>
+      <th style="width:150px"><sub><b>Day 22</b></sub></th>
+      <th style="width:150px"><sub><b>Day 23</b></sub></th>
+      <th style="width:150px"><sub><b>Day 24</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day20_pageview.gif">
+          <img src="screenshots/day20_pageview.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_20_pageview/day20_pageview_widget.dart">
+          <b>PageView</b>
+        </a><br/>
+        <sub>Swipe pages</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day21_stack.png">
+          <img src="screenshots/day21_stack.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_21_stack/day21_stack_widget.dart">
+          <b>Stack</b>
+        </a><br/>
+        <sub>Layers</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day22_textfield.gif">
+          <img src="screenshots/day22_textfield.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_22_textfield/day22_textfield_widget.dart">
+          <b>TextField</b>
+        </a><br/>
+        <sub>Input</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day23_animated_icon.gif">
+          <img src="screenshots/day23_animated_icon.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_23_animated_icon/day23_animated_icon_widget.dart">
+          <b>AnimIcon</b>
+        </a><br/>
+        <sub>Transition</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day24_slider.gif">
+          <img src="screenshots/day24_slider.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_24_slider/day24_slider_widget.dart">
+          <b>Slider</b>
+        </a><br/>
+        <sub>Selection</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 6 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 25</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 26</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 27</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 28</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 29</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day25_date_picker.png"><img src="screenshots/day25_date_picker.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_25_date_picker/day25_date_picker_widget.dart"><b>DatePicker</b></a><br/><sub>Calendar</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day26_time_picker.png"><img src="screenshots/day26_time_picker.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_26_time_picker/day26_time_picker_widget.dart"><b>TimePicker</b></a><br/><sub>Clock</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day27_listwheelscrollview.png"><img src="screenshots/day27_listwheelscrollview.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_27_listwheelscrollview/day27_listwheelscrollview_widget.dart"><b>ListWheel</b></a><br/><sub>3D Scroll</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day28_lineargradient.png"><img src="screenshots/day28_lineargradient.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_28_lineargradient/day28_lineargradient_widget.dart"><b>Gradient</b></a><br/><sub>Colors</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day29_elevatedbutton_and_outlinedbutton.png"><img src="screenshots/day29_elevatedbutton_and_outlinedbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_29_elevatedbutton_and_outlinedbutton/day29_elevatedbutton_and_outlinedbutton_widget.dart"><b>Buttons</b></a><br/><sub>Action</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 25</b></sub></th>
+      <th style="width:150px"><sub><b>Day 26</b></sub></th>
+      <th style="width:150px"><sub><b>Day 27</b></sub></th>
+      <th style="width:150px"><sub><b>Day 28</b></sub></th>
+      <th style="width:150px"><sub><b>Day 29</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day25_date_picker.gif">
+          <img src="screenshots/day25_date_picker.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_25_date_picker/day25_date_picker_widget.dart">
+          <b>DatePicker</b>
+        </a><br/>
+        <sub>Calendar</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day26_time_picker.gif">
+          <img src="screenshots/day26_time_picker.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_26_time_picker/day26_time_picker_widget.dart">
+          <b>TimePicker</b>
+        </a><br/>
+        <sub>Clock</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day27_listwheelscrollview.gif">
+          <img src="screenshots/day27_listwheelscrollview.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_27_listwheelscrollview/day27_listwheelscrollview_widget.dart">
+          <b>ListWheel</b>
+        </a><br/>
+        <sub>3D Scroll</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day28_lineargradient.png">
+          <img src="screenshots/day28_lineargradient.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_28_lineargradient/day28_lineargradient_widget.dart">
+          <b>Gradient</b>
+        </a><br/>
+        <sub>Colors</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day29_elevatedbutton_and_outlinedbutton.png">
+          <img src="screenshots/day29_elevatedbutton_and_outlinedbutton.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_29_elevatedbutton_and_outlinedbutton/day29_elevatedbutton_and_outlinedbutton_widget.dart">
+          <b>Buttons</b>
+        </a><br/>
+        <sub>Action</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 7 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 30</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 31</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 32</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 33</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 34</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day30_floatingactionbutton.png"><img src="screenshots/day30_floatingactionbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_30_floatingactionbutton/day30_floatingactionbutton_widget.dart"><b>FAB</b></a><br/><sub>Primary btn</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day31_navigator.png"><img src="screenshots/day31_navigator.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_31_navigator/day31_navigator_widget.dart"><b>Navigator</b></a><br/><sub>Routes</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day32_card.png"><img src="screenshots/day32_card.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_32_card/day32_card_widget.dart"><b>Card</b></a><br/><sub>Container</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day33_clipper.png"><img src="screenshots/day33_clipper.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_33_clipper/day33_clipper_widget.dart"><b>Clipper</b></a><br/><sub>Shapes</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day34_rawmaterialbutton.png"><img src="screenshots/day34_rawmaterialbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_34_rawmaterialbutton/day34_rawmaterialbutton_widget.dart"><b>RawBtn</b></a><br/><sub>Custom</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 30</b></sub></th>
+      <th style="width:150px"><sub><b>Day 31</b></sub></th>
+      <th style="width:150px"><sub><b>Day 32</b></sub></th>
+      <th style="width:150px"><sub><b>Day 33</b></sub></th>
+      <th style="width:150px"><sub><b>Day 34</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day30_floatingactionbutton.png">
+          <img src="screenshots/day30_floatingactionbutton.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_30_floatingactionbutton/day30_floatingactionbutton_widget.dart">
+          <b>FAB</b>
+        </a><br/>
+        <sub>Primary btn</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day31_navigator.gif">
+          <img src="screenshots/day31_navigator.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_31_navigator/day31_navigator_widget.dart">
+          <b>Navigator</b>
+        </a><br/>
+        <sub>Routes</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day32_card.png">
+          <img src="screenshots/day32_card.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_32_card/day32_card_widget.dart">
+          <b>Card</b>
+        </a><br/>
+        <sub>Container</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day33_clipper.png">
+          <img src="screenshots/day33_clipper.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_33_clipper/day33_clipper_widget.dart">
+          <b>Clipper</b>
+        </a><br/>
+        <sub>Shapes</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day34_rawmaterialbutton.gif">
+          <img src="screenshots/day34_rawmaterialbutton.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_34_rawmaterialbutton/day34_rawmaterialbutton_widget.dart">
+          <b>RawBtn</b>
+        </a><br/>
+        <sub>Custom</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 8 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 35</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 36</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 37</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 38</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 39</th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day35_rotatedbox.png"><img src="screenshots/day35_rotatedbox.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_35_rotatedbox/day35_rotatedbox_widget.dart"><b>RotatedBox</b></a><br/><sub>Rotation</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day36_transform.png"><img src="screenshots/day36_transform.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_36_transform/day36_transform_widget.dart"><b>Transform</b></a><br/><sub>Scale/Skew</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day37_positioned.png"><img src="screenshots/day37_positioned.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_37_positioned/day37_positioned_widget.dart"><b>Positioned</b></a><br/><sub>Absolute</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day38_iconbutton.png"><img src="screenshots/day38_iconbutton.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_38_iconbutton/day38_iconbutton_widget.dart"><b>IconButton</b></a><br/><sub>Icon action</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day39_custom_paint.png"><img src="screenshots/day39_custom_paint.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_39_custom_paint/day39_custom_paint_widget.dart"><b>CustomPaint</b></a><br/><sub>Canvas draw</sub>
-    </td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 35</b></sub></th>
+      <th style="width:150px"><sub><b>Day 36</b></sub></th>
+      <th style="width:150px"><sub><b>Day 37</b></sub></th>
+      <th style="width:150px"><sub><b>Day 38</b></sub></th>
+      <th style="width:150px"><sub><b>Day 39</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day35_rotatedbox.gif">
+          <img src="screenshots/day35_rotatedbox.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_35_rotatedbox/day35_rotatedbox_widget.dart">
+          <b>RotatedBox</b>
+        </a><br/>
+        <sub>Rotation</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day36_transform.png">
+          <img src="screenshots/day36_transform.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_36_transform/day36_transform_widget.dart">
+          <b>Transform</b>
+        </a><br/>
+        <sub>Scale/Skew</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day37_positioned.png">
+          <img src="screenshots/day37_positioned.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_37_positioned/day37_positioned_widget.dart">
+          <b>Positioned</b>
+        </a><br/>
+        <sub>Absolute</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day38_iconbutton.png">
+          <img src="screenshots/day38_iconbutton.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_38_iconbutton/day38_iconbutton_widget.dart">
+          <b>IconButton</b>
+        </a><br/>
+        <sub>Icon action</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day39_custom_paint.png">
+          <img src="screenshots/day39_custom_paint.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_39_custom_paint/day39_custom_paint_widget.dart">
+          <b>CustomPaint</b>
+        </a><br/>
+        <sub>Canvas draw</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<!-- ROW 9 -->
-<table width="100%" cellpadding="0" style="border-collapse:separate; border-spacing:8px; table-layout:fixed;">
-  <thead><tr>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 40</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 41</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 42</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 43</th>
-    <th align="center" width="20%" style="font-size:12px; color:#0066cc; border-bottom:2px solid #0066cc;">Day 44</th>
-    <th width="20%"></th>
-    <th width="20%"></th>
-  </tr></thead>
-  <tbody><tr>
-    <td align="center" valign="top">
-      <a href="screenshots/day40_clipoval.png"><img src="screenshots/day40_clipoval.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_40_clipoval/day40_clipoval_widget.dart"><b>ClipOval</b></a><br/><sub>Circular clip</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day41_cliprrect.png"><img src="screenshots/day41_cliprrect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_41_cliprrect/day41_cliprrect_widget.dart"><b>ClipRRect</b></a><br/><sub>Rounded clip</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day42_cliprect.png"><img src="screenshots/day42_cliprect.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_42_cliprect/day42_cliprect_widget.dart"><b>ClipRect</b></a><br/><sub>Rectangle clip</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day43_clippath.png"><img src="screenshots/day43_clippath.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_43_clippath/day43_clippath_widget.dart"><b>ClipPath</b></a><br/><sub>Custom shape clipping</sub>
-    </td>
-    <td align="center" valign="top">
-      <a href="screenshots/day44_radial_and_sweep_gradient.png"><img src="screenshots/day44_radial_and_sweep_gradient.png" width="150" height="250" style="border-radius:10px; border:1px solid #ddd; object-fit:cover;"/></a><br/>
-      <a href="lib/features/widgets_of_the_day/day_44_radial_and_sweep_gradient/day44_radial_and_sweep_gradient_widget.dart"><b>Radial & Sweep Gradient</b></a><br/><sub>Advanced gradient effects</sub>
-    </td>
-    <td></td><td></td>
-  </tr></tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 40</b></sub></th>
+      <th style="width:150px"><sub><b>Day 41</b></sub></th>
+      <th style="width:150px"><sub><b>Day 42</b></sub></th>
+      <th style="width:150px"><sub><b>Day 43</b></sub></th>
+      <th style="width:150px"><sub><b>Day 44</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day40_clipoval.png">
+          <img src="screenshots/day40_clipoval.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_40_clipoval/day40_clipoval_widget.dart">
+          <b>ClipOval</b>
+        </a><br/>
+        <sub>Circular clip</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day41_cliprrect.png">
+          <img src="screenshots/day41_cliprrect.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_41_cliprrect/day41_cliprrect_widget.dart">
+          <b>ClipRRect</b>
+        </a><br/>
+        <sub>Rounded clip</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day42_cliprect.png">
+          <img src="screenshots/day42_cliprect.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_42_cliprect/day42_cliprect_widget.dart">
+          <b>ClipRect</b>
+        </a><br/>
+        <sub>Rect clip</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day43_clippath.png">
+          <img src="screenshots/day43_clippath.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_43_clippath/day43_clippath_widget.dart">
+          <b>ClipPath</b>
+        </a><br/>
+        <sub>Custom shape</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day44_radial_and_sweep_gradient.png">
+          <img src="screenshots/day44_radial_and_sweep_gradient.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_44_radial_and_sweep_gradient/day44_radial_and_sweep_gradient_widget.dart">
+          <b>Grad Effects</b>
+        </a><br/>
+        <sub>Radial & Sweep</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 45</b></sub></th>
+      <th style="width:150px"><sub><b>Day 46</b></sub></th>
+      <th style="width:150px"><sub><b>Day 47</b></sub></th>
+      <th style="width:150px"><sub><b>Day 48</b></sub></th>
+      <th style="width:150px"><sub><b>Day 49</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day45_stateful_widget.gif">
+          <img src="screenshots/day45_stateful_widget.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_45_stateful/day45_stateful_widget.dart">
+          <b>StatefulWidget</b>
+        </a><br/>
+        <sub>Lifecycle</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day46_table.png">
+          <img src="screenshots/day46_table.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_46_table/day46_table_widget.dart">
+          <b>Table</b>
+        </a><br/>
+        <sub>Grid layout</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day47_data_table.gif">
+          <img src="screenshots/day47_data_table.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_47_data_table/day47_data_table_widget.dart">
+          <b>DataTable</b>
+        </a><br/>
+        <sub>Interactive</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day48_placeholder.png">
+          <img src="screenshots/day48_placeholder.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_48_placeholder/day48_placeholder_widget.dart">
+          <b>Placeholder</b>
+        </a><br/>
+        <sub>Debugging</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day49_gesturedetector_and_inkwell.gif">
+          <img src="screenshots/day49_gesturedetector_and_inkwell.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_49_gesturedetector_and_inkwell/day49_gesturedetector_and_inkwell_widget.dart">
+          <b>Gesture&Ink</b>
+        </a><br/>
+        <sub>Interactions</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 50</b></sub></th>
+      <th style="width:150px"><sub><b>Day 51</b></sub></th>
+      <th style="width:150px"><sub><b>Day 52</b></sub></th>
+      <th style="width:150px"><sub><b>Day 53</b></sub></th>
+      <th style="width:150px"><sub><b>Day 54</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day50_material_widget.png">
+          <img src="screenshots/day50_material_widget.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_50_material/day50_material_widget.dart">
+          <b>Material</b>
+        </a><br/>
+        <sub>Surface/Depth</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day51_switches.gif">
+          <img src="screenshots/day51_switches.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_51_switches/day51_switches_widget.dart">
+          <b>Switches</b>
+        </a><br/>
+        <sub>Toggle UI</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day52_dropdown_and_popupmenu.gif">
+          <img src="screenshots/day52_dropdown_and_popupmenu.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_52_dropdown_and_popupmenu/day52_dropdown_and_popupmenu_widget.dart">
+          <b>Menus</b>
+        </a><br/>
+        <sub>Selection</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day53_hero_animation.gif">
+          <img src="screenshots/day53_hero_animation.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_53_hero_animation/day53_hero_animation_widget.dart">
+          <b>Hero</b>
+        </a><br/>
+        <sub>Transitions</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day54_about_dialog.gif">
+          <img src="screenshots/day54_about_dialog.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_54_about_dialog/day54_about_dialog_widget.dart">
+          <b>AboutDialog</b>
+        </a><br/>
+        <sub>App Info</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 55</b></sub></th>
+      <th style="width:150px"><sub><b>Day 56</b></sub></th>
+      <th style="width:150px"><sub><b>Day 57</b></sub></th>
+      <th style="width:150px"><sub><b>Day 58</b></sub></th>
+      <th style="width:150px"><sub><b>Day 59</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day55_stepper.gif">
+          <img src="screenshots/day55_stepper.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_55_stepper/day55_stepper_widget.dart">
+          <b>Stepper</b>
+        </a><br/>
+        <sub>Workflows</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day56_fitted_box.png">
+          <img src="screenshots/day56_fitted_box.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_56_fitted_box/day56_fitted_box_widget.dart">
+          <b>FittedBox</b>
+        </a><br/>
+        <sub>Scaling</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day57_show_search.gif">
+          <img src="screenshots/day57_show_search.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_57_show_search/day57_show_search_widget.dart">
+          <b>Search</b>
+        </a><br/>
+        <sub>In-app search</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day58_adaptive.gif">
+          <img src="screenshots/day58_adaptive.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_58_adaptive/day58_adaptive_widget.dart">
+          <b>Adaptive</b>
+        </a><br/>
+        <sub>Platform</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day59_scrollbar.gif">
+          <img src="screenshots/day59_scrollbar.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_59_scrollbar/day59_scrollbar_widget.dart">
+          <b>Scrollbar</b>
+        </a><br/>
+        <sub>Feedback</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 60</b></sub></th>
+      <th style="width:150px"><sub><b>Day 61</b></sub></th>
+      <th style="width:150px"><sub><b>Day 62</b></sub></th>
+      <th style="width:150px"><sub><b>Day 63</b></sub></th>
+      <th style="width:150px"><sub><b>Day 64</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day60_choice_chip.gif">
+          <img src="screenshots/day60_choice_chip.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_60_choice_chip/day60_choice_chip_widget.dart">
+          <b>ChoiceChip</b>
+        </a><br/>
+        <sub>Filters</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day61_wrap.png">
+          <img src="screenshots/day61_wrap.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_61_wrap/day61_wrap_widget.dart">
+          <b>Wrap</b>
+        </a><br/>
+        <sub>Flow layout</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day62_expansion_tile.gif">
+          <img src="screenshots/day62_expansion_tile.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_62_expansion_tile/day62_expansion_tile_widget.dart">
+          <b>ExpansionTile</b>
+        </a><br/>
+        <sub>Expandable</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day63_range_slider.gif">
+          <img src="screenshots/day63_range_slider.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_63_range_slider/day63_range_slider_widget.dart">
+          <b>RangeSlider</b>
+        </a><br/>
+        <sub>Value range</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day64_show_modalbootmsheet.gif">
+          <img src="screenshots/day64_show_modalbootmsheet.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_64_show_modalbottomsheet/day64_show_modalbootmsheet_widget.dart">
+          <b>BottomSheet</b>
+        </a><br/>
+        <sub>Modal UI</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 65</b></sub></th>
+      <th style="width:150px"><sub><b>Day 66</b></sub></th>
+      <th style="width:150px"><sub><b>Day 67</b></sub></th>
+      <th style="width:150px"><sub><b>Day 68</b></sub></th>
+      <th style="width:150px"><sub><b>Day 69</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day65_animated_cross_fade.gif">
+          <img src="screenshots/day65_animated_cross_fade.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_65_animated_cross_fade/day65_animated_cross_fade_widget.dart">
+          <b>CrossFade</b>
+        </a><br/>
+        <sub>Transitions</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day66_flexible.png">
+          <img src="screenshots/day66_flexible.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_66_flexible/day66_flexible_widget.dart">
+          <b>Flexible</b>
+        </a><br/>
+        <sub>Flex layout</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day67_spacer.png">
+          <img src="screenshots/day67_spacer.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_67_spacer/day67_spacer_widget.dart">
+          <b>Spacer</b>
+        </a><br/>
+        <sub>Spacing</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day68_gridpaper.png">
+          <img src="screenshots/day68_gridpaper.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_68_gridpaper/day68_gridpaper_widget.dart">
+          <b>GridPaper</b>
+        </a><br/>
+        <sub>Visualization</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day69_interactive_viewer.gif">
+          <img src="screenshots/day69_interactive_viewer.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_69_interactive_viewer/day69_interactive_viewer_widget.dart">
+          <b>InterViewer</b>
+        </a><br/>
+        <sub>Zoom/Pan</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 70</b></sub></th>
+      <th style="width:150px"><sub><b>Day 71</b></sub></th>
+      <th style="width:150px"><sub><b>Day 72</b></sub></th>
+      <th style="width:150px"><sub><b>Day 73</b></sub></th>
+      <th style="width:150px"><sub><b>Day 74</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day70_checkbox_listtile.gif">
+          <img src="screenshots/day70_checkbox_listtile.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_70_checkbox_listtile/day70_checkbox_listtile_widget.dart">
+          <b>CheckboxTile</b>
+        </a><br/>
+        <sub>Selection</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day71_selectable_text.gif">
+          <img src="screenshots/day71_selectable_text.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_71_selectable_text/day71_selectable_text_widget.dart">
+          <b>SelectText</b>
+        </a><br/>
+        <sub>Copy/Paste</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day72_animated_padding.gif">
+          <img src="screenshots/day72_animated_padding.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_72_animated_padding/day72_animated_padding_widget.dart">
+          <b>AnimPadding</b>
+        </a><br/>
+        <sub>Spacing anim</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day73_refresh_indicator.gif">
+          <img src="screenshots/day73_refresh_indicator.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_73_refresh_indicator/day73_refresh_indicator_widget.dart">
+          <b>Refresh</b>
+        </a><br/>
+        <sub>Pull-to-refresh</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day74_image_filtered.png">
+          <img src="screenshots/day74_image_filtered.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_74_image_filtered/day74_image_filtered_widget.dart">
+          <b>ImageFilter</b>
+        </a><br/>
+        <sub>Blur effects</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 75</b></sub></th>
+      <th style="width:150px"><sub><b>Day 76</b></sub></th>
+      <th style="width:150px"><sub><b>Day 77</b></sub></th>
+      <th style="width:150px"><sub><b>Day 78</b></sub></th>
+      <th style="width:150px"><sub><b>Day 79</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day75_aspect_ratio.png">
+          <img src="screenshots/day75_aspect_ratio.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_75_aspect_ratio/day75_aspect_ratio_widget.dart">
+          <b>AspectRatio</b>
+        </a><br/>
+        <sub>Proportions</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day76_toggle_button.gif">
+          <img src="screenshots/day76_toggle_button.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_76_toggle_button/day76_toggle_button_widget.dart">
+          <b>ToggleBtns</b>
+        </a><br/>
+        <sub>Selection</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day77_physical_model.png">
+          <img src="screenshots/day77_physical_model.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_77_physical_model/day77_physical_model_widget.dart">
+          <b>PhysicalModel</b>
+        </a><br/>
+        <sub>Elevation</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day78_align.png">
+          <img src="screenshots/day78_align.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_78_align/day78_align_widget.dart">
+          <b>Align</b>
+        </a><br/>
+        <sub>Positioning</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day79_safearea.png">
+          <img src="screenshots/day79_safearea.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_79_safearea/day79_safearea_widget.dart">
+          <b>SafeArea</b>
+        </a><br/>
+        <sub>Notch support</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 80</b></sub></th>
+      <th style="width:150px"><sub><b>Day 81</b></sub></th>
+      <th style="width:150px"><sub><b>Day 82</b></sub></th>
+      <th style="width:150px"><sub><b>Day 83</b></sub></th>
+      <th style="width:150px"><sub><b>Day 84</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day80_pageroute_builder.gif">
+          <img src="screenshots/day80_pageroute_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_80_pageroute_builder/day80_pageroute_builder_widget.dart">
+          <b>RouteAnim</b>
+        </a><br/>
+        <sub>Custom nav</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day81_draggable.gif">
+          <img src="screenshots/day81_draggable.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_81_draggable/day81_draggable_widget.dart">
+          <b>Draggable</b>
+        </a><br/>
+        <sub>Drag & Drop</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day82_backdrop_filter.png">
+          <img src="screenshots/day82_backdrop_filter.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_82_backdrop_filter/day82_backdrop_filter_widget.dart">
+          <b>Backdrop</b>
+        </a><br/>
+        <sub>Frosted glass</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day83_reorderable_list_view.gif">
+          <img src="screenshots/day83_reorderable_list_view.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_83_reorderable_list_view/day83_reorderable_list_view_widget.dart">
+          <b>ReorderList</b>
+        </a><br/>
+        <sub>Drag reorder</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day84_fade_transition.gif">
+          <img src="screenshots/day84_fade_transition.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_84_fade_transition/day84_fade_transition_widget.dart">
+          <b>FadeAnim</b>
+        </a><br/>
+        <sub>Opacity anim</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 85</b></sub></th>
+      <th style="width:150px"><sub><b>Day 86</b></sub></th>
+      <th style="width:150px"><sub><b>Day 87</b></sub></th>
+      <th style="width:150px"><sub><b>Day 88</b></sub></th>
+      <th style="width:150px"><sub><b>Day 89</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day85_circle_avatar.png">
+          <img src="screenshots/day85_circle_avatar.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_85_circle_avatar/day85_circle_avatar_widget.dart">
+          <b>CircleAvatar</b>
+        </a><br/>
+        <sub>Profile img</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day86_tooltip.gif">
+          <img src="screenshots/day86_tooltip.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_86_tooltip/day86_tooltip_widget.dart">
+          <b>Tooltip</b>
+        </a><br/>
+        <sub>Hints</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day87_visibility.gif">
+          <img src="screenshots/day87_visibility.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_87_visibility/day87_visibility_widget.dart">
+          <b>Visibility</b>
+        </a><br/>
+        <sub>Show/Hide</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day88_indexed_stack.gif">
+          <img src="screenshots/day88_indexed_stack.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_88_indexed_stack/day88_indexed_stack_widget.dart">
+          <b>IndexedStack</b>
+        </a><br/>
+        <sub>Multi-state</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day89_navigator_2.0.gif">
+          <img src="screenshots/day89_navigator_2.0.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_89_navigator_2.0/day89_navigator_2.0_widget.dart">
+          <b>Nav 2.0</b>
+        </a><br/>
+        <sub>Declarative</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 90</b></sub></th>
+      <th style="width:150px"><sub><b>Day 91</b></sub></th>
+      <th style="width:150px"><sub><b>Day 92</b></sub></th>
+      <th style="width:150px"><sub><b>Day 93</b></sub></th>
+      <th style="width:150px"><sub><b>Day 94</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day90_null_aware_operators.png">
+          <img src="screenshots/day90_null_aware_operators.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_90_null_aware_operators/day90_null_aware_operators_widget.dart">
+          <b>NullSafety</b>
+        </a><br/>
+        <sub>Operators</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day91_cascade_operator.png">
+          <img src="screenshots/day91_cascade_operator.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_91_cascade_operator/day91_cascade_operator_widget.dart">
+          <b>Cascade</b>
+        </a><br/>
+        <sub>Chaining</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day92_inherited.gif">
+          <img src="screenshots/day92_inherited.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_92_inherited_widget/day92_inherited_widget.dart">
+          <b>Inherited</b>
+        </a><br/>
+        <sub>State sharing</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day93_fractional_sizedbox.png">
+          <img src="screenshots/day93_fractional_sizedbox.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_93_fractional_sizedbox/day93_fractional_sizedbox_widget.dart">
+          <b>FracSizedBox</b>
+        </a><br/>
+        <sub>Percentages</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day94_constrained_box.png">
+          <img src="screenshots/day94_constrained_box.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_94_constrained_box/day94_constrained_box_widget.dart">
+          <b>Constrained</b>
+        </a><br/>
+        <sub>Limits</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 95</b></sub></th>
+      <th style="width:150px"><sub><b>Day 96</b></sub></th>
+      <th style="width:150px"><sub><b>Day 97</b></sub></th>
+      <th style="width:150px"><sub><b>Day 98</b></sub></th>
+      <th style="width:150px"><sub><b>Day 99</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day95_cupertino_search_textfield.gif">
+          <img src="screenshots/day95_cupertino_search_textfield.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_95_cupertino_search_textfield/day95_cupertino_search_textfield_widget.dart">
+          <b>CupertinoSrch</b>
+        </a><br/>
+        <sub>iOS style</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day96_stateful_builder.gif">
+          <img src="screenshots/day96_stateful_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_96_stateful_builder/day96_stateful_builder_widget.dart">
+          <b>StatefulBldr</b>
+        </a><br/>
+        <sub>Local state</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day97_layout_builder.gif">
+          <img src="screenshots/day97_layout_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_97_layout_builder/day97_layout_builder_widget.dart">
+          <b>LayoutBuilder</b>
+        </a><br/>
+        <sub>Responsive</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day98_orientation_builder.gif">
+          <img src="screenshots/day98_orientation_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_98_orientation_builder/day98_orientation_builder_widget.dart">
+          <b>OrientBuilder</b>
+        </a><br/>
+        <sub>Rotation</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day99_platform_detect.png">
+          <img src="screenshots/day99_platform_detect.png" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_99_platform_detect/day99_platform_detect_widget.dart">
+          <b>Platform</b>
+        </a><br/>
+        <sub>OS detection</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 100</b></sub></th>
+      <th style="width:150px"><sub><b>Day 101</b></sub></th>
+      <th style="width:150px"><sub><b>Day 102</b></sub></th>
+      <th style="width:150px"><sub><b>Day 103</b></sub></th>
+      <th style="width:150px"><sub><b>Day 104</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day100_future_builder.gif">
+          <img src="screenshots/day100_future_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_100_future_builder/day100_future_builder_widget.dart">
+          <b>FutureBuilder</b>
+        </a><br/>
+        <sub>Async data</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day101_stream_builder.gif">
+          <img src="screenshots/day101_stream_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_101_stream_builder/day101_stream_builder_widget.dart">
+          <b>StreamBuilder</b>
+        </a><br/>
+        <sub>Real-time</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day102_change_notifier.gif">
+          <img src="screenshots/day102_change_notifier.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_102_change_notifier/day102_change_notifier_widget.dart">
+          <b>ChangeNotifier</b>
+        </a><br/>
+        <sub>State mgmt</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day103_value_notifier.gif">
+          <img src="screenshots/day103_value_notifier.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_103_value_notifier/day103_value_notifier_widget.dart">
+          <b>ValueNotifier</b>
+        </a><br/>
+        <sub>Reactive</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day104_inherited_notifier.gif">
+          <img src="screenshots/day104_inherited_notifier.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_104_inherited_notifier/day104_inherited_notifier_widget.dart">
+          <b>InheritNotify</b>
+        </a><br/>
+        <sub>Reactive</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 105</b></sub></th>
+      <th style="width:150px"><sub><b>Day 106</b></sub></th>
+      <th style="width:150px"><sub><b>Day 107</b></sub></th>
+      <th style="width:150px"><sub><b>Day 108</b></sub></th>
+      <th style="width:150px"><sub><b>Day 109</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day105_listener.gif">
+          <img src="screenshots/day105_listener.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_105_listener/day105_listener_widget.dart">
+          <b>Listener</b>
+        </a><br/>
+        <sub>Pointer</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day106_builder.gif">
+          <img src="screenshots/day106_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day106_builder/day106_builder_widget.dart">
+          <b>Builder</b>
+        </a><br/>
+        <sub>Context</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day107_page_view_builder.gif">
+          <img src="screenshots/day107_page_view_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_107_page_view_builder/day107_page_view_builder_widget.dart">
+          <b>PageView.bldr</b>
+        </a><br/>
+        <sub>Lazy pages</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day108_animated_builder.gif">
+          <img src="screenshots/day108_animated_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_108_animated_builder/day108_animated_builder_widget.dart">
+          <b>AnimBuilder</b>
+        </a><br/>
+        <sub>Optimized</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day109_snackbar.gif">
+          <img src="screenshots/day109_snackbar.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_109_snackbar/day109_snackbar_widget.dart">
+          <b>SnackBar</b>
+        </a><br/>
+        <sub>Alerts</sub>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---

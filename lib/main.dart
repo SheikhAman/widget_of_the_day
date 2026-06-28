@@ -109,7 +109,6 @@ class MyApp extends StatelessWidget {
       // home: const Day77PhysicalModelWidget(),
       // home: const Day78AlignWidget(),
       // home: const Day79SafeAreaWidget(),
-      // home: const Day79SafeAreaWidget(),
       // home: const Day80PageRouteBuilderWidget(),
       // home: const Day81DraggableWidget(),
       // home: const Day82BackdropFilterWidget(),
@@ -138,7 +137,8 @@ class MyApp extends StatelessWidget {
       // home: const Day105Listener(),
       // home: const Day106Builder(),
       // home: const Day107PageViewBuilder(),
-      home: const Day108AnimatedBuilder(),
+      // home: const Day108AnimatedBuilder(),
+      home: const Day109SnackBar(),
     );
   }
 }
