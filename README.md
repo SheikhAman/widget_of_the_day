@@ -490,6 +490,10 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated `IntrinsicWidth` to automatically match widget widths based on the largest child.
 - Showed how these widgets solve common Flutter layout alignment issues.
 
+### 112. OverflowBox (Overflow Beyond Parent Constraints)
+- Compared layouts with and without `OverflowBox` using an interactive toggle.
+- Demonstrated how `OverflowBox` allows a child to exceed its parent's size constraints while keeping the parent size unchanged.
+- Visualized the relationship between parent and child constraints using a simple, beginner-friendly example.
 
 ---
 
