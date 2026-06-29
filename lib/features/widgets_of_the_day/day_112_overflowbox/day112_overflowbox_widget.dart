@@ -15,7 +15,7 @@ class _State extends State<Day112OverflowBox> {
     return Scaffold(
       backgroundColor: const Color(0xFFF5F5F5),
       appBar: AppBar(
-        title: const Text('Day 112 · OverflowBox'),
+        title: const Text('Day 112 - OverflowBox'),
         centerTitle: true,
       ),
       body: Padding(

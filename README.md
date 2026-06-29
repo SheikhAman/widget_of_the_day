@@ -495,6 +495,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated how `OverflowBox` allows a child to exceed its parent's size constraints while keeping the parent size unchanged.
 - Visualized the relationship between parent and child constraints using a simple, beginner-friendly example.
 
+### 113. UnconstrainedBox (Remove Parent Constraints)
+- Compared layouts with and without `UnconstrainedBox` using an interactive toggle.
+- Demonstrated how `UnconstrainedBox` lets a child use its natural size instead of following its parent's constraints.
+- Explained Flutter's parent-to-child constraint system with a practical button layout example.
+
 ---
 
 <div align="center">
