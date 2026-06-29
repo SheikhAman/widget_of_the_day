@@ -500,11 +500,16 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated how `UnconstrainedBox` lets a child use its natural size instead of following its parent's constraints.
 - Explained Flutter's parent-to-child constraint system with a practical button layout example.
 
+### 114. LimitedBox (Limit Size in Unconstrained Layouts)
+- Compared layouts with and without `LimitedBox` using an interactive toggle.
+- Demonstrated how `LimitedBox` applies maximum width and height only when its parent provides unconstrained space.
+- Showed a practical use case by combining `LimitedBox` with `UnconstrainedBox` to better understand Flutter's layout constraints.
+
 ---
 
 <div align="center">
 
-## 🗓️ Flutter Widget of the Day — 109 Widgets
+## 🗓️ Flutter Widget of the Day — 114 Widgets
 
 A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
 
@@ -1847,6 +1852,67 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
           <b>SnackBar</b>
         </a><br/>
         <sub>Alerts</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 110</b></sub></th>
+      <th style="width:150px"><sub><b>Day 111</b></sub></th>
+      <th style="width:150px"><sub><b>Day 112</b></sub></th>
+      <th style="width:150px"><sub><b>Day 113</b></sub></th>
+      <th style="width:150px"><sub><b>Day 114</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day110_sizedbox.gif">
+          <img src="screenshots/day110_sizedbox.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_110_sizedbox/day110_sizedbox_widget.dart">
+          <b>SizedBox</b>
+        </a><br/>
+        <sub>Fixed size</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day111_intrinsicheight_and_intrinsicwidth.gif">
+          <img src="screenshots/day111_intrinsicheight_and_intrinsicwidth.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_111_intrinsicheight_and_intrinsicwidth/day111_intrinsicheight_and_intrinsicwidth_widget.dart">
+          <b>Intrinsic</b>
+        </a><br/>
+        <sub>Natural size</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day112_overflowbox.gif">
+          <img src="screenshots/day112_overflowbox.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_112_overflowbox/day112_overflowbox_widget.dart">
+          <b>OverflowBox</b>
+        </a><br/>
+        <sub>Overflow</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day113_unconstrained_box.gif">
+          <img src="screenshots/day113_unconstrained_box.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_113_unconstrained_box/day113_unconstrained_box_widget.dart">
+          <b>Unconstrained</b>
+        </a><br/>
+        <sub>No limits</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day114_limited_box.gif">
+          <img src="screenshots/day114_limited_box.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_114_limited_box/day114_limited_box_widget.dart">
+          <b>LimitedBox</b>
+        </a><br/>
+        <sub>Max limits</sub>
       </td>
     </tr>
   </tbody>
