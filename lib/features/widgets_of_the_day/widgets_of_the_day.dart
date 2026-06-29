@@ -109,6 +109,7 @@ export 'day_107_page_view_builder/day107_page_view_builder_widget.dart';
 export 'day_108_animated_builder/day108_animated_builder_widget.dart';
 export 'day_109_snackbar/day109_snackbar_widget.dart';
 export 'day_110_sizedbox/day110_sizedbox_widget.dart';
+export 'day_111_intrinsicheight_and_intrinsicwidth/day111_intrinsicheight_and_intrinsicwidth_widget.dart';
 
 
 

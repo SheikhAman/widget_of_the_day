@@ -139,7 +139,8 @@ class MyApp extends StatelessWidget {
       // home: const Day107PageViewBuilder(),
       // home: const Day108AnimatedBuilder(),
       // home: const Day109SnackBar(),
-      home: const Day110SizedBox(),
+      // home: const Day110SizedBox(),
+      home: const Day111IntrinsicWidgets(),
     );
   }
 }

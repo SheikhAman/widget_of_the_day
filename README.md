@@ -485,6 +485,10 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated `SizedBox.expand()`, `SizedBox.shrink()`, and `SizedBox.fromSize()` with practical UI examples.
 - Showed how different `SizedBox` constructors help build cleaner and more responsive Flutter layouts.
 
+### 111. IntrinsicHeight & IntrinsicWidth
+- Compared layouts with and without `IntrinsicHeight` to make `Row` children the same height.
+- Demonstrated `IntrinsicWidth` to automatically match widget widths based on the largest child.
+- Showed how these widgets solve common Flutter layout alignment issues.
 
 
 ---
