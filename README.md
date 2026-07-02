@@ -510,6 +510,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated how `CrossAxisAlignment.baseline` aligns widgets by their text baseline instead of centering them as a block.
 - Showed a practical pricing-label example (mixed font sizes) to highlight why baseline alignment matters for polished UI.
 
+### 116. Opacity (Widget Transparency)
+- Added a switch to compare `Opacity` vs `AnimatedOpacity` side by side.
+- Demonstrated that `Opacity` changes transparency instantly, while `AnimatedOpacity` animates the change smoothly over a duration.
+- Explained why `AnimatedOpacity` is often the better choice for transparency transitions, without needing a manual AnimationController.
+
 
 ---
 
