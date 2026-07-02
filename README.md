@@ -505,6 +505,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated how `LimitedBox` applies maximum width and height only when its parent provides unconstrained space.
 - Showed a practical use case by combining `LimitedBox` with `UnconstrainedBox` to better understand Flutter's layout constraints.
 
+### 115. Baseline (Text Alignment)
+- Compared layouts with and without `Baseline` alignment using an interactive toggle.
+- Demonstrated how `CrossAxisAlignment.baseline` aligns widgets by their text baseline instead of centering them as a block.
+- Showed a practical pricing-label example (mixed font sizes) to highlight why baseline alignment matters for polished UI.
+
+
 ---
 
 <div align="center">
