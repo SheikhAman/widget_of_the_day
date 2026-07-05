@@ -115,3 +115,4 @@ export 'day_113_unconstrained_box/day113_unconstrained_box_widget.dart';
 export 'day_114_limited_box/day114_limited_box_widget.dart';
 export 'day_115_baseline/day115_baseline_widget.dart';
 export 'day_116_opacity/day116_opacity_widget.dart';
+export 'day_117_color_filtered/day117_color_filtered_widget.dart';

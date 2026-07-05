@@ -515,6 +515,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated that `Opacity` changes transparency instantly, while `AnimatedOpacity` animates the change smoothly over a duration.
 - Explained why `AnimatedOpacity` is often the better choice for transparency transitions, without needing a manual AnimationController.
 
+### 117. ColorFiltered (Color Matrix & Blend Filters)
+- Compared unfiltered and filtered widgets using an interactive toggle.
+- Used `ColorFilter.matrix()` to apply a grayscale effect across three real-world scenarios — a disabled form button, a loading image placeholder, and locked premium content — switchable via a scenario picker.
+- Paired each scenario with a short "why" explanation showing the actual problem `ColorFiltered` solves (e.g., visual disabled states, loading indicators, freemium locks) without needing duplicate gray assets.
+- Highlighted how `ColorFiltered` lets you recolor any widget on the fly, at runtime, without modifying the original asset.
+
 
 ---
 
