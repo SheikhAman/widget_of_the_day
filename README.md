@@ -521,6 +521,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Paired each scenario with a short "why" explanation showing the actual problem `ColorFiltered` solves (e.g., visual disabled states, loading indicators, freemium locks) without needing duplicate gray assets.
 - Highlighted how `ColorFiltered` lets you recolor any widget on the fly, at runtime, without modifying the original asset.
 
+### 118. ShaderMask (Gradient Masks & Shader Effects)
+- Compared unmasked and masked widgets using an interactive toggle.
+- Used `ShaderMask` with `LinearGradient` across two real-world scenarios — an animated shimmer sweep over premium/loading text, and a soft fade at the top/bottom edges of a scrollable list.
+- Demonstrated two blend modes: `BlendMode.srcIn` to recolor text with a moving gradient, and `BlendMode.dstIn` to fade a widget's edges using gradient transparency.
+- Paired each scenario with a short "why" explanation showing the real problem `ShaderMask` solves (loading/premium indicators, polished scroll edges) — all without external shimmer packages or extra image assets.
+
 
 ---
 
