@@ -527,12 +527,17 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated two blend modes: `BlendMode.srcIn` to recolor text with a moving gradient, and `BlendMode.dstIn` to fade a widget's edges using gradient transparency.
 - Paired each scenario with a short "why" explanation showing the real problem `ShaderMask` solves (loading/premium indicators, polished scroll edges) — all without external shimmer packages or extra image assets.
 
+### 119. DecoratedBox (vs Container)
+- Compared `DecoratedBox` and `Container` producing the exact same visual result, switchable via a toggle button.
+- Rendered a live "under the hood" diagram showing that `Container` isn't one widget — it composes `Padding`, `Align`, `ConstrainedBox`, and `DecoratedBox` together, while `DecoratedBox` alone only paints the decoration.
+- Explained why this matters: when you only need color/border/gradient/shadow (no padding, margin, or alignment), `DecoratedBox` skips the extra layers `Container` builds for you — useful for performance when rendering many items in a list.
+
 
 ---
 
 <div align="center">
 
-## 🗓️ Flutter Widget of the Day — 114 Widgets
+## 🗓️ Flutter Widget of the Day — 119 Widgets
 
 A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
 
@@ -1936,6 +1941,67 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
           <b>LimitedBox</b>
         </a><br/>
         <sub>Max limits</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 115</b></sub></th>
+      <th style="width:150px"><sub><b>Day 116</b></sub></th>
+      <th style="width:150px"><sub><b>Day 117</b></sub></th>
+      <th style="width:150px"><sub><b>Day 118</b></sub></th>
+      <th style="width:150px"><sub><b>Day 119</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day115_baseline.gif">
+          <img src="screenshots/day115_baseline.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_115_baseline/day115_baseline_widget.dart">
+          <b>Baseline</b>
+        </a><br/>
+        <sub>Text align</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day116_opacity.gif">
+          <img src="screenshots/day116_opacity.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_116_opacity/day116_opacity_widget.dart">
+          <b>Opacity</b>
+        </a><br/>
+        <sub>Transparency</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day117_color_filtered.gif">
+          <img src="screenshots/day117_color_filtered.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_117_color_filtered/day117_color_filtered_widget.dart">
+          <b>ColorFiltered</b>
+        </a><br/>
+        <sub>Color effects</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day118_shadder_mask.gif">
+          <img src="screenshots/day118_shadder_mask.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_118_shadder_mask/day118_shadder_mask_widget.dart">
+          <b>ShaderMask</b>
+        </a><br/>
+        <sub>Gradient mask</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day119_decorated_box.gif">
+          <img src="screenshots/day119_decorated_box.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_119_decorated_box/day119_decorated_box_widget.dart">
+          <b>DecoratedBox</b>
+        </a><br/>
+        <sub>Box styling</sub>
       </td>
     </tr>
   </tbody>
