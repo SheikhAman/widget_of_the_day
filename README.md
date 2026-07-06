@@ -563,6 +563,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated how child `Text` widgets automatically inherit a style set higher in the tree — and how any child can still override it individually.
 - Connected the concept to Flutter's real internals, where widgets like `Card` and `AppBar` rely on the same inherited-style system.
 
+### 126. SliverList & SliverGrid (Mixed Scroll Effects)
+- Built a single `CustomScrollView` combining a `SliverAppBar`, a `SliverGrid` (categories), and a `SliverList` (items).
+- Used `SliverToBoxAdapter` to drop in regular widgets (headers, info cards) between slivers.
+- Demonstrated why this approach beats nesting a `GridView` inside a `ListView` — one shared scroll instead of two competing scrollables.
+
 
 ---
 
