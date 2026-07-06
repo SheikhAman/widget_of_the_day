@@ -542,6 +542,10 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated how to name children with an ID (`LayoutId`) and place each one at an exact position using a `MultiChildLayoutDelegate`.
 - Showed 3 boxes pinned to specific spots (top-left, top-right, bottom-center) — positions a `Row` or `Column` alone cannot achieve.
 
+### 122. TextInputFormatter (Live Input Masking)
+- Built a custom `PhoneNumberFormatter` that reformats raw digits into `(555) 123-4567` as the user types.
+- Chained three formatters together — `digitsOnly` filter, a 10-digit length limit, and the custom formatter — showing how `inputFormatters` apply in order.
+- Demonstrated `formatEditUpdate(oldValue, newValue)` and manual cursor placement — the diffing logic a plain `TextField` alone cannot do.
 
 ---
 
