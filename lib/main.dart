@@ -147,7 +147,8 @@ class MyApp extends StatelessWidget {
       // home: const Day116Opacity(),
       // home: const Day117ColorFiltered(),
       // home: const Day118ShaderMask(),
-      home: const Day119DecoratedBox(),
+      // home: const Day119DecoratedBox(),
+      home: const Day120FractionalTranslation(),
     );
   }
 }

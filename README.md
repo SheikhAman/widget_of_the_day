@@ -532,6 +532,10 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Rendered a live "under the hood" diagram showing that `Container` isn't one widget — it composes `Padding`, `Align`, `ConstrainedBox`, and `DecoratedBox` together, while `DecoratedBox` alone only paints the decoration.
 - Explained why this matters: when you only need color/border/gradient/shadow (no padding, margin, or alignment), `DecoratedBox` skips the extra layers `Container` builds for you — useful for performance when rendering many items in a list.
 
+### 120. FractionalTranslation (Fraction-Based Position Shift)
+- Compared instant vs animated translation using a mode switch between `FractionalTranslation` and `AnimatedSlide`.
+- Demonstrated how translating by a fraction (e.g. Offset(0.6, 0.0)) shifts a widget relative to its own size — making slide effects resolution-independent.
+- Highlighted a key gotcha: `FractionalTranslation` moves the paint position only, not the layout space, so the child can overlap siblings.
 
 ---
 

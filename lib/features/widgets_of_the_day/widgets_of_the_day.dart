@@ -118,3 +118,4 @@ export 'day_116_opacity/day116_opacity_widget.dart';
 export 'day_117_color_filtered/day117_color_filtered_widget.dart';
 export 'day_118_shadder_mask/day118_shadder_mask_widget.dart';
 export 'day_119_decorated_box/day119_decorated_box_widget.dart';
+export 'day_120_fractional_translation/day120_fractional_translation_widget.dart';
