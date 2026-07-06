@@ -537,6 +537,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated how translating by a fraction (e.g. Offset(0.6, 0.0)) shifts a widget relative to its own size — making slide effects resolution-independent.
 - Highlighted a key gotcha: `FractionalTranslation` moves the paint position only, not the layout space, so the child can overlap siblings.
 
+### 121. CustomMultiChildLayout (Precise Named-Child Positioning)
+- Compared a plain `Row` against `CustomMultiChildLayout` using an interactive toggle.
+- Demonstrated how to name children with an ID (`LayoutId`) and place each one at an exact position using a `MultiChildLayoutDelegate`.
+- Showed 3 boxes pinned to specific spots (top-left, top-right, bottom-center) — positions a `Row` or `Column` alone cannot achieve.
+
+
 ---
 
 <div align="center">
