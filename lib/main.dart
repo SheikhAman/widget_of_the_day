@@ -152,7 +152,8 @@ class MyApp extends StatelessWidget {
       // home: const Day121CustomMultiChildLayout(),
       // home: const Day122TextInputFormatter(),
       // home: const Day123AutofillGroup(),
-      home: const Day124EditableText(),
+      // home: const Day124EditableText(),
+      home: const Day125DefaultTextStyle(),
     );
   }
 }

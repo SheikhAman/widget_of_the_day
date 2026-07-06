@@ -558,6 +558,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated that `TextField` is just `EditableText` wrapped with Material decoration (border, label, fill) and automatic focus handling.
 - Reinforced a core "know your framework" interview point: understanding the primitive behind a high-level widget shows real depth in Flutter's text-input stack.
 
+### 125. DefaultTextStyle (Inherited Text Styling)
+- Compared plain `Text` widgets against ones wrapped in `DefaultTextStyle` using an interactive toggle.
+- Demonstrated how child `Text` widgets automatically inherit a style set higher in the tree — and how any child can still override it individually.
+- Connected the concept to Flutter's real internals, where widgets like `Card` and `AppBar` rely on the same inherited-style system.
+
 
 ---
 
