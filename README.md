@@ -568,6 +568,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `SliverToBoxAdapter` to drop in regular widgets (headers, info cards) between slivers.
 - Demonstrated why this approach beats nesting a `GridView` inside a `ListView` — one shared scroll instead of two competing scrollables.
 
+### 127. SliverPersistentHeader (Sticky, Shrinking Headers)
+- Built a custom `SliverPersistentHeaderDelegate` for a profile header that shrinks and sticks to the top while scrolling.
+- Used `shrinkOffset` to interpolate avatar size and name font size between expanded and collapsed states.
+- Demonstrated `pinned: true`, the setting that keeps the header stuck at the top instead of scrolling away — the same pattern used on Instagram/Twitter profile pages.
+
 
 ---
 
