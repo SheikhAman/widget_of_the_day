@@ -122,3 +122,4 @@ export 'day_120_fractional_translation/day120_fractional_translation_widget.dart
 export 'day_121_custom_multi_child_layout/day121_custom_multi_child_layout_widget.dart';
 export 'day_122_text_input_formatter/day122_text_input_formatter_widget.dart';
 export 'day_123_auto_fill_group/day123_auto_fill_group_widget.dart';
+export 'day_124_editable_text/day124_editable_text_widget.dart';

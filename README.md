@@ -553,6 +553,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Called `TextInput.finishAutofillContext()` on submit — the often-missed step that tells the OS to offer saving the entered credentials.
 - Wrapped the form in `SingleChildScrollView` to prevent bottom overflow when the keyboard opens.
 
+### 124. EditableText (The Raw Text-Input Primitive)
+- Built a raw `EditableText` (manual FocusNode, cursor color, selection color) side by side with a regular `TextField`.
+- Demonstrated that `TextField` is just `EditableText` wrapped with Material decoration (border, label, fill) and automatic focus handling.
+- Reinforced a core "know your framework" interview point: understanding the primitive behind a high-level widget shows real depth in Flutter's text-input stack.
+
 
 ---
 
