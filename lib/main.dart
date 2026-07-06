@@ -150,7 +150,8 @@ class MyApp extends StatelessWidget {
       // home: const Day119DecoratedBox(),
       // home: const Day120FractionalTranslation(),
       // home: const Day121CustomMultiChildLayout(),
-      home: const Day122TextInputFormatter(),
+      // home: const Day122TextInputFormatter(),
+      home: const Day123AutofillGroup(),
     );
   }
 }

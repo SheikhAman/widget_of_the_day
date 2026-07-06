@@ -547,6 +547,13 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Chained three formatters together — `digitsOnly` filter, a 10-digit length limit, and the custom formatter — showing how `inputFormatters` apply in order.
 - Demonstrated `formatEditUpdate(oldValue, newValue)` and manual cursor placement — the diffing logic a plain `TextField` alone cannot do.
 
+### 123. AutofillGroup (Password Manager & Keyboard Autofill)
+- Built a realistic login form using `AutofillGroup` to link the email and password fields as one autofill unit.
+- Used `autofillHints` (`AutofillHints.email`, `AutofillHints.password`) to enable OS-level keyboard suggestions and password manager prompts.
+- Called `TextInput.finishAutofillContext()` on submit — the often-missed step that tells the OS to offer saving the entered credentials.
+- Wrapped the form in `SingleChildScrollView` to prevent bottom overflow when the keyboard opens.
+
+
 ---
 
 <div align="center">
