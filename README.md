@@ -578,6 +578,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `SliverFillRemaining(hasScrollBody: false)` to fill the leftover space with a styled empty-state card.
 - Compared both states with a toggle — no `SliverFillRemaining` leaves a gap; with it, the layout looks intentional and complete.
 
+### 129. NestedScrollView (Coordinated Outer & Inner Scrolling)
+- Built a tabbed profile page: a scrollable header (profile info) + a pinned `TabBar`, with independent scrollable lists inside each tab.
+- Used `NestedScrollView.headerSliverBuilder` for the outer scroll and `TabBarView` for the inner scroll — Flutter coordinates the handoff between them automatically.
+- Used `SliverPersistentHeaderDelegate` to pin the `TabBar`, this time with equal min/max extent since a TabBar doesn't shrink.
+
 
 ---
 
