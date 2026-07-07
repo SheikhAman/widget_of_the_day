@@ -573,6 +573,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `shrinkOffset` to interpolate avatar size and name font size between expanded and collapsed states.
 - Demonstrated `pinned: true`, the setting that keeps the header stuck at the top instead of scrolling away — the same pattern used on Instagram/Twitter profile pages.
 
+### 128. SliverFillRemaining (Fill Leftover Viewport Space)
+- Built a short 3-item `SliverList` that doesn't fill the screen, showing the common empty-space gap problem.
+- Used `SliverFillRemaining(hasScrollBody: false)` to fill the leftover space with a styled empty-state card.
+- Compared both states with a toggle — no `SliverFillRemaining` leaves a gap; with it, the layout looks intentional and complete.
+
 
 ---
 
