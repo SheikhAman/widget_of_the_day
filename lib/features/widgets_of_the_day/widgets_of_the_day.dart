@@ -128,3 +128,4 @@ export 'day_126_sliverlist_and_slivergrid/day126_sliverlist_and_slivergrid_widge
 export 'day_127_sliver_persistent_header/day127_sliver_persistent_header_widget.dart';
 export 'day_128_sliver_fill_remaining/day128_sliver_fill_remaining_widget.dart';
 export 'day_129_nested_scroll_view/day129_nested_scroll_view_widget.dart';
+export 'day_130_scroll_controller/day130_scroll_controller_widget.dart';

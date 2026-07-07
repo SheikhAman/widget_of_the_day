@@ -583,6 +583,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `NestedScrollView.headerSliverBuilder` for the outer scroll and `TabBarView` for the inner scroll — Flutter coordinates the handoff between them automatically.
 - Used `SliverPersistentHeaderDelegate` to pin the `TabBar`, this time with equal min/max extent since a TabBar doesn't shrink.
 
+### 130. ScrollController (Advanced)
+- Displayed live scroll position as a percentage progress bar using `ScrollController.addListener()`.
+- Added "Top" and "Bottom" buttons that jump to a position smoothly with `animateTo()`.
+- Implemented reach-end detection (`pixels >= maxScrollExtent - threshold`) to simulate infinite-scroll pagination — loading more items automatically as the user nears the bottom, with no external packages.
+
 
 ---
 
