@@ -588,6 +588,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Added "Top" and "Bottom" buttons that jump to a position smoothly with `animateTo()`.
 - Implemented reach-end detection (`pixels >= maxScrollExtent - threshold`) to simulate infinite-scroll pagination — loading more items automatically as the user nears the bottom, with no external packages.
 
+### 131. NotificationListener (Scroll Events)
+- Built a FAB that hides on scroll-down and reappears on scroll-up, driven entirely by `NotificationListener<ScrollNotification>` — no `ScrollController` attached.
+- Used `UserScrollNotification.direction` to detect scroll direction, and displayed live notification types in a status panel.
+- Explained why `onNotification` returns `false` — letting the event keep bubbling to any parent listener, instead of swallowing it.
+
 
 ---
 
