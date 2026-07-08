@@ -618,6 +618,10 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `canPop` to conditionally block automatic back navigation, and `onPopInvokedWithResult` to show a "Discard changes?" confirmation dialog when blocked.
 - Noted `PopScope` is a mobile-only concern (Android back button/gesture, iOS swipe-back).
 
+### 137. DraggableScrollableSheet (Snapping Bottom Sheet)
+- Built an Uber-style ride-selection sheet over a map placeholder, snapping between Min (15%), Mid (45%), and Max (90%) heights.
+- Used `snap: true` + `snapSizes` so the sheet locks to the nearest stop instead of resting anywhere.
+- Linked the sheet's drag gesture to its inner list scroll via the `builder`-provided `scrollController`, and added buttons using `DraggableScrollableController` to jump to a height programmatically.
 
 
 ---
