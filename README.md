@@ -598,6 +598,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Added `label`, `hint`, `button: true`, and `toggled` state so screen readers can announce the widget correctly.
 - Used `ExcludeSemantics` to prevent the underlying icon from producing redundant announcements — a subtlety that matters for real accessibility compliance.
 
+### 133. ExcludeSemantics & MergeSemantics (Accessibility Tree Grouping)
+- Demonstrated `ExcludeSemantics` hiding a purely decorative icon from screen readers, avoiding a wasted announcement.
+- Demonstrated `MergeSemantics` combining an icon + label + trailing arrow into a single screen reader announcement instead of three separate stops.
+- Compared both states with a toggle, showing exactly what a screen reader would announce differently.
+
 
 ---
 
