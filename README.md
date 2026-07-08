@@ -593,6 +593,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `UserScrollNotification.direction` to detect scroll direction, and displayed live notification types in a status panel.
 - Explained why `onNotification` returns `false` — letting the event keep bubbling to any parent listener, instead of swallowing it.
 
+### 132. Semantics (Screen Reader Support)
+- Compared a custom `GestureDetector`-based favorite button with and without a `Semantics` wrapper.
+- Added `label`, `hint`, `button: true`, and `toggled` state so screen readers can announce the widget correctly.
+- Used `ExcludeSemantics` to prevent the underlying icon from producing redundant announcements — a subtlety that matters for real accessibility compliance.
+
 
 ---
 
