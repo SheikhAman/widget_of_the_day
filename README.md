@@ -613,6 +613,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `confirmDismiss` to show a confirmation dialog before deleting (but not archiving), and `onDismissed` + a Snackbar "Undo" action to reverse the change.
 - Highlighted why `Dismissible` requires a unique `key` per item — without it, Flutter can't correctly track which item was swiped as the list changes.
 
+### 136. PopScope (Intercepting the Back Button/Gesture)
+- Built a two-screen demo: an edit form guarded against accidental back navigation when it has unsaved changes.
+- Used `canPop` to conditionally block automatic back navigation, and `onPopInvokedWithResult` to show a "Discard changes?" confirmation dialog when blocked.
+- Noted `PopScope` is a mobile-only concern (Android back button/gesture, iOS swipe-back).
+
+
 
 ---
 
