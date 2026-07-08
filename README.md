@@ -603,6 +603,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Demonstrated `MergeSemantics` combining an icon + label + trailing arrow into a single screen reader announcement instead of three separate stops.
 - Compared both states with a toggle, showing exactly what a screen reader would announce differently.
 
+### 134. FocusNode (Programmatic Keyboard Focus)
+- Built a 3-field form where pressing "Next" on the keyboard jumps to the following field, and "Done" dismisses the keyboard.
+- Added tap-outside-to-dismiss using `FocusScope.of(context).unfocus()`.
+- Displayed a live "Focused field" indicator using `FocusNode` listeners, and added buttons to programmatically focus any field on demand.
+
 
 ---
 
