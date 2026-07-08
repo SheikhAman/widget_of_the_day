@@ -608,6 +608,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Added tap-outside-to-dismiss using `FocusScope.of(context).unfocus()`.
 - Displayed a live "Focused field" indicator using `FocusNode` listeners, and added buttons to programmatically focus any field on demand.
 
+### 135. Dismissible (Swipe-to-Delete / Archive)
+- Built a Gmail-style inbox: swipe right to archive, swipe left to delete, each revealing a differently colored background.
+- Used `confirmDismiss` to show a confirmation dialog before deleting (but not archiving), and `onDismissed` + a Snackbar "Undo" action to reverse the change.
+- Highlighted why `Dismissible` requires a unique `key` per item — without it, Flutter can't correctly track which item was swiped as the list changes.
+
 
 ---
 
