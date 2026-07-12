@@ -140,3 +140,4 @@ export 'day_138_raw_gesture_detector/day138_raw_gesture_detector_widget.dart';
 export 'day_139_feedback/day139_feedback_widget.dart';
 export 'day_140_cupertino_alert_dialog/day140_cupertino_alert_dialog_widget.dart';
 export 'day_141_cupertino_action_sheet/day141_cupertino_action_sheet_widget.dart';
+export 'day_142_cupertino_sliding_segmented_control/day142_cupertino_sliding_segmented_control_widget.dart';

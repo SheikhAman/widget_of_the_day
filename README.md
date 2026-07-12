@@ -643,6 +643,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `isDestructiveAction: true` to mark "Delete Photo" in red, and separated the `cancelButton` from other actions per Apple's Human Interface Guidelines.
 - Triggered the sheet correctly via `showCupertinoModalPopup`, the Cupertino equivalent of Material's `showModalBottomSheet`.
 
+### 142. CupertinoSlidingSegmentedControl (iOS Segmented Tabs)
+- Built a Health-app-style Day/Week/Month switcher using `CupertinoSlidingSegmentedControl<_TimeRange>` with a proper enum for type safety.
+- Used the standard `groupValue` + `onValueChanged` controlled-widget pattern, with a null-safety guard on the callback.
+- Displayed live content below the control that updates instantly as the selected segment changes.
+
 
 ---
 

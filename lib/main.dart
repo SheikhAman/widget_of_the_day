@@ -169,7 +169,8 @@ class MyApp extends StatelessWidget {
       // home: const Day138RawGestureDetector(),
       // home: const Day139Feedback(),
       // home: const Day140CupertinoAlertDialog(),
-      home: const Day141CupertinoActionSheet(),
+      // home: const Day141CupertinoActionSheet(),
+      home: const Day142CupertinoSlidingSegmentedControl(),
     );
   }
 }
