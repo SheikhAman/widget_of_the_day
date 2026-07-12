@@ -623,6 +623,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `snap: true` + `snapSizes` so the sheet locks to the nearest stop instead of resting anywhere.
 - Linked the sheet's drag gesture to its inner list scroll via the `builder`-provided `scrollController`, and added buttons using `DraggableScrollableController` to jump to a height programmatically.
 
+### 138. RawGestureDetector (Wiring Recognizers Manually)
+- Built a draggable box using `RawGestureDetector` with a manually registered `PanGestureRecognizer`, instead of `GestureDetector`'s built-in `onPanUpdate`.
+- Used `GestureRecognizerFactoryWithHandlers` — the same low-level mechanism `GestureDetector` uses internally — to wire up `onUpdate` directly.
+- Showed the foundational pattern for building fully custom gesture recognizers beyond what `GestureDetector`'s fixed callbacks support.
+
+
 
 ---
 
