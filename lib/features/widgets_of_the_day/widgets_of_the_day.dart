@@ -137,3 +137,4 @@ export 'day_135_dismissible/day135_dismissible_widget.dart';
 export 'day_136_pop_scope/day136_pop_scope_widget.dart';
 export 'day_137_draggable_scrollable_sheet/day137_draggable_scrollable_sheet_widget.dart';
 export 'day_138_raw_gesture_detector/day138_raw_gesture_detector_widget.dart';
+export 'day_139_feedback/day139_feedback_widget.dart';

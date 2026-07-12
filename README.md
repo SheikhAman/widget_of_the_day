@@ -628,6 +628,10 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `GestureRecognizerFactoryWithHandlers` — the same low-level mechanism `GestureDetector` uses internally — to wire up `onUpdate` directly.
 - Showed the foundational pattern for building fully custom gesture recognizers beyond what `GestureDetector`'s fixed callbacks support.
 
+### 139. Feedback (Platform-Correct Tap Feedback)
+- Compared `Feedback.forTap()` against a manual `HapticFeedback.vibrate()` call on two tappable cards.
+- Showed that `Feedback.forTap()` automatically gives the correct platform feedback (click sound + vibration on Android, haptic on iOS) in one line, instead of guessing which `HapticFeedback` call to use.
+- Noted that manual haptics only vibrate — no platform click sound — and must be added to every tappable widget individually.
 
 
 ---
