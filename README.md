@@ -638,6 +638,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Highlighted the platform-idiomatic differences: row vs stacked buttons, solid card vs blurred background.
 - Used `isDestructiveAction: true` for the iOS delete button — the Cupertino-native way to mark a destructive action, versus manually coloring a `TextButton` in Material.
 
+### 141. CupertinoActionSheet (iOS Bottom Action Sheet)
+- Built a photo options sheet using `CupertinoActionSheet` — the standard iOS pattern for Share/Save/Delete actions (as seen in Photos, Mail, Safari).
+- Used `isDestructiveAction: true` to mark "Delete Photo" in red, and separated the `cancelButton` from other actions per Apple's Human Interface Guidelines.
+- Triggered the sheet correctly via `showCupertinoModalPopup`, the Cupertino equivalent of Material's `showModalBottomSheet`.
+
 
 ---
 
