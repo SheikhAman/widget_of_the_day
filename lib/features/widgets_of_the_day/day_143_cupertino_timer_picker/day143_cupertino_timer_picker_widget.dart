@@ -107,7 +107,7 @@ class _Day143CupertinoTimerPickerState
 
             const SizedBox(height: 32),
 
-            // ── Material trigger ─────────────────────────────────────
+            // ── Material trigger ───────────────                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ──────────────────────
             _triggerCard(
               icon: Icons.access_time,
               title: "showTimePicker",

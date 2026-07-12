@@ -653,6 +653,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `CupertinoTimerPickerMode.hms` for hours/minutes/seconds columns, wrapped in a bottom sheet with a manual "Done" button since it has no built-in confirm action.
 - Highlighted the real distinction: `TimeOfDay` vs `Duration` — these solve different problems, not just different visual styles.
 
+### 144. CupertinoContextMenu (iOS Peek & Pop Context Menu)
+- Demonstrated iOS-style long-press interactions using `CupertinoContextMenu`, where content expands into a zoomed preview with a blurred background.
+- Added multiple `CupertinoContextMenuAction` items, including a destructive action using `isDestructiveAction: true` for the native red delete styling.
+- Showcased the classic iOS "peek-and-pop" experience by wrapping a widget that serves as both the normal view and the animated preview during long press.
+
 
 ---
 
