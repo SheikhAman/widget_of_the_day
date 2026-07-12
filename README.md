@@ -633,6 +633,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Showed that `Feedback.forTap()` automatically gives the correct platform feedback (click sound + vibration on Android, haptic on iOS) in one line, instead of guessing which `HapticFeedback` call to use.
 - Noted that manual haptics only vibrate — no platform click sound — and must be added to every tappable widget individually.
 
+### 140. CupertinoAlertDialog (iOS-Style Dialog)
+- Built two trigger cards comparing Material `AlertDialog` and `CupertinoAlertDialog` with identical content.
+- Highlighted the platform-idiomatic differences: row vs stacked buttons, solid card vs blurred background.
+- Used `isDestructiveAction: true` for the iOS delete button — the Cupertino-native way to mark a destructive action, versus manually coloring a `TextButton` in Material.
+
 
 ---
 
