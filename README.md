@@ -648,6 +648,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used the standard `groupValue` + `onValueChanged` controlled-widget pattern, with a null-safety guard on the callback.
 - Displayed live content below the control that updates instantly as the selected segment changes.
 
+### 143. CupertinoTimerPicker (iOS Drum-Roll Duration Picker)
+- Compared Material's `showTimePicker` (picks a specific time of day) against `CupertinoTimerPicker` (picks a duration) side by side.
+- Used `CupertinoTimerPickerMode.hms` for hours/minutes/seconds columns, wrapped in a bottom sheet with a manual "Done" button since it has no built-in confirm action.
+- Highlighted the real distinction: `TimeOfDay` vs `Duration` — these solve different problems, not just different visual styles.
+
 
 ---
 
