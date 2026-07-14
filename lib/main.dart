@@ -173,7 +173,8 @@ class MyApp extends StatelessWidget {
       // home: const Day142CupertinoSlidingSegmentedControl(),
       // home: const Day143CupertinoTimerPicker(),
       // home: const Day144CupertinoContextMenu(),
-      home: const Day145TweenAnimationBuilder(),
+      // home: const Day145TweenAnimationBuilder(),
+      home: const Day146AnimatedSwitcher(),
     );
   }
 }

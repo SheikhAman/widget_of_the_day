@@ -663,6 +663,10 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Explained why setting a fixed `begin` value still animates smoothly from the *current* displayed value, not from `begin`, whenever `end` changes.
 - Used the `child` parameter to avoid rebuilding the icon every animation frame — a free performance win over rebuilding everything in `builder`.
 
+### 146. AnimatedSwitcher (Transition Between Different Widgets)
+- Built a loading-spinner-to-content swap using `AnimatedSwitcher`, triggered by a "Reload" button.
+- Used unique `ValueKey`s on each child — the detail that actually makes `AnimatedSwitcher` recognize a widget swap and animate it.
+- Customized `transitionBuilder` to combine fade + scale instead of the default plain fade.
 
 ---
 
