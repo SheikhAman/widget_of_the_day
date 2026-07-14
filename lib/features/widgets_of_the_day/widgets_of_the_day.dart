@@ -143,3 +143,4 @@ export 'day_141_cupertino_action_sheet/day141_cupertino_action_sheet_widget.dart
 export 'day_142_cupertino_sliding_segmented_control/day142_cupertino_sliding_segmented_control_widget.dart';
 export 'day_143_cupertino_timer_picker/day143_cupertino_timer_picker_widget.dart';
 export 'day_144_cupertino_context_menu/day144_cupertino_context_menu_widget.dart';
+export 'day_145_tween_animation_builder/day145_tween_animation_builder_widget.dart';

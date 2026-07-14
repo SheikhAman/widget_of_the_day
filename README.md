@@ -658,6 +658,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Added multiple `CupertinoContextMenuAction` items, including a destructive action using `isDestructiveAction: true` for the native red delete styling.
 - Showcased the classic iOS "peek-and-pop" experience by wrapping a widget that serves as both the normal view and the animated preview during long press.
 
+### 145. TweenAnimationBuilder (Implicit Value Animation)
+- Built a box that animates both size and color on every tap, driven entirely by `TweenAnimationBuilder<double>`.
+- Explained why setting a fixed `begin` value still animates smoothly from the *current* displayed value, not from `begin`, whenever `end` changes.
+- Used the `child` parameter to avoid rebuilding the icon every animation frame — a free performance win over rebuilding everything in `builder`.
+
 
 ---
 
