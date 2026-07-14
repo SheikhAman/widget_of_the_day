@@ -678,6 +678,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used `axisAlignment: -1.0` to make content grow downward from the top, like a drawer opening.
 - Reused the same controller to also rotate a chevron icon via `RotationTransition`, showing one controller driving multiple coordinated animations.
 
+### 149. SlideTransition (Directional Entry Animations)
+- Built a card that slides in from any of 4 directions (left, right, top, bottom) on button tap.
+- Explained that `SlideTransition` offsets are fractions of the widget's own size (`Offset(1, 0)` = one full width), not fixed pixels.
+- Rebuilt the `Tween<Offset>` per direction and replayed it with `.reset()` + `.forward()`, showing how one controller can drive different animation content on demand.
+
+
 
 ---
 

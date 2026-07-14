@@ -147,3 +147,4 @@ export 'day_145_tween_animation_builder/day145_tween_animation_builder_widget.da
 export 'day_146_animated_switcher/day146_animated_switcher_widget.dart';
 export 'day_147_animated_positioned/day147_animated_positioned_widget.dart';
 export 'day_148_size_transition/day148_size_transition_widget.dart';
+export 'day_149_slide_transition/day149_slide_transition_widget.dart';

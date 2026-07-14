@@ -176,7 +176,8 @@ class MyApp extends StatelessWidget {
       // home: const Day145TweenAnimationBuilder(),
       // home: const Day146AnimatedSwitcher(),
       // home: const Day147AnimatedPositioned(),
-      home: const Day148SizeTransition(),
+      // home: const Day148SizeTransition(),
+      home: const Day149SlideTransition(),
     );
   }
 }
