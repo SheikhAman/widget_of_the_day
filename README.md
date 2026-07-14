@@ -673,6 +673,11 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Compared conceptually to plain `Positioned`, which jumps instantly instead of animating position changes.
 - Used `Curves.easeInOutCubic` for smoother motion — the same implicit-animation approach as `TweenAnimationBuilder`, but purpose-built for Stack positioning.
 
+### 148. SizeTransition (Accordion Expand/Collapse)
+- Built a tappable FAQ accordion using `SizeTransition` driven by an explicit `AnimationController`.
+- Used `axisAlignment: -1.0` to make content grow downward from the top, like a drawer opening.
+- Reused the same controller to also rotate a chevron icon via `RotationTransition`, showing one controller driving multiple coordinated animations.
+
 
 ---
 
