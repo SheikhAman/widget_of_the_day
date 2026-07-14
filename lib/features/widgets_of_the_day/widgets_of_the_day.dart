@@ -145,3 +145,4 @@ export 'day_143_cupertino_timer_picker/day143_cupertino_timer_picker_widget.dart
 export 'day_144_cupertino_context_menu/day144_cupertino_context_menu_widget.dart';
 export 'day_145_tween_animation_builder/day145_tween_animation_builder_widget.dart';
 export 'day_146_animated_switcher/day146_animated_switcher_widget.dart';
+export 'day_147_animated_positioned/day147_animated_positioned_widget.dart';

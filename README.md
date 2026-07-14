@@ -668,6 +668,12 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Used unique `ValueKey`s on each child — the detail that actually makes `AnimatedSwitcher` recognize a widget swap and animate it.
 - Customized `transitionBuilder` to combine fade + scale instead of the default plain fade.
 
+### 147. AnimatedPositioned (Smooth Movement Inside a Stack)
+- Built a card that slides diagonally between two corners of a `Stack` on each tap, using `AnimatedPositioned`.
+- Compared conceptually to plain `Positioned`, which jumps instantly instead of animating position changes.
+- Used `Curves.easeInOutCubic` for smoother motion — the same implicit-animation approach as `TweenAnimationBuilder`, but purpose-built for Stack positioning.
+
+
 ---
 
 <div align="center">
