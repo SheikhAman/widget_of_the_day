@@ -683,13 +683,18 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 - Explained that `SlideTransition` offsets are fractions of the widget's own size (`Offset(1, 0)` = one full width), not fixed pixels.
 - Rebuilt the `Tween<Offset>` per direction and replayed it with `.reset()` + `.forward()`, showing how one controller can drive different animation content on demand.
 
+### 150. ScaleTransition (Zoom In/Out Animation)
+- Built a card that scales in and out using `ScaleTransition` with a springy `Curves.easeOutBack`.
+- Added a pivot-point selector (Center, Top Left, Bottom Right) via `alignment`, showing how the scale origin changes the whole feel — dialog-style vs FAB-menu-style expansion.
+- Used explicit `AnimationController` pattern, driving `.forward()`/`.reverse()` from a toggle button.
+
 
 
 ---
 
 <div align="center">
 
-## 🗓️ Flutter Widget of the Day — 119 Widgets
+## 🗓️ Flutter Widget of the Day — 150 Widgets
 
 A hands-on challenge covering essential Flutter widgets, from layout fundamentals to advanced animations.
 
@@ -2159,11 +2164,394 @@ A hands-on challenge covering essential Flutter widgets, from layout fundamental
   </tbody>
 </table>
 
----
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 120</b></sub></th>
+      <th style="width:150px"><sub><b>Day 121</b></sub></th>
+      <th style="width:150px"><sub><b>Day 122</b></sub></th>
+      <th style="width:150px"><sub><b>Day 123</b></sub></th>
+      <th style="width:150px"><sub><b>Day 124</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day120_fractional_translation.gif">
+          <img src="screenshots/day120_fractional_translation.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_120_fractional_translation/day120_fractional_translation_widget.dart">
+          <b>FractionalTranslation</b>
+        </a><br/>
+        <sub>Relative offset</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day121_custom_multi_child_layout.gif">
+          <img src="screenshots/day121_custom_multi_child_layout.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_121_custom_multi_child_layout/day121_custom_multi_child_layout_widget.dart">
+          <b>CustomMultiChildLayout</b>
+        </a><br/>
+        <sub>Custom layout</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day122_text_input_formatter.gif">
+          <img src="screenshots/day122_text_input_formatter.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_122_text_input_formatter/day122_text_input_formatter_widget.dart">
+          <b>TextInputFormatter</b>
+        </a><br/>
+        <sub>Input formatting</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day123_auto_fill_group.gif">
+          <img src="screenshots/day123_auto_fill_group.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_123_auto_fill_group/day123_auto_fill_group_widget.dart">
+          <b>AutofillGroup</b>
+        </a><br/>
+        <sub>Grouped autofill</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day124_editable_text.gif">
+          <img src="screenshots/day124_editable_text.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_124_editable_text/day124_editable_text_widget.dart">
+          <b>EditableText</b>
+        </a><br/>
+        <sub>Raw text editing</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<div align="center">
-  <sub>📁 Each widget links directly to its source file &nbsp;·&nbsp; Built with ❤️ using Flutter</sub>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 125</b></sub></th>
+      <th style="width:150px"><sub><b>Day 126</b></sub></th>
+      <th style="width:150px"><sub><b>Day 127</b></sub></th>
+      <th style="width:150px"><sub><b>Day 128</b></sub></th>
+      <th style="width:150px"><sub><b>Day 129</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day125_default_text_style.gif">
+          <img src="screenshots/day125_default_text_style.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_125_default_text_style/day125_default_text_style_widget.dart">
+          <b>DefaultTextStyle</b>
+        </a><br/>
+        <sub>Inherited style</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day126_sliverlist_and_slivergrid.gif">
+          <img src="screenshots/day126_sliverlist_and_slivergrid.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_126_sliverlist_and_slivergrid/day126_sliverlist_and_slivergrid_widget.dart">
+          <b>Sliver List/Grid</b>
+        </a><br/>
+        <sub>Sliver collections</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day127_sliver_persistent_header.gif">
+          <img src="screenshots/day127_sliver_persistent_header.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_127_sliver_persistent_header/day127_sliver_persistent_header_widget.dart">
+          <b>SliverPersistentHeader</b>
+        </a><br/>
+        <sub>Pinned header</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day128_sliver_fill_remaining.gif">
+          <img src="screenshots/day128_sliver_fill_remaining.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_128_sliver_fill_remaining/day128_sliver_fill_remaining_widget.dart">
+          <b>SliverFillRemaining</b>
+        </a><br/>
+        <sub>Fill space</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day129_nested_scroll_view.gif">
+          <img src="screenshots/day129_nested_scroll_view.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_129_nested_scroll_view/day129_nested_scroll_view_widget.dart">
+          <b>NestedScrollView</b>
+        </a><br/>
+        <sub>Nested scroll</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 130</b></sub></th>
+      <th style="width:150px"><sub><b>Day 131</b></sub></th>
+      <th style="width:150px"><sub><b>Day 132</b></sub></th>
+      <th style="width:150px"><sub><b>Day 133</b></sub></th>
+      <th style="width:150px"><sub><b>Day 134</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day130_scroll_controller.gif">
+          <img src="screenshots/day130_scroll_controller.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_130_scroll_controller/day130_scroll_controller_widget.dart">
+          <b>ScrollController</b>
+        </a><br/>
+        <sub>Scroll control</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day131_notification_listener.gif">
+          <img src="screenshots/day131_notification_listener.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_131_notification_listener/day131_notification_listener_widget.dart">
+          <b>NotificationListener</b>
+        </a><br/>
+        <sub>Bubbling events</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day132_semantics.gif">
+          <img src="screenshots/day132_semantics.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_132_semantics/day132_semantics_widget.dart">
+          <b>Semantics</b>
+        </a><br/>
+        <sub>Accessibility</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day133_exclude_and_merge_semantics.gif">
+          <img src="screenshots/day133_exclude_and_merge_semantics.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_133_exclude_and_merge_semantics/day133_exclude_and_merge_semantics_widget.dart">
+          <b>Exclude/MergeSemantics</b>
+        </a><br/>
+        <sub>Semantics grouping</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day134_focus_node.gif">
+          <img src="screenshots/day134_focus_node.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_134_focus_node/day134_focus_node_widget.dart">
+          <b>FocusNode</b>
+        </a><br/>
+        <sub>Focus tracking</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 135</b></sub></th>
+      <th style="width:150px"><sub><b>Day 136</b></sub></th>
+      <th style="width:150px"><sub><b>Day 137</b></sub></th>
+      <th style="width:150px"><sub><b>Day 138</b></sub></th>
+      <th style="width:150px"><sub><b>Day 139</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day135_dismissible.gif">
+          <img src="screenshots/day135_dismissible.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_135_dismissible/day135_dismissible_widget.dart">
+          <b>Dismissible</b>
+        </a><br/>
+        <sub>Swipe dismiss</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day136_pop_scope.gif">
+          <img src="screenshots/day136_pop_scope.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_136_pop_scope/day136_pop_scope_widget.dart">
+          <b>PopScope</b>
+        </a><br/>
+        <sub>Back handling</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day137_draggable_scrollable_sheet.gif">
+          <img src="screenshots/day137_draggable_scrollable_sheet.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_137_draggable_scrollable_sheet/day137_draggable_scrollable_sheet_widget.dart">
+          <b>DraggableScrollableSheet</b>
+        </a><br/>
+        <sub>Drag sheet</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day138_raw_gesture_detector.gif">
+          <img src="screenshots/day138_raw_gesture_detector.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_138_raw_gesture_detector/day138_raw_gesture_detector_widget.dart">
+          <b>RawGestureDetector</b>
+        </a><br/>
+        <sub>Custom gestures</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day139_feedback.gif">
+          <img src="screenshots/day139_feedback.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_139_feedback/day139_feedback_widget.dart">
+          <b>Feedback</b>
+        </a><br/>
+        <sub>Haptic feedback</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 140</b></sub></th>
+      <th style="width:150px"><sub><b>Day 141</b></sub></th>
+      <th style="width:150px"><sub><b>Day 142</b></sub></th>
+      <th style="width:150px"><sub><b>Day 143</b></sub></th>
+      <th style="width:150px"><sub><b>Day 144</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day140_cupertino_alert_dialog.gif">
+          <img src="screenshots/day140_cupertino_alert_dialog.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_140_cupertino_alert_dialog/day140_cupertino_alert_dialog_widget.dart">
+          <b>CupertinoAlertDialog</b>
+        </a><br/>
+        <sub>iOS alert</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day141_cupertino_action_sheet.gif">
+          <img src="screenshots/day141_cupertino_action_sheet.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_141_cupertino_action_sheet/day141_cupertino_action_sheet_widget.dart">
+          <b>CupertinoActionSheet</b>
+        </a><br/>
+        <sub>iOS action sheet</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day142_cupertino_sliding_segmented_control.gif">
+          <img src="screenshots/day142_cupertino_sliding_segmented_control.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_142_cupertino_sliding_segmented_control/day142_cupertino_sliding_segmented_control_widget.dart">
+          <b>CupertinoSlidingSegmentedControl</b>
+        </a><br/>
+        <sub>iOS segments</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day143_cupertino_timer_picker.gif">
+          <img src="screenshots/day143_cupertino_timer_picker.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_143_cupertino_timer_picker/day143_cupertino_timer_picker_widget.dart">
+          <b>CupertinoTimerPicker</b>
+        </a><br/>
+        <sub>iOS timer picker</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day144_cupertino_context_menu.gif">
+          <img src="screenshots/day144_cupertino_context_menu.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_144_cupertino_context_menu/day144_cupertino_context_menu_widget.dart">
+          <b>CupertinoContextMenu</b>
+        </a><br/>
+        <sub>iOS context menu</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 145</b></sub></th>
+      <th style="width:150px"><sub><b>Day 146</b></sub></th>
+      <th style="width:150px"><sub><b>Day 147</b></sub></th>
+      <th style="width:150px"><sub><b>Day 148</b></sub></th>
+      <th style="width:150px"><sub><b>Day 149</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day145_tween_animation_builder.gif">
+          <img src="screenshots/day145_tween_animation_builder.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_145_tween_animation_builder/day145_tween_animation_builder_widget.dart">
+          <b>TweenAnimationBuilder</b>
+        </a><br/>
+        <sub>Implicit tween</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day146_animated_switcher.gif">
+          <img src="screenshots/day146_animated_switcher.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_146_animated_switcher/day146_animated_switcher_widget.dart">
+          <b>AnimatedSwitcher</b>
+        </a><br/>
+        <sub>Cross-fade switch</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day147_animated_positioned.gif">
+          <img src="screenshots/day147_animated_positioned.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_147_animated_positioned/day147_animated_positioned_widget.dart">
+          <b>AnimatedPositioned</b>
+        </a><br/>
+        <sub>Animated position</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day148_size_transition.gif">
+          <img src="screenshots/day148_size_transition.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_148_size_transition/day148_size_transition_widget.dart">
+          <b>SizeTransition</b>
+        </a><br/>
+        <sub>Animated size</sub>
+      </td>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day149_slide_transition.gif">
+          <img src="screenshots/day149_slide_transition.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_149_slide_transition/day149_slide_transition_widget.dart">
+          <b>SlideTransition</b>
+        </a><br/>
+        <sub>Animated slide</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:150px"><sub><b>Day 150</b></sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="width:150px">
+        <a href="screenshots/day150_scale_transition.gif">
+          <img src="screenshots/day150_scale_transition.gif" width="130"/>
+        </a><br/>
+        <a href="lib/features/widgets_of_the_day/day_150_scale_transition/day150_scale_transition_widget.dart">
+          <b>ScaleTransition</b>
+        </a><br/>
+        <sub>Animated scale</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 ## 🚀 Goal
 
