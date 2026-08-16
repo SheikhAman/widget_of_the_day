@@ -4,11 +4,11 @@
 
 ### A hands-on Flutter practice project — one widget, mastered every day
 
-Building strong Flutter UI fundamentals by implementing **152+ widgets** through small, focused, real-world examples.
+Building strong Flutter UI fundamentals by implementing **154+ widgets** through small, focused, real-world examples.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Widgets](https://img.shields.io/badge/Widgets_Covered-153%2B-success?style=for-the-badge)](#-widget-gallery)
+[![Widgets](https://img.shields.io/badge/Widgets_Covered-154%2B-success?style=for-the-badge)](#-widget-gallery)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <sub>📁 Every widget links directly to its source file &nbsp;·&nbsp; 🖼️ Screenshots optimized with WebP &nbsp;·&nbsp; 🎯 Beginner-friendly, one concept at a time</sub>
@@ -37,7 +37,7 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 ## 🧭 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Widget Gallery](#-widget-gallery-153-widgets)
+- [Widget Gallery](#-widget-gallery-154-widgets)
 - [Widget Reference (Full Notes)](#-widget-reference--what-each-day-covers)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -54,7 +54,7 @@ To build strong and practical Flutter UI fundamentals by practicing **one widget
 
 ---
 
-## 🗓️ Widget Gallery (153+ Widgets)
+## 🗓️ Widget Gallery (154+ Widgets)
 
 A visual, professional gallery covering the entire Flutter widget catalog. Each card links straight to its source file, so you can go from screenshot to code in one click.
 
@@ -1175,8 +1175,8 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 150</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 151</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 152</th>
-    <th style="width:20%"></th>
-    <th style="width:20%"></th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 153</th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 154</th>
   </tr></thead>
   <tbody><tr>
     <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
@@ -1199,7 +1199,11 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
       <a href="lib/features/widgets_of_the_day/day_153_menu_anchor/day153_menu_anchor_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">MenuAnchor</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 153 &middot; M3 Action Menu</sub>
     </td>
-    <td style="width:20%"></td>
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+      <a href="screenshots/day154_segmented_button.webp"><img src="screenshots/day154_segmented_button.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="SegmentedButton widget demo" loading="lazy"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_154_segmented_button/day154_segmented_button_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">SegmentedButton</b></a><br/>
+      <sub style="font-size:11px; color:#57606a;">Day 154 &middot; M3 Toggle Selection</sub>
+    </td>
   </tr></tbody>
 </table>
 
@@ -1971,6 +1975,14 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 * Demonstrated the use of `MenuItemButton` and `SubmenuButton` for organized, multi-level menu navigation (e.g., Theme Selection).
 * Managed the menu lifecycle (open/close) programmatically using the `MenuController`, providing a smoother and more controlled user experience.
 * Integrated standard M3 elements like dividers, icons, and destructive action styling (red text) to follow best practices in Android UI design.
+
+**154. SegmentedButton (Material 3 Toggle Selection)**
+* Implemented the `SegmentedButton` widget to provide a modern, Material 3 compliant way to switch between mutually exclusive perspectives.
+* Built a **Calendar View Switcher** allowing users to toggle between Day, Week, Month, and Year layouts.
+* Used an `Enum` and a `Set` for type-safe state management, following recommended best practices for selection widgets.
+* Customized the selection style with a professional indigo-themed highlight using `WidgetStateProperty`.
+* Demonstrated how to pair the selection state with dynamic content updates (using a responsive Result Card).
+
 
 
 </details>

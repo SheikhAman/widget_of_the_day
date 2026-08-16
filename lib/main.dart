@@ -182,7 +182,8 @@ class MyApp extends StatelessWidget {
       // home: const Day150ScaleTransition(),
       // home: const Day151SearchAnchorWidget(),
       // home: const Day152SearchBarWidget(),
-      home: const Day153MenuAnchorWidget(),
+      // home: const Day153MenuAnchorWidget(),
+      home: const Day154SegmentedButtonWidget(),
     );
   }
 }
