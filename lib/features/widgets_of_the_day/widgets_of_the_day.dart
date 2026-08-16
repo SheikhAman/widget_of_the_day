@@ -151,3 +151,4 @@ export 'day_149_slide_transition/day149_slide_transition_widget.dart';
 export 'day_150_scale_transition/day150_scale_transition_widget.dart';
 export 'day_151_search_anchor/day151_search_anchor_widget.dart';
 export 'day_152_search_bar/day152_search_bar_widget.dart';
+export 'day_153_menu_anchor/day153_menu_anchor_widget.dart';

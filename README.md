@@ -8,7 +8,7 @@ Building strong Flutter UI fundamentals by implementing **152+ widgets** through
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Widgets](https://img.shields.io/badge/Widgets_Covered-152%2B-success?style=for-the-badge)](#-widget-gallery)
+[![Widgets](https://img.shields.io/badge/Widgets_Covered-153%2B-success?style=for-the-badge)](#-widget-gallery)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <sub>📁 Every widget links directly to its source file &nbsp;·&nbsp; 🖼️ Screenshots optimized with WebP &nbsp;·&nbsp; 🎯 Beginner-friendly, one concept at a time</sub>
@@ -37,7 +37,7 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 ## 🧭 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Widget Gallery](#-widget-gallery-152-widgets)
+- [Widget Gallery](#-widget-gallery-153-widgets)
 - [Widget Reference (Full Notes)](#-widget-reference--what-each-day-covers)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -54,7 +54,7 @@ To build strong and practical Flutter UI fundamentals by practicing **one widget
 
 ---
 
-## 🗓️ Widget Gallery (152+ Widgets)
+## 🗓️ Widget Gallery (153+ Widgets)
 
 A visual, professional gallery covering the entire Flutter widget catalog. Each card links straight to its source file, so you can go from screenshot to code in one click.
 
@@ -1194,7 +1194,11 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
       <a href="lib/features/widgets_of_the_day/day_152_search_bar/day152_search_bar_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">SearchBar</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 152 &middot; M3 Search Bar</sub>
     </td>
-    <td style="width:20%"></td>
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+      <a href="screenshots/day153_menu_anchor.webp"><img src="screenshots/day153_menu_anchor.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="MenuAnchor widget demo" loading="lazy"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_153_menu_anchor/day153_menu_anchor_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">MenuAnchor</b></a><br/>
+      <sub style="font-size:11px; color:#57606a;">Day 153 &middot; M3 Action Menu</sub>
+    </td>
     <td style="width:20%"></td>
   </tr></tbody>
 </table>
@@ -1960,6 +1964,13 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 * Customized the search bar with leading search icons, trailing clear actions, and user profile avatars using `leading` and `trailing` properties.
 * Used `onChanged` callbacks to drive complex list filtering logic with a `TextEditingController`.
 * Integrated Material 3 styling including elevation, shape, and state-aware properties to ensure a high-end Android look and feel.
+
+**153. MenuAnchor (Modern Material 3 Action Menu)**
+* Implemented the `MenuAnchor` widget to create highly customizable, Material 3 style contextual menus.
+* Built a professional **Profile Action Menu** where a custom Card acts as the anchor, replacing the traditional and more restrictive `PopupMenuButton`.
+* Demonstrated the use of `MenuItemButton` and `SubmenuButton` for organized, multi-level menu navigation (e.g., Theme Selection).
+* Managed the menu lifecycle (open/close) programmatically using the `MenuController`, providing a smoother and more controlled user experience.
+* Integrated standard M3 elements like dividers, icons, and destructive action styling (red text) to follow best practices in Android UI design.
 
 
 </details>
