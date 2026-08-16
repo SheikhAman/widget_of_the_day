@@ -4,11 +4,11 @@
 
 ### A hands-on Flutter practice project — one widget, mastered every day
 
-Building strong Flutter UI fundamentals by implementing **150+ widgets** through small, focused, real-world examples.
+Building strong Flutter UI fundamentals by implementing **152+ widgets** through small, focused, real-world examples.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Widgets](https://img.shields.io/badge/Widgets_Covered-150%2B-success?style=for-the-badge)](#-widget-gallery)
+[![Widgets](https://img.shields.io/badge/Widgets_Covered-152%2B-success?style=for-the-badge)](#-widget-gallery)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <sub>📁 Every widget links directly to its source file &nbsp;·&nbsp; 🖼️ Screenshots optimized with WebP &nbsp;·&nbsp; 🎯 Beginner-friendly, one concept at a time</sub>
@@ -37,7 +37,7 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 ## 🧭 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Widget Gallery](#-widget-gallery-150-widgets)
+- [Widget Gallery](#-widget-gallery-152-widgets)
 - [Widget Reference (Full Notes)](#-widget-reference--what-each-day-covers)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -54,7 +54,7 @@ To build strong and practical Flutter UI fundamentals by practicing **one widget
 
 ---
 
-## 🗓️ Widget Gallery (150+ Widgets)
+## 🗓️ Widget Gallery (152+ Widgets)
 
 A visual, professional gallery covering the entire Flutter widget catalog. Each card links straight to its source file, so you can go from screenshot to code in one click.
 
@@ -1174,6 +1174,9 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
   <thead><tr>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 150</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 151</th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 152</th>
+    <th style="width:20%"></th>
+    <th style="width:20%"></th>
   </tr></thead>
   <tbody><tr>
     <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
@@ -1181,11 +1184,18 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
       <a href="lib/features/widgets_of_the_day/day_150_scale_transition/day150_scale_transition_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">ScaleTransition</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 150 &middot; Animated scale</sub>
     </td>
-    <td align="center" valign="top" style="padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
       <a href="screenshots/day151_search_anchor.webp"><img src="screenshots/day151_search_anchor.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="SearchAnchor widget demo" loading="lazy"/></a><br/>
       <a href="lib/features/widgets_of_the_day/day_151_search_anchor/day151_search_anchor_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">SearchAnchor</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 151 &middot; Modern M3 Search</sub>
     </td>
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+      <a href="screenshots/day152_search_bar.webp"><img src="screenshots/day152_search_bar.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="SearchBar widget demo" loading="lazy"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_152_search_bar/day152_search_bar_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">SearchBar</b></a><br/>
+      <sub style="font-size:11px; color:#57606a;">Day 152 &middot; M3 Search Bar</sub>
+    </td>
+    <td style="width:20%"></td>
+    <td style="width:20%"></td>
   </tr></tbody>
 </table>
 
@@ -1935,14 +1945,22 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 </details>
 
 <details>
-<summary><b>Days 151–160</b></summary>
+<summary><b>Days 151–154</b></summary>
 
 **151. SearchAnchor (Modern Material 3 Search)**
 * Implemented a modern Material 3 search experience using `SearchAnchor` and `SearchBar` for a clean, expandable search interface.
 * Built a real-world **Grocery Store** search example with dynamically filtered suggestions using `suggestionsBuilder`.
 * Managed the transition between the compact search bar and expanded search view using `SearchController`.
 * Demonstrated search interactions such as `closeView()` and selection callbacks for smooth user feedback.
-* Highlighted how Flutter’s built-in M3 search components simplify search UX compared to manually managing overlays, focus, and animations.'
+* Highlighted how Flutter’s built-in M3 search components simplify search UX compared to manually managing overlays, focus, and animations.
+
+**152. SearchBar (Material 3 Standard Search Input)**
+* Implemented the standalone `SearchBar` widget to create a professional, Material 3 compliant search field.
+* Built a **Contact List** filtering system that updates in real-time as the user types, demonstrating reactive UI patterns.
+* Customized the search bar with leading search icons, trailing clear actions, and user profile avatars using `leading` and `trailing` properties.
+* Used `onChanged` callbacks to drive complex list filtering logic with a `TextEditingController`.
+* Integrated Material 3 styling including elevation, shape, and state-aware properties to ensure a high-end Android look and feel.
+
 
 </details>
 
