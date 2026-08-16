@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_of_the_day/features/widgets_of_the_day/day_151_search_anchor/day151_search_anchor_widget.dart';
 import 'package:widget_of_the_day/features/widgets_of_the_day/widgets_of_the_day.dart';
 
 void main() {
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+
       // home: const Day01ContainerWidget(),
       // home: const Day02ExpandedWidget(),
       // home: const Day03ColumnWidget(),
@@ -178,7 +180,8 @@ class MyApp extends StatelessWidget {
       // home: const Day147AnimatedPositioned(),
       // home: const Day148SizeTransition(),
       // home: const Day149SlideTransition(),
-      home: const Day150ScaleTransition(),
+      // home: const Day150ScaleTransition(),
+      home: const Day151SearchAnchorWidget(),
     );
   }
 }
