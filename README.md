@@ -4,11 +4,11 @@
 
 ### A hands-on Flutter practice project — one widget, mastered every day
 
-Building strong Flutter UI fundamentals by implementing **157+ widgets** through small, focused, real-world examples.
+Building strong Flutter UI fundamentals by implementing **159+ widgets** through small, focused, real-world examples.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Widgets](https://img.shields.io/badge/Widgets_Covered-157%2B-success?style=for-the-badge)](#-widget-gallery)
+[![Widgets](https://img.shields.io/badge/Widgets_Covered-159%2B-success?style=for-the-badge)](#-widget-gallery)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <sub>📁 Every widget links directly to its source file &nbsp;·&nbsp; 🖼️ Screenshots optimized with WebP &nbsp;·&nbsp; 🎯 Beginner-friendly, one concept at a time</sub>
@@ -37,7 +37,7 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 ## 🧭 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Widget Gallery](#-widget-gallery-157-widgets)
+- [Widget Gallery](#-widget-gallery-159-widgets)
 - [Widget Reference (Full Notes)](#-widget-reference--what-each-day-covers)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -54,7 +54,7 @@ To build strong and practical Flutter UI fundamentals by practicing **one widget
 
 ---
 
-## 🗓️ Widget Gallery (157+ Widgets)
+## 🗓️ Widget Gallery (159+ Widgets)
 
 A visual, professional gallery covering the entire Flutter widget catalog. Each card links straight to its source file, so you can go from screenshot to code in one click.
 
@@ -1213,7 +1213,7 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 156</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 157</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 158</th>
-    <th style="width:20%"></th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 159</th>
   </tr></thead>
   <tbody><tr>
     <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
@@ -1236,10 +1236,14 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
       <a href="lib/features/widgets_of_the_day/day_158_navigation_bar/day158_navigation_bar_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">NavigationBar</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 158 &middot; M3 Bottom Nav</sub>
     </td>
-    <td style="width:20%"></td>
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+      <a href="screenshots/day159_listenable_builder.webp"><img src="screenshots/day159_listenable_builder.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="ListenableBuilder widget demo" loading="lazy"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_159_listenable_builder/day159_listenable_builder_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">Listenable<wbr>Builder</b></a><br/>
+      <sub style="font-size:11px; color:#57606a;">Day 159 &middot; Localized Rebuilds</sub>
+    </td>
   </tr></tbody>
 </table>
-</table>
+
 
 ---
 
@@ -1987,7 +1991,7 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 </details>
 
 <details>
-<summary><b>Days 151–154</b></summary>
+<summary><b>Days 151–160</b></summary>
 
 **151. SearchAnchor (Modern Material 3 Search)**
 * Implemented a modern Material 3 search experience using `SearchAnchor` and `SearchBar` for a clean, expandable search interface.
@@ -2042,8 +2046,15 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 * Implemented the modern `NavigationBar` widget to create a professional Material 3 bottom navigation experience.
 * Built a **Multi-Tab App Shell** featuring Home, Explore, Notifications, and Profile views.
 * Integrated the `Badge` widget directly within navigation items to show real-time update counts for a polished, production-ready feel.
-* Used `NavigationDestination` with both `icon` and `selectedIcon` properties to provide clear visual feedback during active state transitions.
+* Used `NavigationDestination` with both `icon` and `selectedIcon` property to provide clear visual feedback during active state transitions.
 * Demonstrated effective page switching logic paired with a responsive, centralized UI builder for clean code organization.
+
+**159. ListenableBuilder (Modern State Management)**
+* Implemented the `ListenableBuilder` widget, the modern replacement for `AnimatedBuilder` when dealing with custom controllers and state logic.
+* Built a professional **Counter Controller** (ViewModel pattern) that separates business logic from the UI layer using `ChangeNotifier`.
+* Demonstrated the core performance benefit of **Localized Rebuilds**: only the specific text widget listening to the controller updates, keeping the rest of the screen static.
+* Showcased advanced UI composition with custom-styled action buttons and reactive data display, proving deep knowledge of Flutter’s efficient rendering pipeline.
+* Highlighted best practices for resource management by properly initializing and disposing the `Listenable` controller within the widget lifecycle.
 
 
 
