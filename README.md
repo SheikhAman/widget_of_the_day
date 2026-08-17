@@ -4,11 +4,11 @@
 
 ### A hands-on Flutter practice project — one widget, mastered every day
 
-Building strong Flutter UI fundamentals by implementing **155+ widgets** through small, focused, real-world examples.
+Building strong Flutter UI fundamentals by implementing **156+ widgets** through small, focused, real-world examples.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Widgets](https://img.shields.io/badge/Widgets_Covered-155%2B-success?style=for-the-badge)](#-widget-gallery)
+[![Widgets](https://img.shields.io/badge/Widgets_Covered-156%2B-success?style=for-the-badge)](#-widget-gallery)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <sub>📁 Every widget links directly to its source file &nbsp;·&nbsp; 🖼️ Screenshots optimized with WebP &nbsp;·&nbsp; 🎯 Beginner-friendly, one concept at a time</sub>
@@ -37,7 +37,7 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 ## 🧭 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Widget Gallery](#-widget-gallery-155-widgets)
+- [Widget Gallery](#-widget-gallery-156-widgets)
 - [Widget Reference (Full Notes)](#-widget-reference--what-each-day-covers)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -54,7 +54,7 @@ To build strong and practical Flutter UI fundamentals by practicing **one widget
 
 ---
 
-## 🗓️ Widget Gallery (155+ Widgets)
+## 🗓️ Widget Gallery (156+ Widgets)
 
 A visual, professional gallery covering the entire Flutter widget catalog. Each card links straight to its source file, so you can go from screenshot to code in one click.
 
@@ -1213,7 +1213,7 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
 <table width="100%" style="table-layout:fixed; border-collapse:separate; border-spacing:8px;">
   <thead><tr>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 155</th>
-    <th style="width:20%"></th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 156</th>
     <th style="width:20%"></th>
     <th style="width:20%"></th>
     <th style="width:20%"></th>
@@ -1224,7 +1224,11 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
       <a href="lib/features/widgets_of_the_day/day_155_badge/day155_badge_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">Badge</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 155 &middot; M3 Status Badge</sub>
     </td>
-    <td style="width:20%"></td>
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+      <a href="screenshots/day156_navigation_drawer.webp"><img src="screenshots/day156_navigation_drawer.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="NavigationDrawer widget demo" loading="lazy"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_156_navigation_drawer/day156_navigation_drawer_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">NavigationDrawer</b></a><br/>
+      <sub style="font-size:11px; color:#57606a;">Day 156 &middot; M3 Side Nav</sub>
+    </td>
     <td style="width:20%"></td>
     <td style="width:20%"></td>
     <td style="width:20%"></td>
@@ -2014,6 +2018,14 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 * Used `Badge.count()` to automatically handle numerical formatting for notification counts (e.g., shopping cart items).
 * Integrated interactive controls to toggle badge visibility and increment counts, showcasing expert-level state management and UI reactivity.
 * Demonstrated best practices for anchoring badges to standard icons like `Icons.shopping_cart` and `Icons.mark_email_unread`.
+
+**156. NavigationDrawer (Material 3 Side Navigation)**
+* Implemented the official `NavigationDrawer` for modern side-level navigation, replacing the legacy `Drawer` + `ListView` pattern.
+* Built a **Studio Management Dashboard** featuring categorical destinations like Analytics, Messages, and Support.
+* Utilized `NavigationDrawerDestination` to manage active/inactive states with built-in selection animations and Material 3 state-aware styling.
+* Demonstrated professional navigation patterns including programmatic drawer control via `GlobalKey<ScaffoldState>` and destination callback handling.
+* Organized the drawer with headers and logical dividers to ensure a clean, user-friendly informational hierarchy.
+
 
 
 

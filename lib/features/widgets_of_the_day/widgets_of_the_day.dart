@@ -154,3 +154,4 @@ export 'day_152_search_bar/day152_search_bar_widget.dart';
 export 'day_153_menu_anchor/day153_menu_anchor_widget.dart';
 export 'day_154_segmented_button/day154_segmented_button_widget.dart';
 export 'day_155_badge/day155_badge_widget.dart';
+export 'day_156_navigation_drawer/day156_navigation_drawer_widget.dart';
