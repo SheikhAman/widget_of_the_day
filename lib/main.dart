@@ -183,7 +183,8 @@ class MyApp extends StatelessWidget {
       // home: const Day151SearchAnchorWidget(),
       // home: const Day152SearchBarWidget(),
       // home: const Day153MenuAnchorWidget(),
-      home: const Day154SegmentedButtonWidget(),
+      // home: const Day154SegmentedButtonWidget(),
+      home: const Day155BadgeWidget(),
     );
   }
 }
