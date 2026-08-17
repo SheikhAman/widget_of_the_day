@@ -4,11 +4,11 @@
 
 ### A hands-on Flutter practice project — one widget, mastered every day
 
-Building strong Flutter UI fundamentals by implementing **156+ widgets** through small, focused, real-world examples.
+Building strong Flutter UI fundamentals by implementing **157+ widgets** through small, focused, real-world examples.
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Widgets](https://img.shields.io/badge/Widgets_Covered-156%2B-success?style=for-the-badge)](#-widget-gallery)
+[![Widgets](https://img.shields.io/badge/Widgets_Covered-157%2B-success?style=for-the-badge)](#-widget-gallery)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <sub>📁 Every widget links directly to its source file &nbsp;·&nbsp; 🖼️ Screenshots optimized with WebP &nbsp;·&nbsp; 🎯 Beginner-friendly, one concept at a time</sub>
@@ -37,7 +37,7 @@ The goal is to deeply understand Flutter's layout system, widget behavior, and U
 ## 🧭 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Widget Gallery](#-widget-gallery-156-widgets)
+- [Widget Gallery](#-widget-gallery-157-widgets)
 - [Widget Reference (Full Notes)](#-widget-reference--what-each-day-covers)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
@@ -54,7 +54,7 @@ To build strong and practical Flutter UI fundamentals by practicing **one widget
 
 ---
 
-## 🗓️ Widget Gallery (156+ Widgets)
+## 🗓️ Widget Gallery (157+ Widgets)
 
 A visual, professional gallery covering the entire Flutter widget catalog. Each card links straight to its source file, so you can go from screenshot to code in one click.
 
@@ -1214,7 +1214,7 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
   <thead><tr>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 155</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 156</th>
-    <th style="width:20%"></th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 157</th>
     <th style="width:20%"></th>
     <th style="width:20%"></th>
   </tr></thead>
@@ -1229,7 +1229,11 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
       <a href="lib/features/widgets_of_the_day/day_156_navigation_drawer/day156_navigation_drawer_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">NavigationDrawer</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 156 &middot; M3 Side Nav</sub>
     </td>
-    <td style="width:20%"></td>
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+      <a href="screenshots/day157_navigation_rail.webp"><img src="screenshots/day157_navigation_rail.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="NavigationRail widget demo" loading="lazy"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_157_navigation_rail/day157_navigation_rail_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">NavigationRail</b></a><br/>
+      <sub style="font-size:11px; color:#57606a;">Day 157 &middot; M3 Side Rail</sub>
+    </td>
     <td style="width:20%"></td>
     <td style="width:20%"></td>
   </tr></tbody>
@@ -2025,6 +2029,13 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 * Utilized `NavigationDrawerDestination` to manage active/inactive states with built-in selection animations and Material 3 state-aware styling.
 * Demonstrated professional navigation patterns including programmatic drawer control via `GlobalKey<ScaffoldState>` and destination callback handling.
 * Organized the drawer with headers and logical dividers to ensure a clean, user-friendly informational hierarchy.
+
+**157. NavigationRail (Material 3 Side Rail)**
+* Implemented the `NavigationRail` widget to provide a compact, permanent side navigation pattern for larger screens.
+* Built an **Admin Dashboard** layout featuring destinations like Home, Favorites, and Bookmarks.
+* Demonstrated the use of the `extended` property to toggle between compact icons and full labels, improving accessibility and scanability.
+* Integrated a `leading` branding action (FloatingActionButton) and a `trailing` logout footer to show expert-level layout composition.
+* Explained how `NavigationRail` bridges the gap between bottom bars and full drawers for tablet-first Android experiences.
 
 
 
