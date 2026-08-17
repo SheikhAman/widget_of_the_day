@@ -1175,11 +1175,8 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 150</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 151</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 152</th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 153</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 154</th>
-    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 155</th>
-    <th style="width:20%"></th>
-    <th style="width:20%"></th>
-    <th style="width:20%"></th>
   </tr></thead>
   <tbody><tr>
     <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
@@ -1215,7 +1212,7 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 155</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 156</th>
     <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 157</th>
-    <th style="width:20%"></th>
+    <th align="center" style="width:20%; font-size:11px; color:#0969da; border-bottom:2px solid #0969da; padding:4px; text-align:center; white-space:nowrap;">Day 158</th>
     <th style="width:20%"></th>
   </tr></thead>
   <tbody><tr>
@@ -1234,7 +1231,11 @@ A visual, professional gallery covering the entire Flutter widget catalog. Each 
       <a href="lib/features/widgets_of_the_day/day_157_navigation_rail/day157_navigation_rail_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">NavigationRail</b></a><br/>
       <sub style="font-size:11px; color:#57606a;">Day 157 &middot; M3 Side Rail</sub>
     </td>
-    <td style="width:20%"></td>
+    <td align="center" valign="top" style="width:20%; padding:6px; text-align:center; vertical-align:top; word-break:break-word; overflow-wrap:break-word;">
+      <a href="screenshots/day158_navigation_bar.webp"><img src="screenshots/day158_navigation_bar.webp" width="120" height="200" style="border-radius:8px; border:1px solid #d0d7de; object-fit:cover; display:block; margin:0 auto;" alt="NavigationBar widget demo" loading="lazy"/></a><br/>
+      <a href="lib/features/widgets_of_the_day/day_158_navigation_bar/day158_navigation_bar_widget.dart"><b style="font-size:13px; display:inline-block; max-width:120px; word-break:break-word;">NavigationBar</b></a><br/>
+      <sub style="font-size:11px; color:#57606a;">Day 158 &middot; M3 Bottom Nav</sub>
+    </td>
     <td style="width:20%"></td>
   </tr></tbody>
 </table>
@@ -2036,6 +2037,13 @@ A detailed, day-by-day breakdown of what was practiced and learned for every wid
 * Demonstrated the use of the `extended` property to toggle between compact icons and full labels, improving accessibility and scanability.
 * Integrated a `leading` branding action (FloatingActionButton) and a `trailing` logout footer to show expert-level layout composition.
 * Explained how `NavigationRail` bridges the gap between bottom bars and full drawers for tablet-first Android experiences.
+
+**158. NavigationBar (Material 3 Bottom Navigation)**
+* Implemented the modern `NavigationBar` widget to create a professional Material 3 bottom navigation experience.
+* Built a **Multi-Tab App Shell** featuring Home, Explore, Notifications, and Profile views.
+* Integrated the `Badge` widget directly within navigation items to show real-time update counts for a polished, production-ready feel.
+* Used `NavigationDestination` with both `icon` and `selectedIcon` properties to provide clear visual feedback during active state transitions.
+* Demonstrated effective page switching logic paired with a responsive, centralized UI builder for clean code organization.
 
 
 
